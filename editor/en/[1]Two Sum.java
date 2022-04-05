@@ -1,6 +1,6 @@
 package com.liam.leetcode;
 
-public class TwoSum {
+class TwoSum {
     public static void main(String[] args) {
         Solution solution = new TwoSum().new Solution();
     }
