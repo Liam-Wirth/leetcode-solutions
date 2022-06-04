@@ -1,5 +1,4 @@
   
-  package com.liam.leetcode;
 
    class MinimumAreaRectangleIi {
       public static void main(String[] args) {
