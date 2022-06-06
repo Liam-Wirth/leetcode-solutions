@@ -1,3 +1,4 @@
+package rust;
 /*
  * @lc app=leetcode id=1672 lang=rust
  *
