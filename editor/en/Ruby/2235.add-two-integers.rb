@@ -1,4 +1,4 @@
-#
+package ruby;
 # @lc app=leetcode id=2235 lang=ruby
 #
 # [2235] Add Two Integers

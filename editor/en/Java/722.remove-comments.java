@@ -146,7 +146,7 @@ class Solution {
                         //now I need to check if it's either
                         //A start of a regular comment done
                         //B start of a block comment done
-                        //C end of a block comment
+                        //C end of a block comment done
                         //D something else done
                         if(b){
                             if(c==line.charAt(i+1)){//I already know c is '/'
