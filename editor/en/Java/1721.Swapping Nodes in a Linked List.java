@@ -2,10 +2,7 @@ package Java;
 
 
   import java.util.ArrayList;
-  import java.util.Arrays;
   import java.util.LinkedList;
-  import java.util.List;
-  import java.util.function.Consumer;
 
   class SwappingNodesInALinkedList{
       public static void main(String[] args) {
