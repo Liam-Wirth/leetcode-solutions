@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /*
  * @lc app=leetcode id=1363 lang=java
@@ -57,58 +58,79 @@ import java.util.List;
  *
  *
  */
-
+//TODO redo this one and be able to solve it on my own, it was really really hard for me (as of June 12th 2022)
 // @lc code=start
 class Solution {
-     private void recurPermute(int[] nums, StringBuilder ds, List<String> ans, boolean []freq) {
-        if(ds.length()==nums.length){
-            ans.add(ds.toString());
-            return;
-        }
-        for(int i = 0; i<nums.length; i++) {
-            if(!freq[i]) {
-            freq[i] = true;
-            ds.append(nums[i]);
-            recurPermute(nums, ds, ans, freq);
-            ds.deleteCharAt(ds.length()-1);
-            freq[i] = false;
-            }
-        }
-    }
-
-
-
     public String largestMultipleOfThree(int[] digits) {
-        StringBuilder ds = new StringBuilder();
-        Arrays.sort(digits);
-        List<String> ans = new ArrayList<>();
-        boolean freq[] = new boolean[digits.length];
-        int[] tmp = digits;
-        for (int i = tmp.length; i>0; i--) {
-            tmp = Arrays.copyOf(tmp, i);
-            recurPermute(tmp, ds, ans, freq);
+        if(digits.length == 1){
+           if(digits[0]%3==0) return Integer.toString(digits[0]);
+
+           else return "";
+
+        }         int n = digits.length;
+        int remainderOfSum = 0;
+        //it is digits[i] can only be in range of 0 to 9
+        int counter[] = new int[10];
+        for (int i : digits ) {
+            counter[i]++; //this keeps a count of the digits in my given array! so genius
+            remainderOfSum += i;
         }
-        List<String> multof3 = new ArrayList<String>();
-            long max = 0;
-      for (String str : ans) {
-            long strNum = Long.parseLong(str);
-            if(strNum%3 == 0){
-                    max = Math.max(max,strNum);
+        int remainderOf1 = counter[1] + counter[4] + counter[7];
+        int remainderOf2 = counter[2] + counter[5] + counter[8];
+
+        remainderOfSum = remainderOfSum % 3;
+        if(remainderOfSum == 1){
+            if(remainderOf1 > 0){
+                remainderOf1--;
+            }
+            else{
+                remainderOf2 = remainderOf2 - 2;
             }
         }
-        return Long.toString(max);
-    }
-    //TODO can I use Collections.swap here?
-    private void swap(int arr[], int a, int b){
-        int tmp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = tmp;
-    }
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-       String tmp = solution.largestMultipleOfThree(new int[] {8,6,7,1,0});
-        System.out.println(tmp);
+        if(remainderOfSum == 2){
+            if(remainderOf2 > 0){
+                remainderOf2--;
+            }
+            else{
+                remainderOf1 = remainderOf1 - 2;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for(int i = 9; i >= 0; i--){
+            if(i % 3 == 0){
+                while(counter[i] > 0){
+                    sb.append(i);
+                    counter[i]--;
+                }
+            }
+            if(i % 3 == 1){
+                while(counter[i] > 0 && remainderOf1 > 0){
+                    sb.append(i);
+                    counter[i]--;
+                    remainderOf1--;
+                }
+            }
+            if(i % 3 == 2){
+                while(counter[i] > 0 && remainderOf2 > 0){
+                    sb.append(i);
+                    counter[i]--;
+                    remainderOf2--;
+                }
+            }
+        }//end for loop
+
+        if(sb.length() == 0){
+            return "";
+        }
+        else{
+            if(sb.charAt(0) == '0'){
+                return "0";
+            }
+            else{
+                return sb.toString();
+            }
+
+        }
+
     }
 }
-// @lc code=end
-
