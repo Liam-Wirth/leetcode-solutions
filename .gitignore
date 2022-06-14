@@ -34,3 +34,5 @@ editor/en/sorbet/rbi/sorbet-typed/lib/rainbow/all/rainbow.rbi
 editor/en/sorbet/rbi/sorbet-typed/lib/rubocop/>=1.8/rubocop.rbi
 editor/en/sorbet/rbi/sorbet-typed/lib/thor/all/thor.rbi
 editor/en/sorbet/rbi/sorbet-typed/lib/yard/all/yard.rbi
+editor/en/sorbet/rbi/hidden-definitions/errors.txt
+editor/en/sorbet/rbi/hidden-definitions/hidden.rbi
