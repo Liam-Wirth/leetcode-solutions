@@ -85,9 +85,10 @@
 # @param {String} s
 # @return {Integer}
 def roman_to_int(s)
-out = 0
-arr = s.chars()
-arr.each_with_index
+  arr = s.chars
+  arr.each_with_index do |char, index|
+
+  end
 end
 # @lc code=end
 
