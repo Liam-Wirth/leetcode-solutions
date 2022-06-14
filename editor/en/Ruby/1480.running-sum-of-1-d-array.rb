@@ -1,3 +1,4 @@
+# typed: true
 #
 # @lc app=leetcode id=1480 lang=ruby
 #
