@@ -94,10 +94,6 @@ hash = {
     'D' => 500,
     'M' => 1000
 }
-fuck_you_rubocop(s, hash)
-end
-
-def fuck_you_rubocop(s, hash)
   out = 0
   i = 0
 while i < s.length
@@ -111,5 +107,4 @@ while i < s.length
    end
   out
 end
-
 # @lc code=end
