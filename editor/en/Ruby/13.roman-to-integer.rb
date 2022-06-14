@@ -87,7 +87,16 @@
 def roman_to_int(s)
   arr = s.chars
   arr.each_with_index do |char, index|
+    case char
+    when 'I'
 
+    when 'V'
+    when 'X'
+    when 'L'
+    when 'C'
+    when 'D'
+    when 'M'
+    end
   end
 end
 # @lc code=end
