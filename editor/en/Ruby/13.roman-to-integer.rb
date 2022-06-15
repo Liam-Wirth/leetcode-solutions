@@ -85,6 +85,8 @@
 # @param {String} s
 # @return {Integer}
 def roman_to_int(s)
+
+# The ruby declaration for hashmaps is so pretty and understandable
 hash = {
     'I' => 1,
     'V' => 5,
