@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -60,8 +61,9 @@ class Solution {
         int tmp = deck.length;
         int count[] = new int[tmp];
         for (int i = 0; i < tmp; i++) {
-           count[deck[i]]+=1;
+            count[deck[i]]++;
         }
+        Arrays
         int max = count[1];
         for (int i : count) {
             if(max!= i) return false;
