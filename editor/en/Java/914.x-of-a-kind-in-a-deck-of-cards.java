@@ -57,19 +57,22 @@ import java.util.Collections;
 // @lc code=start
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
-        Arrays.sort(deck);
         int tmp = deck.length;
-        int count[] = new int[tmp];
-        for (int i = 0; i < tmp; i++) {
-            count[deck[i]]++;
-        }
-        Arrays
-        int max = count[1];
-        for (int i : count) {
-            if(max!= i) return false;
-        }
-        return true;
-}
-}
+        if (tmp == 1) return false;
+     int count[] = new int[tmp+1];
+     for (int i = 0; i < tmp; i++) {
+        count[deck[i]]+=1;
+     }
+     int max = count[1];
+     for (int i : count) {
+         if(i!= 0){
+         if(max!= i) return false;
+         }
+     }
+     return true;
+    }
+
+     return true;
+    }
 // @lc code=end
 
