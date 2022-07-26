@@ -1,1 +1,1 @@
-C:\Users\zambi\Documents\leetcode\editor\en\rust\target\debug\rust.exe: C:\Users\zambi\Documents\leetcode\editor\en\rust\src\main.rs
+/home/liam/projects/leetcode/leetcode-solutions/editor/en/Rust/target/debug/rust: /home/liam/projects/leetcode/leetcode-solutions/editor/en/Rust/src/main.rs
