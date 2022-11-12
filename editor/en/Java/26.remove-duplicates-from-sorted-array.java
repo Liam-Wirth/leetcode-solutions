@@ -11,6 +11,7 @@ class Solution {
 
     public int removeDuplicates(int[] nums){
         int n = nums.length;
+        if(n<=1) return n;
        //i could TOTALLY throw a hashmap at this >:)
         int left = 0;
         int right = 1;
@@ -26,4 +27,4 @@ class Solution {
         return left+1;
     }
 }
-
+k
