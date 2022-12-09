@@ -27,6 +27,7 @@ private void invertTreeRec(TreeNode left, TreeNode right, int calls){
     left.val = right.val;
     right.val = temp;
     }
+    //NOTE: to self, I was stuck cause I sent Calls++ to the method, and the thing wouldn't work, but it worked when I sent calls+1 to the method, not sure why that is but now I know to never use ++ when I want to increment the variable in a method call.
     invertTreeRec(left.left,right.right,calls+1);
     invertTreeRec(left.right,right.left,calls+1); 
 }
