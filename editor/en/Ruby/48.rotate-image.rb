@@ -8,10 +8,10 @@ def rotate(matrix)
 end 
  def transpose(matrix, n)
   n.times do |i|
-       (i...n).step(1) do |j|
-          matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j] 
-       end
+    (i...n).step(1) do |j|
+      matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
     end
+  end
   matrix
  end
  def mirror(matrix,n)
