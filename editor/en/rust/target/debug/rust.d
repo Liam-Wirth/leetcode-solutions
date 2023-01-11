@@ -1,1 +1,1 @@
-/home/liam/projects/leetcode/leetcode-solutions/editor/en/Rust/target/debug/rust: /home/liam/projects/leetcode/leetcode-solutions/editor/en/Rust/src/main.rs
+/home/liam/Projects/leetcode-solutions/editor/en/rust/target/debug/rust: /home/liam/Projects/leetcode-solutions/editor/en/rust/src/main.rs
