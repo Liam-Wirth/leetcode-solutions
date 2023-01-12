@@ -5,6 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [[bin]]
-name = "12.integer-to-roman"
-path = "src/12.integer-to-roman.rs"
+name = "12"
+path = "src/12_integer-to-roman.rs"
 [dependencies]
