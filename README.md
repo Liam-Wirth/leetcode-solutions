@@ -20,5 +20,5 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | **June 4th 2022** | Today, I successfully coded an entire solution all by myself without giving up and seeing how someone else did it, I achieved this on Leetcode Problem 169, the code that I initially submitted without any outside support can be seen in the Alternate-Solution subclass of the file!| [Leetcode Problem 169 (Java Solution)](editor/en/Java/169.majority-element.java)  
 |**June 4th 2022**| First Rust solution! | [Leetcode 2235 Add Two Integers](editor/en/rust/2235.add-two-integers.rs)
 |**June 6th 2022**| First Ruby Solution | [Leetcode 2235 Add Two Integers](editor/en/Ruby/2235.add-two-integers.rb)
-
+|**January 11th 2023| First independant Rust solution AND explanation! | [Leetcode 12 Integer to Roman](editor/en/rust/src/12_roman-to-integer.rs)|
 
