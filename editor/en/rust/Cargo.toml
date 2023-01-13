@@ -7,4 +7,11 @@ edition = "2021"
 [[bin]]
 name = "12"
 path = "src/12_integer-to-roman.rs"
+
+[[bin]]
+name = "1519"
+path = "src/1519_Number-of-Nodes-in-the-Subtree-With-the-Same-Label.rs"
+[[bin]]
+name = "724"
+path = "src/724_find-pivot-index.rs"
 [dependencies]
