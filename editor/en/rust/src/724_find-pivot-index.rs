@@ -1,6 +1,6 @@
 pub fn pivot_index(nums: Vec<i32>) -> i32 {
     let mut sum_left: i32 = 0;
-    let mut sum: i32 = nums.iter().sum();
+    let sum: i32 = nums.iter().sum();
     for (i, &val) in nums.iter().enumerate() {
         if sum - sum_left - val == sum_left {
             return i as _;
