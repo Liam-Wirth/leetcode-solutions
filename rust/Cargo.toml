@@ -17,4 +17,7 @@ path = "src/724_find-pivot-index.rs"
 [[bin]]
 name = "2246"
 path = "src/2246_longest-path-with-different-adjacent-characters.rs"
+[[bin]]
+name = "57"
+path = "src/57_insert_interval.rs"
 [dependencies]
