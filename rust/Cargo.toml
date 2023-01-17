@@ -20,4 +20,7 @@ path = "src/2246_longest-path-with-different-adjacent-characters.rs"
 [[bin]]
 name = "57"
 path = "src/57_insert_interval.rs"
+[[bin]]
+name = "926"
+path = "src/926_flip_string_to_monotone_increasing.rs"
 [dependencies]
