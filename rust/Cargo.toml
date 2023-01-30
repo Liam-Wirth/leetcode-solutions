@@ -26,4 +26,7 @@ path = "src/926_flip_string_to_monotone_increasing.rs"
 [[bin]]
 name = "974"
 path = "src/974_subarray_sums_divisible_by_k.rs"
+[[bin]]
+name = "1137"
+path = "1137_nth_tribonacci_number.rs"
 [dependencies]
