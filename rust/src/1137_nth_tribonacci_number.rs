@@ -2,9 +2,22 @@ Struct Solution {}
 
 impl Solution {
     pub fn tribonacci(n: i32) -> i32 {
-        let mut array: [i32; 38] =  [0, 1, 1];
+        if n<2 {
+            n
+        }
+        let mut n = n;
+        let (mut a, mut b, mut c, mut d) = (0,1,1,0);
+        while (n > 2){
+            d = a+b+c;
+            a=b;
+            b=c;
+            c=d;
+            n-=1;
+        }
+        c
     }
+
 }
-fn fn main() {
+ fn main() {
     unimplemented!();
 }
