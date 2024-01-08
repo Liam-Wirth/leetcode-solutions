@@ -6,7 +6,7 @@ impl Solution {
         //the sum through each iteration.
         let prefix_sum = nums
             .iter()
-            .scan(0, |sum, i| {
+           .scan(0, |sum, i| {
                 *sum += i;
                 Some(*sum)
             })
