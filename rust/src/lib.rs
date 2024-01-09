@@ -1,4 +1,7 @@
 #![warn(unused)]
+use std::cell::RefCell;
+use std::rc::Rc;
+
 mod build_array_from_permutation_1920;
 mod design_parking_system_1603;
 mod find_pivot_index_724;
@@ -19,7 +22,25 @@ mod subarray_sums_divisible_by_k_974;
 mod valid_palindrome_125;
 mod word_pattern_290;
 mod range_sum_of_BST_938;
+mod leaf_similar_trees_872;
 
  #[derive(Debug)]
 pub struct Solution {}
 
+#[derive(Debug, PartialEq, Eq)]
+pub struct TreeNode {
+    pub val: i32,
+    pub left: Option<Rc<RefCell<TreeNode>>>,
+    pub right: Option<Rc<RefCell<TreeNode>>>,
+}
+
+impl TreeNode {
+    #[inline]
+    pub fn new(val: i32) -> Self {
+        TreeNode {
+            val,
+            left: None,
+            right: None,
+        }
+    }
+}
