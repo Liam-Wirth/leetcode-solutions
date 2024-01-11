@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 /*
  * @lc app=leetcode id=914 lang=java
@@ -57,22 +59,27 @@ import java.util.Collections;
 // @lc code=start
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
-        int tmp = deck.length;
-        if (tmp == 1) return false;
-     int count[] = new int[tmp+1];
-     for (int i = 0; i < tmp; i++) {
-        count[deck[i]]+=1;
+      HashMap<Integer, Integer> numToFreq = new HashMap<>();
+     
+     for (int card: deck) {
+         numToFreq.putIfAbsent(card, 0);
+         numToFreq.put(card, numToFreq.get(card) + 1);
      }
-     int max = count[1];
-     for (int i : count) {
-         if(i!= 0){
-         if(max!= i) return false;
+     
+     int groupSize = -1;
+     for(Entry<Integer, Integer> elem : numToFreq.entrySet()) {
+         if (groupSize == -1) {
+             groupSize = elem.getValue();
+         } else {
+             groupSize = gcd(groupSize, elem.getValue());
          }
      }
-     return true;
-    }
-
-     return true;
-    }
-// @lc code=end
+     
+     return groupSize >= 2;
+ }
+ 
+ public int gcd(int x, int y) {
+     return x == 0 ? y : gcd(y%x, x);
+ }
+}
 

@@ -1,4 +1,4 @@
-struct Solution {}
+fstruct Solution {}
 impl Solution {
     //NOTE: use a search algorithm to find the longest string of the same numbers, and then modify
     //the rest of the string to be monotone increasing.
