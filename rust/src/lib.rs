@@ -22,6 +22,7 @@ mod subarray_sums_divisible_by_k_974;
 mod valid_palindrome_125;
 mod word_pattern_290;
 mod range_sum_of_BST_938;
+mod insert_delete_get_random_380;
 <<<<<<< HEAD
 mod leaf_similar_trees_872;
 =======
