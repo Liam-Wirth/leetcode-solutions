@@ -1,7 +1,6 @@
 
 
 //TODO
-//TODO figure out how to get todo comments to stfu
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         //nums is non-decreasing order
