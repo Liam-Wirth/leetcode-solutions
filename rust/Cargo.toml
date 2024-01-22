@@ -32,5 +32,9 @@ path = "1137_nth_tribonacci_number.rs"
 [[bin]]
 name = "2870"
 path = "2870_minimum_number_of_operations-to-make-array-empty.rs"
+[[bin]]
+name = "198"
+path = "house_robber_198.rs"
+
 [dependencies]
 
