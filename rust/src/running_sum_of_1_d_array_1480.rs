@@ -50,6 +50,7 @@
  *
  */
 
+use crate::Solution;
 // @lc code=start
 impl Solution {
     pub fn running_sum(mut nums: Vec<i32>) -> Vec<i32> {

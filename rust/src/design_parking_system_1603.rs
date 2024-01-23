@@ -68,9 +68,9 @@
 
 // @lc code=start
 struct ParkingSystem {
-    big: u32;
-    medium: u32;
-    small: u32;
+    big: u32,
+    medium: u32,
+    small: u32,
 }
 
 
@@ -82,22 +82,17 @@ impl ParkingSystem {
 
 fn new(big: i32, medium: i32, small: i32) -> Self {
         let mut parkingsystem = ParkingSystem {
-            big: big;
-            medium: medium;
-            small: small;
-        }
+            big: big as u32,
+            medium: medium as u32,
+            small: small as u32,
+        };
+    parkingsystem
 
     }
 
     fn add_car(&self, car_type: i32) -> bool {
-        parkingsystem
+        false
     }
 }
 
-/**
- * Your ParkingSystem object will be instantiated and called as such:
- * let obj = ParkingSystem::new(big, medium, small);
- * let ret_1: bool = obj.add_car(carType);
- */
-// @lc code=end
 

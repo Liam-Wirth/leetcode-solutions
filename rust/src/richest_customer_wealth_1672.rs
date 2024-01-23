@@ -1,4 +1,3 @@
-package rust;
 /*
  * @lc app=leetcode id=1672 lang=rust
  *
@@ -66,6 +65,7 @@ package rust;
  */
 
 // @lc code=start
+use crate::Solution;
 impl Solution {
     //honestly I barely understand what's going on
     pub fn maximum_wealth(accounts: Vec<Vec<i32>>) -> i32 {

@@ -1,38 +1,42 @@
+//HACK: I shouldnt have to do this.
+struct Solution{}
 //NOTE: Dynamic programming, We have two possibilities going down from the I-th house
 //NOTE: Caching and such and so forth
-use crate::Solution;
 impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
         let mut money: i32 = 0;
         //HACK: Most definitely could use closures, no need to complicate it
-        hypothetical_payday(nums, 0)
-    }
-    pub fn hypothetical_payday(nums: Vec<i32>, start: i32) -> i32 {
-        //NOTE: You can skip values in an iterator
-        //NOTE: You can also sum
-        //nums.iter().skip(i+1).sum();
-        //base case
-        if start>= nums.len() {
-            return 0
+        for i in 0..nums.len(){
+               let curr= Self::hypothetical_payday(&*nums, i);
+            money += curr;
+            println!("Current index {}, hypothetical payday: {}", i, curr);
+            println!("Money :{}",money);
         }
-        //if we rob the house:
-        let rob_profit = nums.get_unchecked(start as i32) + Self::hypothetical_payday(nums, start+2);
-        // or we choose to skip the house:
-        let skip_profit = Self::hypothetical_payday(nums, start+1);
-        println!("Rob Profit: {}", rob_profit);
-        println!("Skip Profit: {}", skip_profit);
-        println!("Starting index: {}", start);
-        compare(rob_profit, skip_profit)
-        
+        println!("{}",money);
+        money
     }
-    pub fn compare(a: i32, b: i32) -> i32 {
+
+    pub fn hypothetical_payday(nums: &[i32], start: usize) -> i32 {
+    if start >= nums.len() -1{
+        return 0;
+    }
+
+    let rob_profit = nums[start] + Self::hypothetical_payday(nums, start + 2);
+    let skip_profit = Self::hypothetical_payday(nums, start+1);
+
+    // Compare and return the maximum of rob_profit and skip_profit
+    Self::compare(rob_profit, skip_profit, nums[start], nums[start+1])
+}
+    pub fn compare(a: i32, b: i32, a_val: i32, b_val: i32) -> i32 {
         if a > b {
-            return a;
+            return a_val;
         } else {
-            b
+            b_val
         }
     }
 }
 fn main() {
-    Solution::rob(Vec::from([8,0,0,8]));
+    unsafe {
+        Solution::rob(Vec::from([2,3,2,1]));
+    }
 }

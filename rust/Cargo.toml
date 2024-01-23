@@ -34,7 +34,8 @@ name = "2870"
 path = "2870_minimum_number_of_operations-to-make-array-empty.rs"
 [[bin]]
 name = "198"
-path = "house_robber_198.rs"
+path = "src/house_robber_198.rs"
 
 [dependencies]
+rand = "0.8.5"
 

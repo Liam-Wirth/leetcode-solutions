@@ -5,7 +5,7 @@ struct RandomizedSet {
     set: HashMap<i32, usize>, 
 }
 
-
+#[cfg(not(test))]
 /** 
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.

@@ -1,5 +1,7 @@
 // when in doubt throw a hashset at it!!!
 use std::collections::HashSet;
+use crate::Solution;
+
 impl Solution {
     /* How to solve?
      * sort the vec
@@ -50,24 +52,24 @@ class Solution:
         */
 //NOTE:credit to killer_whale for this second, much more clever solution:
 //only included in the repo for the sake of learning :)
-impl Solutions {
-    pub fn find_error_nums(mut nums: Vec<i32>) -> Vec<i32> {
+impl Solution {
+    pub fn find_error_numss(mut nums: Vec<i32>) -> Vec<i32> {
         let mut seen: HashSet<i32> = HashSet::new();
         let mut cur_sum: i32 = 0;
         let mut out: Vec<i32> = Vec::new();
         for num in nums.iter() {
             if seen.contains(&num) {
-               out.push(num)
+               out.push(*num)
             } else {
                 cur_sum += num;
-                seen.insert(num);
+                seen.insert(*num);
             } 
         }
-        target_sum = (nums.len() + 1 ) * len(nums) / 2;
+        let target_sum = (nums.len() + 1 ) * nums.len()/ 2;
         //NOTE: Better solution, as we are able to do everything in one, pass, and obviously, the
         //missing number would be equivalent to the sum of everything we saw in the given array
         //subtracted fromm what the actual sum of the array would be
-        out.push(target_sum-cur_sum);
+        out.push(((target_sum as i32) - cur_sum));
         out
     }
     //TODO: Look into solving this using sum of squares! 

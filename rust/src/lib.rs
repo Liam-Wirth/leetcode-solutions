@@ -19,14 +19,13 @@ mod root_equals_sum_of_children_2236;
 mod running_sum_of_1_d_array_1480;
 mod sign_of_the_product_of_an_array_1822;
 mod subarray_sums_divisible_by_k_974;
-mod valid_palindrome_125;
 mod word_pattern_290;
-mod range_sum_of_BST_938;
+mod range_sum_of_bst_938;
 mod insert_delete_get_random_380;
-mod leaf_similar_trees_872;
 mod x_of_a_kind_in_a_deck_of_cards_914;
 mod set_mismatch_645;
 mod house_robber_198;
+
  #[derive(Debug)]
 pub struct Solution {}
 
