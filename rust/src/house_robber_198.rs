@@ -9,10 +9,7 @@ impl Solution {
         for i in 0..nums.len(){
                let curr= Self::hypothetical_payday(&*nums, i);
             money += curr;
-            println!("Current index {}, hypothetical payday: {}", i, curr);
-            println!("Money :{}",money);
         }
-        println!("{}",money);
         money
     }
 
