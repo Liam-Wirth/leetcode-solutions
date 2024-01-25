@@ -36,6 +36,10 @@ path = "2870_minimum_number_of_operations-to-make-array-empty.rs"
 name = "198"
 path = "src/house_robber_198.rs"
 
+[[bin]]
+name = "1143"
+path = "src/longest_common_subsequence_1143.rs"
+
 [dependencies]
 rand = "0.8.5"
 
