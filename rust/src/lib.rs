@@ -26,6 +26,7 @@ mod x_of_a_kind_in_a_deck_of_cards_914;
 mod set_mismatch_645;
 mod house_robber_198;
 mod longest_common_subsequence_1143;
+mod implement_queue_using_stacks_232;
 
  #[derive(Debug)]
 pub struct Solution {}
