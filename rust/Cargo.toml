@@ -33,4 +33,5 @@ path = "1137_nth_tribonacci_number.rs"
 name = "2870"
 path = "2870_minimum_number_of_operations-to-make-array-empty.rs"
 [dependencies]
+rand = "0.8.5"
 
