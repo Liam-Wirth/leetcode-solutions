@@ -59,6 +59,7 @@
  */
 
 // @lc code=start
+use crate::Solution;
  impl Solution {
     pub fn build_array(mut nums: Vec<i32>) -> Vec<i32> {
         let l = nums.len() as i32;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Arch" type="wsl" uuid="79620546-7a16-4e71-b023-917b2f6a48e3">
+        <config>
+          <option name="distributionMsId" value="Arch" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/mnt/d/Program Files/RustRover 233.13135.116/jbr/bin&#10;, stderr=}/leetcode-solutions" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/usr/sbin/cargo" />
+            <option name="cargoVersion" value="1.75.0" />
+            <option name="rustcPath" value="/usr/sbin/rustc" />
+            <option name="rustcVersion" value="1.75.0 (82e1608df 2023-12-21) (Arch Linux rust 1:1.75.0-2)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

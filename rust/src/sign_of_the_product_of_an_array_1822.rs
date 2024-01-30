@@ -63,15 +63,16 @@
  *
  *
  */
-
-// @lc code=start
-impl Solution {
-    pub fn array_sign(nums: Vec<i32>) -> i32 {
-        nums.iter().fold(1, |prod, &x| prod * x.signum())
-    }
-}
-// @lc code=end
-fn main() {
-    nums = [1, -1, 1, -1, 1];
-    array_sign(&nums);
-}
+//TODO: Solve this problem
+//// @lc code=start
+//impl Solution {
+//    pub fn array_sign(nums: Vec<i32>) -> i32 {
+//        nums.iter().fold(1, |prod, &x| prod * x.signum())
+//    }
+//}
+//// @lc code=end
+//fn main() {
+//    nums = [1, -1, 1, -1, 1];
+//    array_sign(&nums);
+//}
+//

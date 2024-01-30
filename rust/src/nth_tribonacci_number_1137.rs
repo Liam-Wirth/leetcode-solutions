@@ -1,9 +1,8 @@
-Struct Solution {}
-
+use crate::Solution;
 impl Solution {
     pub fn tribonacci(n: i32) -> i32 {
         if n<2 {
-            n
+            return n
         }
         let mut n = n;
         let (mut a, mut b, mut c, mut d) = (0,1,1,0);
@@ -16,7 +15,6 @@ impl Solution {
         }
         c
     }
-
 }
  fn main() {
     unimplemented!();

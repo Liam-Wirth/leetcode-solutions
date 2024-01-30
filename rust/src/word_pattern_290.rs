@@ -53,7 +53,7 @@
  *
  *
  */
-
+use crate::Solution;
 // @lc code=start
 use std::collections::{HashMap, HashSet};
 impl Solution {
