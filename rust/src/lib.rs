@@ -20,12 +20,10 @@ mod running_sum_of_1_d_array_1480;
 mod sign_of_the_product_of_an_array_1822;
 mod subarray_sums_divisible_by_k_974;
 mod word_pattern_290;
-<<<<<<< HEAD
 mod range_sum_of_BST_938;
 mod leaf_similar_trees_872;
 mod x_of_a_kind_in_a_deck_of_cards_914;
 mod insert_delete_get_random_380;
-=======
 mod range_sum_of_bst_938;
 mod insert_delete_get_random_380;
 mod x_of_a_kind_in_a_deck_of_cards_914;
@@ -33,8 +31,8 @@ mod set_mismatch_645;
 mod house_robber_198;
 mod longest_common_subsequence_1143;
 mod implement_queue_using_stacks_232;
+mod evaluate_reverse_polish_notation_150;
 
->>>>>>> 4c99f995461a29180f6a592332e3e72ec4dae016
  #[derive(Debug)]
 pub struct Solution {}
 
