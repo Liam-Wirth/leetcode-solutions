@@ -32,8 +32,6 @@ path = "1137_nth_tribonacci_number.rs"
 [[bin]]
 name = "2870"
 path = "2870_minimum_number_of_operations-to-make-array-empty.rs"
-<<<<<<< HEAD
-=======
 [[bin]]
 name = "198"
 path = "src/house_robber_198.rs"
@@ -42,7 +40,6 @@ path = "src/house_robber_198.rs"
 name = "1143"
 path = "src/longest_common_subsequence_1143.rs"
 
->>>>>>> 4c99f995461a29180f6a592332e3e72ec4dae016
 [dependencies]
 rand = "0.8.5"
 
