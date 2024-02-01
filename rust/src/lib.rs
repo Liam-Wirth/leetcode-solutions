@@ -31,6 +31,7 @@ mod longest_common_subsequence_1143;
 mod implement_queue_using_stacks_232;
 mod evaluate_reverse_polish_notation_150;
 mod add_binary_67;
+mod divide_array_into_arrays_with_max_difference_2966;
  #[derive(Debug)]
 pub struct Solution {}
 
