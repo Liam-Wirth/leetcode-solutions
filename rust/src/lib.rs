@@ -31,6 +31,7 @@ mod longest_common_subsequence_1143;
 mod implement_queue_using_stacks_232;
 mod evaluate_reverse_polish_notation_150;
 mod add_binary_67;
+mod sequential_digits_1291;
  #[derive(Debug)]
 pub struct Solution {}
 
