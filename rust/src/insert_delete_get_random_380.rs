@@ -1,30 +1,21 @@
-<<<<<<< HEAD
 use crate::Solution;
 use std::collections::HashMap;
 use rand::prelude::*;
 
-impl Solution{
-pub struct RandomizedSet {
-=======
-use std::{collections::HashMap, vec};
-use rand::prelude::*;
-struct RandomizedSet {
->>>>>>> 4c99f995461a29180f6a592332e3e72ec4dae016
+    pub struct RandomizedSet {
+
     list: Vec<i32>,
     set: HashMap<i32, usize>, 
-}
+    }
 
-<<<<<<< HEAD
+impl Solution{
 
-=======
-#[cfg(not(test))]
->>>>>>> 4c99f995461a29180f6a592332e3e72ec4dae016
+
 /** 
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
-<<<<<<< HEAD
-pub impl RandomizedSet {
+impl RandomizedSet {
 
     pub fn new() -> Self {
         Self {
@@ -55,7 +46,6 @@ pub impl RandomizedSet {
  * let ret_2: bool = obj.remove(val);
  * let ret_3: i32 = obj.get_random();
  */
-=======
 impl RandomizedSet {
 
     fn new() -> Self {
@@ -86,4 +76,4 @@ impl RandomizedSet {
         *self.list.choose(&mut rand::thread_rng()).unwrap()
     }
 }
->>>>>>> 4c99f995461a29180f6a592332e3e72ec4dae016
+
