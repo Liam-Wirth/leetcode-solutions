@@ -33,6 +33,7 @@ mod sequential_digits_1291;
 mod divide_array_into_arrays_with_max_difference_2966;
 mod first_unique_character_in_a_string_387;
 mod group_anagrams_49;
+mod sort_characters_by_frequency_451;
  #[derive(Debug)]
 pub struct Solution {}
 
