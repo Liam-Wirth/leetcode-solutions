@@ -4,7 +4,7 @@ impl Solution {
     pub fn first_uniq_char(s: String) -> i32 {
         let mut char_count = HashMap::new();
         let mut unique_chars = HashSet::new();
-        
+
         for (i, ch) in s.chars().enumerate() {
             *char_count.entry(ch).or_insert(0) += 1;
 
@@ -19,7 +19,6 @@ impl Solution {
                 return i as i32;
             }
         }
-        
 
         -1
     }
