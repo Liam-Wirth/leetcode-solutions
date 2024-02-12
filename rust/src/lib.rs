@@ -38,6 +38,7 @@ mod palindromic_strings_647;
 mod contains_duplicate_217;
 mod valid_anagram_242;
 mod two_sum_1;
+mod majority_element_169;
  #[derive(Debug)]
 pub struct Solution {}
 
