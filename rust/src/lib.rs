@@ -39,6 +39,7 @@ mod contains_duplicate_217;
 mod valid_anagram_242;
 mod two_sum_1;
 mod majority_element_169;
+mod find_first_palindromic_string_in_the_array_2108;
  #[derive(Debug)]
 pub struct Solution {}
 
