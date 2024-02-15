@@ -37,7 +37,8 @@ mod sort_characters_by_frequency_451;
 mod palindromic_strings_647;
 mod contains_duplicate_217;
 mod valid_anagram_242;
-mod two_sum_1.rs;
+mod two_sum_1;
+mod find_polygon_with_the_largest_perimeter_2971;
  #[derive(Debug)]
 pub struct Solution {}
 
