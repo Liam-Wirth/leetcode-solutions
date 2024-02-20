@@ -42,6 +42,7 @@ mod majority_element_169;
 mod find_first_palindromic_string_in_the_array_2108;
 mod rearrange_array_elements_by_sign_2149;
 mod least_number_of_unique_integers_after_k_removals_1481;   
+mod missing_number_268; 
  #[derive(Debug)]
 pub struct Solution {}
 
@@ -61,4 +62,15 @@ impl TreeNode {
             right: None,
         }
     }
+}
+
+
+
+struct listnode<T> {
+    item: T,
+    next:  Option<Box listnode<T>>
+}
+
+struct SinglyLinkedList<T> {
+    list
 }
