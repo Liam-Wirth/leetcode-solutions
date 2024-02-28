@@ -20,6 +20,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 
 use crate::TreeNode;
+use crate::Solution;
 impl Solution {
     pub fn find_bottom_left_value(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
             let mut queue = std::collections::VecDeque::new();
@@ -34,11 +35,7 @@ impl Solution {
                 if let Some(left) = node.borrow().left.clone() {
                     queue.push_back(left);
                 }
-                if queue.is_empty() {
-                    return node.val;
-                }
             }
             out
         }
     }
-}
