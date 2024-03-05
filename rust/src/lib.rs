@@ -41,6 +41,7 @@ mod two_sum_1;
 mod majority_element_169;
 mod find_first_palindromic_string_in_the_array_2108;
 mod find_bottom_left_tree_value_513;
+mod minimum_length_of_string_after_deleting_similar_ends_1750;
 mod rearrange_array_elements_by_sign_2149;
 mod least_number_of_unique_integers_after_k_removals_1481;   
 mod missing_number_268; 
