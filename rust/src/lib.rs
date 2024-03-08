@@ -46,6 +46,8 @@ mod rearrange_array_elements_by_sign_2149;
 mod least_number_of_unique_integers_after_k_removals_1481;   
 mod missing_number_268; 
 mod even_odd_tree_1609;
+mod valid_palindrome_125;
+mod count_elements_with_max_frequency_3005;
  #[derive(Debug)]
 pub struct Solution {}
 
