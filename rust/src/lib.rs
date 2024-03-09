@@ -48,6 +48,7 @@ mod missing_number_268;
 mod even_odd_tree_1609;
 mod valid_palindrome_125;
 mod count_elements_with_max_frequency_3005;
+mod single_number_136;
  #[derive(Debug)]
 pub struct Solution {}
 
