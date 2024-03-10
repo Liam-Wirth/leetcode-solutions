@@ -14,6 +14,7 @@ mod min_operations_to_make_arr_empty_2870;
 mod nodes_in_subtree_with_same_label_1519;
 mod nth_tribonacci_number_1137;
 mod richest_customer_wealth_1672;
+mod intersection_of_two_arrays_349;
 mod roman_to_integer_13;
 mod root_equals_sum_of_children_2236;
 mod running_sum_of_1_d_array_1480;
