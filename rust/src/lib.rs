@@ -18,6 +18,7 @@ mod intersection_of_two_arrays_349;
 mod roman_to_integer_13;
 mod root_equals_sum_of_children_2236;
 mod running_sum_of_1_d_array_1480;
+mod find_pivot_integer_2485;
 mod sign_of_the_product_of_an_array_1822;
 mod subarray_sums_divisible_by_k_974;
 mod word_pattern_290;
