@@ -3,6 +3,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 
 mod build_array_from_permutation_1920;
+mod top_k_frequent_elements_347;
 mod design_parking_system_1603;
 mod find_pivot_index_724;
 mod flip_string_to_monotone_increasing_926;
