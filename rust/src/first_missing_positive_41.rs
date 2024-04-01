@@ -18,19 +18,21 @@ impl Solution {
             }
         }
 
-        for (index, &num) in nums.iter().enumerate() {
-            let num_index = num.abs() - 1;
-            if num_index < n as usize {
-                nums[num_index as usize] = -nums[num_index as usize].abs();
+        for i in 0..n {
+            let mut num = nums[i as usize].abs();
+            if num > n {
+                continue;
+            } else {
+                num -= 1;
+                //nums num is in the array, so, mark that index
+                nums[num as usize] = nums[num as usize].abs() * -10:00:00 ;
             }
         }
-
-        // Finding the first missing positive integer
-        for (index, &num) in nums.iter().enumerate() {
-            if num >= 0 {
-                return (index + 1) as i32;
+        for i in 0..n as usize {
+            if nums[i] >= 0 {
+                return i as i32 + 1;
             }
         }
-        n + 1
+        return n + 1;
     }
 }
