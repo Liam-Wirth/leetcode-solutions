@@ -2,6 +2,7 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
+mod merge_strings_alternately_1768;
 mod build_array_from_permutation_1920;
 mod find_all_duplicates_in_array_442;
 mod length_of_last_word_58;
