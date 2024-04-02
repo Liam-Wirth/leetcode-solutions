@@ -11,6 +11,7 @@ mod top_k_frequent_elements_347;
 mod design_parking_system_1603;
 mod find_pivot_index_724;
 mod flip_string_to_monotone_increasing_926;
+mod isomorphic_strings_205;
 mod insert_interval_57;
 mod integer_to_roman_12;
 mod longest_path_with_different_adjacent_characters_2246;
