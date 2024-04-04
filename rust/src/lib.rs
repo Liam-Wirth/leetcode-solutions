@@ -2,6 +2,30 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
+ #[derive(Debug)]
+pub struct Solution {}
+
+#[derive(Debug, PartialEq, Eq)]
+pub struct TreeNode {
+    pub val: i32,
+    pub left: Option<Rc<RefCell<TreeNode>>>,
+    pub right: Option<Rc<RefCell<TreeNode>>>,
+}
+
+impl TreeNode {
+    #[inline]
+    pub fn new(val: i32) -> Self {
+        TreeNode {
+            val,
+            left: None,
+            right: None,
+        }
+    }
+}
+
+
+
+mod find_the_difference_389;
 mod merge_strings_alternately_1768;
 mod word_search_79;
 mod maximum_nesting_depth_of_parenthesis_1614;
@@ -60,34 +84,3 @@ mod even_odd_tree_1609;
 mod valid_palindrome_125;
 mod count_elements_with_max_frequency_3005;
 mod minimum_common_value_2540;
- #[derive(Debug)]
-pub struct Solution {}
-
-#[derive(Debug, PartialEq, Eq)]
-pub struct TreeNode {
-    pub val: i32,
-    pub left: Option<Rc<RefCell<TreeNode>>>,
-    pub right: Option<Rc<RefCell<TreeNode>>>,
-}
-
-impl TreeNode {
-    #[inline]
-    pub fn new(val: i32) -> Self {
-        TreeNode {
-            val,
-            left: None,
-            right: None,
-        }
-    }
-}
-
-
-
-struct listnode<T> {
-    item: T,
-    next:  Option<Box listnode<T>>
-}
-
-struct SinglyLinkedList<T> {
-    list
-}
