@@ -10,23 +10,24 @@ clean_response() {
 }
 
 # Ask user for the problem name
-echo "Tell me the problem name:"
+echo "problem name:"
 read problem_name
 formatted_name=$(format_problem_name "$problem_name")
 
 # Ask user for the problem number
-echo "Tell me the problem number:"
+echo "problem number:"
 read problem_number
 cleaned_number=$(clean_response "$problem_number")
 
 # Construct the filename
 filename="${problem_name// /_}_${cleaned_number}.rs"
+modname="${problem_name// /_}_${cleaned_number}"
 
 # Create the file
 touch "./$filename"
 
 # Echo "mod filename" to lib.rs
-echo "mod $filename" >> lib.rs
+echo "mod $modname" >> lib.rs
 
 echo "File created: ./$filename"
 echo "mod $filename added to lib.rs"
