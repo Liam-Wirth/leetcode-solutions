@@ -21,7 +21,7 @@ cleaned_number=$(clean_response "$problem_number")
 
 # Construct the filename
 filename="${problem_name// /_}_${cleaned_number}.rs"
-modname="${problem_name// /_}_${cleaned_number}"
+modname="${problem_name// /_}_${cleaned_number};"
 
 # Create the file
 touch "./$filename"

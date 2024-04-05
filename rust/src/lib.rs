@@ -86,3 +86,4 @@ mod valid_palindrome_125;
 mod count_elements_with_max_frequency_3005;
 mod minimum_common_value_2540;
 mod make_the_string_great_1544;
+mod find_index_of_first_occurence_in_string_28;
