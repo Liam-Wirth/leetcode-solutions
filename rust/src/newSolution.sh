@@ -36,6 +36,8 @@ echo "Open $filename in Vim? (y\n)"
 read response
 cleaned_response=$(clean_response "$response")
 
+echo "use crate::Solution;" >> "./$filename"
+
 # Check if the response is affirmative
 if [[ $cleaned_response == "y" || $cleaned_response == "yes" ]]; then
    nvim $filename # Open file in nvim editor (you can replace nvim with your preferred editor)
