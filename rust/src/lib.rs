@@ -88,5 +88,5 @@ mod minimum_common_value_2540;
 mod make_the_string_great_1544;
 mod find_index_of_first_occurence_in_string_28;
 mod valid_parenthesis_string_678;
-mod valid_parenthesis_string_678;
 mod number_of_students_unable_to_eat_lunch_1700;
+mod maximal_rectangle_85;
