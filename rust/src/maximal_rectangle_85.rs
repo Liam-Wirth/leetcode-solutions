@@ -12,7 +12,6 @@ impl Solution {
         for row in 0..row_max {
             for col in 0..col_max {
                 let mut edge = col_max;
-
                 let mut area = 0;
                 for i in row..row_max {
                     for j in col..edge {
