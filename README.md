@@ -1,4 +1,5 @@
 
+
 # Liam's LeetCode solutions
 ## Table of Contents
 + [About](#about)
@@ -21,4 +22,14 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 |**June 6th 2022**| First Ruby Solution | [Leetcode 2235 Add Two Integers](editor/en/Ruby/2235.add-two-integers.rb)
 |**January 11th 2023| First independant Rust solution AND explanation! | [Leetcode 12 Integer to Roman](editor/en/rust/src/12_roman-to-integer.rs)|
 |**February 12 2024| First tried a medium problem, and it ran on first try, as well as had the answer accepted| [leetcode 2149 Rearrange Array elements by sign](/rust/src/rearrange_array_elements_by_sign_2149.rs)|
+
+## List of Problems Solved:| Problem Name | Problem Number | Language |
+| Problem Name | Problem Number | Language |
+|--------------|----------------|----------|
+| Problem Name | Problem Number | Language |
+|--------------|----------------|----------|
+| Problem Name | Problem Number | Language |
+|--------------|----------------|----------|
+| Problem Name | Problem Number | Language |
+|--------------|----------------|----------|
 

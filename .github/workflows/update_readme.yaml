@@ -1,0 +1,24 @@
+name: Update Readme
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Rust
+      uses: actions/setup-rust@v1
+      with:
+        rust-version: stable
+
+    - name: Run Rust Script
+      run: |
+        cargo run --bin your_binary_name  # Replace 'your_binary_name' with your Rust script's binary name
+
