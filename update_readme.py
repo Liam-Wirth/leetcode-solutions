@@ -67,7 +67,7 @@ for root, dirs, files in os.walk("."):
                 print(f"{problem_number} {problem_entries[problem_number][0]} |     {languages}")
 
 # Sort the problem entries by problem number in ascending order
-sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: x[0])
+sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: int(x[0]))
 
 # Generate the Markdown table string
 markdown_table = "| Problem Number | Problem Name | Language |\n|--------------|----------------|----------|\n"
@@ -76,16 +76,25 @@ for problem_number, entry in sorted_problem_entries:
     markdown_table += f"| {problem_number} | {entry[0]} | {languages} |\n"
 
 # Read the content of the README.md file
+# Read the content of the README.md file
 with open("README.md", "r") as file:
-    content = file.read()
+    content = file.readlines()
 
-    # Find the position of the last occurrence of the end marker for the table
-    end_marker_position = content.rfind("|----|----|----|")
+# Find the position of the heading "List of problems solved"
+for index, line in enumerate(content):
+    if "List of problems solved" in line:
+        # Add 2 to the index to skip the header and the underline below it
+        start_index = index + 1
+        break
 
-    # Replace the content from the end marker position to the end with the updated Markdown table
-    updated_content = content[:end_marker_position] + markdown_table + content[end_marker_position:]
+# Extract the content before the table
+before_table = "".join(content[:start_index])
+
+# Write the content before the table back to the README.md file
+with open("README.md", "w") as file:
+    file.write(before_table)
 
 # Write the updated content back to the README.md file
-with open("README.md", "w") as file:
-    file.write(updated_content)
+with open("README.md", "a") as file:
+    file.write(markdown_table)
 
