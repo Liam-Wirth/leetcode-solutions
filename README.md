@@ -25,100 +25,102 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 
 ## List of problems solved
 
-| Problem Name | Problem Number | Language |
+| Problem Number | Problem Name | Language |
 |--------------|----------------|----------|
-| Two Sum | 1 | Java, Rust |
-| Maximum Difference Between Node And Ancestor | 1026 | Java |
-| Nth Tribonacci Number | 1137 | Rust |
-| Longest Common Subsequence | 1143 | Rust |
-| Integer To Roman | 12 | Rust |
-| Valid Palindrome | 125 | Rust |
-| Sum Root To Leaf Numbers | 129 | Rust |
-| Sequential Digits | 1291 | Rust |
-| Roman To Integer | 13 | Ruby, Rust |
-| Single Number | 136 | Rust |
-| Largest Multiple Of Three | 1363 | Java |
-| Longest Common Prefix | 14 | Ruby |
-| Shuffle The Array | 1470 | Ruby |
-| Running Sum Of 1 D Array | 1480 | Java, Ruby, Rust |
-| Least Number Of Unique Integers After K Removals | 1481 | Rust |
-| Evaluate Reverse Polish Notation | 150 | Rust |
-| Nodes In Subtree With Same Label | 1519 | Rust |
-| Make The String Great | 1544 | Rust |
-| Design Parking System | 1603 | Rust |
-| Even Odd Tree | 1609 | Rust |
-| Maximum Nesting Depth Of Parenthesis | 1614 | Rust |
-| Richest Customer Wealth | 1672 | Rust |
-| Majority Element | 169 | Java, Rust |
-| Letter Combinations Of A Phone Number | 17 | Java |
-| Number Of Students Unable To Eat Lunch | 1700 | Rust |
-| Swapping Nodes In A Linked List | 1721 | Java |
-| Minimum Length Of String After Deleting Similar Ends | 1750 | Rust |
-| Merge Strings Alternately | 1768 | Rust |
-| Sign Of The Product Of An Array | 1822 | Rust |
-| Build Array From Permutation | 1920 | Ruby, Rust |
-| House Robber | 198 | Rust |
-| Add Two Numbers | 2 | Java |
-| Valid Parentheses | 20 | Java |
-| Isomorphic Strings | 205 | Rust |
-| Find First Palindromic String In The Array | 2108 | Rust |
-| Maximum Number Of Words Found In Sentences | 2114 | Ruby |
-| Rearrange Array Elements By Sign | 2149 | Rust |
-| Contains Duplicate | 217 | Rust |
-| Maximize The Topmost Element After K Moves | 2202 | Ruby |
-| Add Two Integers | 2235 | Java, Ruby |
-| Root Equals Sum Of Children | 2236 | Rust |
-| Longest Path With Different Adjacent Characters | 2246 | Rust |
-| Implement Queue Using Stacks | 232 | Rust |
-| Reverse Odd Levels Of Binary Tree | 2415 | Java |
-| Valid Anagram | 242 | Rust |
-| Find Pivot Integer | 2485 | Rust |
-| Minimum Common Value | 2540 | Rust |
-| Remove Duplicates From Sorted Array | 26 | Java, Rust |
-| Missing Number | 268 | Rust |
-| Find Index Of First Occurence In String | 28 | Rust |
-| Find The Duplicate Number | 287 | Rust |
-| Min Operations To Make Arr Empty | 2870 | Rust |
-| Word Pattern | 290 | Rust |
-| Divide Array Into Arrays With Max Difference | 2966 | Rust |
-| Find Polygon With The Largest Perimeter | 2971 | Rust |
-| Count Elements With Max Frequency | 3005 | Rust |
-| Ant On The Boundary | 3028 | Rust |
-| Top K Frequent Elements | 347 | Rust |
-| Intersection Of Two Arrays | 349 | Rust |
-| Valid Perfect Square | 367 | Ruby |
-| Insert Delete Get Random | 380 | Rust |
-| First Unique Character In A String | 387 | Rust |
-| Find The Difference | 389 | Rust |
-| Median Of Two Sorted Arrays | 4 | Java |
-| Sum Of Left Leaves | 404 | Rust |
-| First Missing Positive | 41 | Rust |
-| Find All Duplicates In Array | 442 | Rust |
-| Sort Characters By Frequency | 451 | Rust |
-| Permutations | 46 | Java |
-| Rotate Image | 48 | Java, Ruby |
-| Group Anagrams | 49 | Rust |
-| Find Bottom Left Tree Value | 513 | Rust |
-| Insert Interval | 57 | Rust |
-| Length Of Last Word | 58 | Rust |
-| Set Mismatch | 645 | Rust |
-| Palindromic Strings | 647 | Rust |
-| Add Binary | 67 | Rust |
-| Valid Parenthesis String | 678 | Rust |
-| Valid Palindrome Ii | 680 | Java |
-| Sqrt X | 69 | Ruby |
-| Remove Comments | 722 | Java |
-| Find Pivot Index | 724 | Rust |
-| Word Search | 79 | Rust |
-| Custom Sort String | 791 | Rust |
-| Maximal Rectangle | 85 | Rust |
-| Binary Gap | 868 | Java |
-| Palindrome Number | 9 | Java, Ruby, Rust |
-| X Of A Kind In A Deck Of Cards | 914 | Java, Rust |
-| Flip String To Monotone Increasing | 926 | Rust |
-| Range Sum Of Bst | 938 | Rust |
-| N Repeated Element In Size 2 N Array | 961 | Java |
-| Minimum Area Rectangle Ii | 963 | Java |
-| Subarray Sums Divisible By K | 974 | Rust |
-| Time Based Key Value Store | 981 | Java |
+| 1 | Two Sum | Rust |
+| 2 | Add Two Numbers | Java |
+| 4 | Median Of Two Sorted Arrays | Java |
+| 9 | Palindrome Number | Rust |
+| 12 | Integer To Roman | Rust |
+| 13 | Roman To Integer | Rust |
+| 14 | Longest Common Prefix | Ruby |
+| 17 | Letter Combinations Of A Phone Number | Java |
+| 20 | Valid Parentheses | Java |
+| 26 | Remove Duplicates From Sorted Array | Rust |
+| 28 | Find Index Of First Occurence In String | Rust |
+| 41 | First Missing Positive | Rust |
+| 46 | Permutations | Java |
+| 48 | Rotate Image | Ruby |
+| 49 | Group Anagrams | Rust |
+| 57 | Insert Interval | Rust |
+| 58 | Length Of Last Word | Rust |
+| 67 | Add Binary | Rust |
+| 69 | Sqrt X | Ruby |
+| 79 | Word Search | Rust |
+| 85 | Maximal Rectangle | Rust |
+| 125 | Valid Palindrome | Rust |
+| 129 | Sum Root To Leaf Numbers | Rust |
+| 136 | Single Number | Rust |
+| 141 | Linked List Cycle | Python |
+| 150 | Evaluate Reverse Polish Notation | Rust |
+| 169 | Majority Element | Rust |
+| 198 | House Robber | Rust |
+| 205 | Isomorphic Strings | Rust |
+| 217 | Contains Duplicate | Rust |
+| 231 | Power Of Two | Python |
+| 232 | Implement Queue Using Stacks | Rust |
+| 242 | Valid Anagram | Rust |
+| 268 | Missing Number | Rust |
+| 287 | Find The Duplicate Number | Rust |
+| 290 | Word Pattern | Rust |
+| 347 | Top K Frequent Elements | Rust |
+| 349 | Intersection Of Two Arrays | Rust |
+| 367 | Valid Perfect Square | Ruby |
+| 380 | Insert Delete Get Random | Rust |
+| 387 | First Unique Character In A String | Rust |
+| 389 | Find The Difference | Rust |
+| 404 | Sum Of Left Leaves | Rust |
+| 442 | Find All Duplicates In Array | Rust |
+| 451 | Sort Characters By Frequency | Rust |
+| 513 | Find Bottom Left Tree Value | Rust |
+| 645 | Set Mismatch | Rust |
+| 647 | Palindromic Strings | Rust |
+| 678 | Valid Parenthesis String | Rust |
+| 680 | Valid Palindrome Ii | Java |
+| 722 | Remove Comments | Java |
+| 724 | Find Pivot Index | Rust |
+| 791 | Custom Sort String | Rust |
+| 868 | Binary Gap | Java |
+| 914 | X Of A Kind In A Deck Of Cards | Rust |
+| 926 | Flip String To Monotone Increasing | Rust |
+| 938 | Range Sum Of Bst | Rust |
+| 961 | N Repeated Element In Size 2 N Array | Java |
+| 963 | Minimum Area Rectangle Ii | Java |
+| 974 | Subarray Sums Divisible By K | Rust |
+| 981 | Time Based Key Value Store | Java |
+| 1026 | Maximum Difference Between Node And Ancestor | Java |
+| 1137 | Nth Tribonacci Number | Rust |
+| 1143 | Longest Common Subsequence | Rust |
+| 1291 | Sequential Digits | Rust |
+| 1363 | Largest Multiple Of Three | Java |
+| 1470 | Shuffle The Array | Ruby |
+| 1480 | Running Sum Of 1 D Array | Rust |
+| 1481 | Least Number Of Unique Integers After K Removals | Rust |
+| 1519 | Nodes In Subtree With Same Label | Rust |
+| 1544 | Make The String Great | Rust |
+| 1603 | Design Parking System | Rust |
+| 1609 | Even Odd Tree | Rust |
+| 1614 | Maximum Nesting Depth Of Parenthesis | Rust |
+| 1672 | Richest Customer Wealth | Rust |
+| 1700 | Number Of Students Unable To Eat Lunch | Rust |
+| 1721 | Swapping Nodes In A Linked List | Java |
+| 1750 | Minimum Length Of String After Deleting Similar Ends | Rust |
+| 1768 | Merge Strings Alternately | Rust |
+| 1822 | Sign Of The Product Of An Array | Rust |
+| 1920 | Build Array From Permutation | Rust |
+| 2108 | Find First Palindromic String In The Array | Rust |
+| 2114 | Maximum Number Of Words Found In Sentences | Ruby |
+| 2149 | Rearrange Array Elements By Sign | Rust |
+| 2202 | Maximize The Topmost Element After K Moves | Ruby |
+| 2235 | Add Two Integers | Ruby |
+| 2236 | Root Equals Sum Of Children | Rust |
+| 2246 | Longest Path With Different Adjacent Characters | Rust |
+| 2415 | Reverse Odd Levels Of Binary Tree | Java |
+| 2485 | Find Pivot Integer | Rust |
+| 2540 | Minimum Common Value | Rust |
+| 2870 | Min Operations To Make Arr Empty | Rust |
+| 2966 | Divide Array Into Arrays With Max Difference | Rust |
+| 2971 | Find Polygon With The Largest Perimeter | Rust |
+| 3005 | Count Elements With Max Frequency | Rust |
+| 3028 | Ant On The Boundary | Rust |
 
