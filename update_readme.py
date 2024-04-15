@@ -30,17 +30,6 @@ for root, dirs, files in os.walk("."):
                     problem_number = parts[-1].split('.')[0]
                     # Append entry to the dictionary of problem entries
                     language = "Rust"
-
-                if file.endswith(".py"):
-                    # Split filename by underscores
-                    parts = file.split('_')
-                    # Extract problem name (all chunks except the last one)
-                    problem_name = ' '.join(parts[:-1])
-                    problem_name = format_problem_name(problem_name)
-                    # Extract problem number (last chunk without the ".rs" extension)
-                    problem_number = parts[-1].split('.')[0]
-                    # Append entry to the dictionary of problem entries
-                    language = "Python"
                 elif file.endswith(".rb"):
                     # Split filename by dots
                     parts = file.split('.')
@@ -57,13 +46,25 @@ for root, dirs, files in os.walk("."):
                     parts = format_problem_name(parts)
                     problem_name = format_problem_name(parts)
                     language = "Java"
+                elif file.endswith(".py"):
+                    # Split filename by underscores
+                    parts = file.split('_')
+                    # Extract problem name (all chunks except the last one)
+                    problem_name = ' '.join(parts[:-1])
+                    problem_name = format_problem_name(problem_name)
+                    # Extract problem number (last chunk without the ".rs" extension)
+                    problem_number = parts[-1].split('.')[0]
+                    # Append entry to the dictionary of problem entries
+                    language = "Python"
 
                 if problem_number in problem_entries:
                     # Update existing entry with the language
-                    problem_entries[int(problem_number)][1].append(language)
+                    problem_entries[problem_number][1].append(language)
                 else:
                     # Create new entry with problem name and language
-                    problem_entries[int(problem_number)] = [problem_name, [language]]
+                    problem_entries[problem_number] = [problem_name, [language]]
+                languages = ', '.join(problem_entries[problem_number][1])
+                print(f"{problem_number} {problem_entries[problem_number][0]} |     {languages}")
 
 # Sort the problem entries by problem number in ascending order
 sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: x[0])
