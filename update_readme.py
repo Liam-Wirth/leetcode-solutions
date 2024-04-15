@@ -1,5 +1,5 @@
 import os
-
+import subprocess
 # Define a function to format problem name
 def format_problem_name(name):
     return name.replace('-', ' ').title()
@@ -97,4 +97,10 @@ with open("README.md", "w") as file:
 # Write the updated content back to the README.md file
 with open("README.md", "a") as file:
     file.write(markdown_table)
+
+
+
+subprocess.run(["git", "add", "README.md"], check=True)
+subprocess.run(["git", "commit", "-m", "Update README with new content"], check=True)
+subprocess.run(["git", "push", "origin", "master"], check=True)
 
