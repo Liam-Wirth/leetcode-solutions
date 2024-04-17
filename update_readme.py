@@ -100,7 +100,4 @@ with open("README.md", "a") as file:
 
 
 
-subprocess.run(["git", "add", "README.md"], check=True)
-subprocess.run(["git", "commit", "-m", "Update README with new content"], check=True)
-subprocess.run(["git", "push", "origin", "master"], check=True)
 
