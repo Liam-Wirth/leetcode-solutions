@@ -1,51 +1,26 @@
-/*
- * @lc app=leetcode id=2235 lang=c
- *
- * [2235] Add Two Integers
- *
- * https://leetcode.com/problems/add-two-integers/description/
- *
- * algorithms
- * Easy (92.91%)
- * Likes:    198
- * Dislikes: 783
- * Total Accepted:    37K
- * Total Submissions: 39.8K
- * Testcase Example:  '12\n5'
- *
- * Given two integers num1 and num2, return the sum of the two integers.
- *
- * Example 1:
- *
- *
- * Input: num1 = 12, num2 = 5
- * Output: 17
- * Explanation: num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is
- * returned.
- *
- *
- * Example 2:
- *
- *
- * Input: num1 = -10, num2 = 4
- * Output: -6
- * Explanation: num1 + num2 = -6, so -6 is returned.
- *
- *
- *
- * Constraints:
- *
- *
- * -100 <= num1, num2 <= 100
- *
- *
- */
+using namespace std;
+class Solution {
+public:
+  long long countSubarrays(vector<int> &nums, int minK, int maxK) {
+    long long res = 0;
+    int bad_idx = -1, left_idx = -1, right_idx = -1;
 
-// @lc code=start
+    for (int i = 0; i < nums.size(); ++i) {
+      if (!(minK <= nums[i] && nums[i] <= maxK)) {
+        bad_idx = i;
+      }
 
+      if (nums[i] == minK) {
+        left_idx = i;
+      }
 
-int sum(int num1, int num2){
- return num1+num2;
-}
-// @lc code=end
+      if (nums[i] == maxK) {
+        right_idx = i;
+      }
 
+      res += max(0, min(left_idx, right_idx) - bad_idx);
+    }
+
+    return res;
+  }
+};
