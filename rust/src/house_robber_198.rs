@@ -1,5 +1,5 @@
 //HACK: I shouldnt have to do this.
-struct Solution{}
+use crate::Solution;
 //NOTE: Dynamic programming, We have two possibilities going down from the I-th house
 //NOTE: Caching and such and so forth
 impl Solution {

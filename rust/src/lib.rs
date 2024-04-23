@@ -94,3 +94,4 @@ mod sum_of_left_leaves_404;
 mod custom_sort_string_791;
 mod sum_root_to_leaf_numbers_129;
 mod add_one_row_to_tree_623;
+mod open_the_lock_752;
