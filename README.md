@@ -80,6 +80,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 680 | Valid Palindrome Ii | Java |
 | 722 | Remove Comments | Java |
 | 724 | Find Pivot Index | Rust |
+| 752 | Open The Lock | Rust |
 | 791 | Custom Sort String | Rust |
 | 868 | Binary Gap | Java |
 | 914 | X Of A Kind In A Deck Of Cards | Java, Rust |
