@@ -117,6 +117,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2235 | Add Two Integers | Java, Ruby |
 | 2236 | Root Equals Sum Of Children | Rust |
 | 2246 | Longest Path With Different Adjacent Characters | Rust |
+| 2370 | Longest Ideal Subsequence | Python, Rust |
 | 2415 | Reverse Odd Levels Of Binary Tree | Java |
 | 2485 | Find Pivot Integer | Rust |
 | 2540 | Minimum Common Value | Rust |
