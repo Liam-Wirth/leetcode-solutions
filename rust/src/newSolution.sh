@@ -43,3 +43,9 @@ if [[ $cleaned_response == "y" || $cleaned_response == "yes" ]]; then
    nvim $filename # Open file in nvim editor (you can replace nvim with your preferred editor)
 fi
 
+echo "Add to readme?"
+read response
+cleaned_response=$(clean_response "$response")
+python3 ../../update_readme.py
+
+

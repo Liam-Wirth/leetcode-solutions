@@ -1,14 +1,24 @@
 import os
-import subprocess
+import pickle
 # Define a function to format problem name
 def format_problem_name(name):
     return name.replace('-', ' ').title()
 
 # Initialize an empty dictionary to store problem entries
-problem_entries = {}
+serialized = "./assets/problems.pkl"
+if os.path.exists(serialized):
+    with open(serialized, "rb") as f:
+        problem_entries = pickle.load(f)
+else:
+    problem_entries = {}
+
+
 problem_number=0
 problem_name =""
 language=""
+
+
+
 # Iterate over the directories
 for root, dirs, files in os.walk("."):
     for file in files:
@@ -63,8 +73,8 @@ for root, dirs, files in os.walk("."):
                 else:
                     # Create new entry with problem name and language
                     problem_entries[problem_number] = [problem_name, [language]]
-                languages = ', '.join(problem_entries[problem_number][1])
-                print(f"{problem_number} {problem_entries[problem_number][0]} |     {languages}")
+                    languages = ', '.join(problem_entries[problem_number][1])
+                    print(f"{problem_number} {problem_entries[problem_number][0]} |     {languages}")
 
 # Sort the problem entries by problem number in ascending order
 sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: int(x[0]))
@@ -75,7 +85,6 @@ for problem_number, entry in sorted_problem_entries:
     languages = ', '.join(entry[1])
     markdown_table += f"| {problem_number} | {entry[0]} | {languages} |\n"
 
-# Read the content of the README.md file
 # Read the content of the README.md file
 with open("README.md", "r") as file:
     content = file.readlines()
@@ -98,6 +107,9 @@ with open("README.md", "w") as file:
 with open("README.md", "a") as file:
     file.write(markdown_table)
 
+#serialize and such
+with open(serialized, "wb") as f:
+    pickle.dump(problem_entries, f)
 
 
 
