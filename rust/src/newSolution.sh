@@ -46,6 +46,8 @@ fi
 echo "Add to readme?"
 read response
 cleaned_response=$(clean_response "$response")
-python3 ../../update_readme.py
+cd ..
+cd ..
+python3 update_readme.py
 
 

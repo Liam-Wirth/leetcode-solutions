@@ -25,7 +25,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 
 [![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
 ## List of problems solved
-| Num | Problem Name | Lang | Writeup/Solution? |
+| Problem Number | Problem Name | Language | Writeup/Solution? |
 |--------------|----------------|----------|----------|
 | 1 | Two Sum | Java, Rust | No |
 | 2 | Add Two Numbers | Java | No |
@@ -53,6 +53,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 136 | Single Number | Rust | No |
 | 141 | Linked List Cycle | Python | No |
 | 150 | Evaluate Reverse Polish Notation | Rust | No |
+| 165 | Compare Version Numbers | Rust | No |
 | 169 | Majority Element | Java, Rust | No |
 | 198 | House Robber | Rust | No |
 | 205 | Isomorphic Strings | Rust | No |
