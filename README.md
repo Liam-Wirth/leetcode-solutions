@@ -25,7 +25,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 
 [![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
 ## List of problems solved
-| Problem Number | Problem Name | Language | Writeup/Solution? |
+| Num | Problem Name | Lang | Writeup/Solution? |
 |--------------|----------------|----------|----------|
 | 1 | Two Sum | Java, Rust | No |
 | 2 | Add Two Numbers | Java | No |
