@@ -84,6 +84,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 752 | Open The Lock | Rust | No |
 | 791 | Custom Sort String | Rust | No |
 | 868 | Binary Gap | Java | No |
+| 881 | Boats To Save People | Rust | No |
 | 914 | X Of A Kind In A Deck Of Cards | Java, Rust | No |
 | 926 | Flip String To Monotone Increasing | Rust | No |
 | 938 | Range Sum Of Bst | Rust | No |
