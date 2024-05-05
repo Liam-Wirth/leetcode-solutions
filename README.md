@@ -60,6 +60,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 217 | Contains Duplicate | Rust | No |
 | 231 | Power Of Two | Python | [Yes](assets/writeups/231.md)|
 | 232 | Implement Queue Using Stacks | Rust | No |
+| 237 | Delete Node In Linked List | Python | No |
 | 242 | Valid Anagram | Rust | No |
 | 268 | Missing Number | Rust | No |
 | 287 | Find The Duplicate Number | Rust | No |
