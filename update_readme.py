@@ -27,7 +27,7 @@ for root, dirs, files in os.walk("."):
         writeup=False
         writeup_path=""
         # Check if the file is a solution file
-        if file.endswith((".rs", ".rb", ".java", ".py", ".md")):
+        if file.endswith((".rs", ".rb", ".java", ".py", ".md", ".c", ".cpp")):
             if file == "lib.rs" or file == "main.rs" or file == "update_readme.py":
                 continue
             else:
@@ -71,7 +71,26 @@ for root, dirs, files in os.walk("."):
                     problem_number=file.split('.')[0]
                     writeup=True
                     writeup_path= os.path.join("assets/writeups/",file)
-
+                elif file.endswith(".c"):
+                    # Split filename by dots
+                    parts = file.split('.')
+                    # Extract problem number (first chunk)
+                    problem_number = parts[0]
+                    # Extract problem name (all chunks except the first and last)
+                    problem_name = ' '.join(parts[1:-1])
+                    problem_name = format_problem_name(problem_name)
+                    # Append entry to the dictionary of problem entries
+                    language = "C"
+                elif file.endswith(".cpp"):
+                    # Split filename by dots
+                    parts = file.split('.')
+                    # Extract problem number (first chunk)
+                    problem_number = parts[0]
+                    # Extract problem name (all chunks except the first and last)
+                    problem_name = ' '.join(parts[1:-1])
+                    problem_name = format_problem_name(problem_name)
+                    # Append entry to the dictionary of problem entries
+                    language = "CPP"
                 if problem_number in problem_entries:
                     #this if else statement should help
                     if language in problem_entries[problem_number][1]:

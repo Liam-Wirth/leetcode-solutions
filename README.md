@@ -60,11 +60,12 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 217 | Contains Duplicate | Rust | No |
 | 231 | Power Of Two | Python | [Yes](assets/writeups/231.md)|
 | 232 | Implement Queue Using Stacks | Rust | No |
-| 237 | Delete Node In Linked List | Python | No |
+| 237 | Delete Node In Linked List | C, Python | No |
 | 242 | Valid Anagram | Rust | No |
 | 268 | Missing Number | Rust | No |
 | 287 | Find The Duplicate Number | Rust | No |
 | 290 | Word Pattern | Rust | No |
+| 310 | Minimum Height Trees | CPP | No |
 | 347 | Top K Frequent Elements | Rust | No |
 | 349 | Intersection Of Two Arrays | Rust | No |
 | 367 | Valid Perfect Square | Ruby | No |
@@ -75,6 +76,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 442 | Find All Duplicates In Array | Rust | No |
 | 451 | Sort Characters By Frequency | Rust | No |
 | 513 | Find Bottom Left Tree Value | Rust | No |
+| 514 | Freedom Trail | Python | No |
 | 623 | Add One Row To Tree | Rust | No |
 | 645 | Set Mismatch | Rust | No |
 | 647 | Palindromic Strings | Rust | No |
@@ -94,7 +96,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 974 | Subarray Sums Divisible By K | Rust | No |
 | 981 | Time Based Key Value Store | Java | No |
 | 1026 | Maximum Difference Between Node And Ancestor | Java | No |
-| 1137 | Nth Tribonacci Number | Rust | No |
+| 1137 | Nth Tribonacci Number | C, Rust | No |
 | 1143 | Longest Common Subsequence | Rust | No |
 | 1291 | Sequential Digits | Rust | No |
 | 1363 | Largest Multiple Of Three | Java | No |
@@ -112,13 +114,16 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1750 | Minimum Length Of String After Deleting Similar Ends | Python, Rust | [Yes](assets/writeups/1750.md)|
 | 1768 | Merge Strings Alternately | Rust | No |
 | 1822 | Sign Of The Product Of An Array | Rust | No |
+| 1915 | Number Of Wonderful Substrings | Python | No |
 | 1920 | Build Array From Permutation | Ruby, Rust | No |
+| 1971 | Find If Path Exists In Graph | CPP | No |
+| 1992 | Find All Groups Of Farmland | CPP | No |
 | 2000 | Reverse Prefix Of Word | Rust | No |
 | 2108 | Find First Palindromic String In The Array | Rust | No |
 | 2114 | Maximum Number Of Words Found In Sentences | Ruby | No |
 | 2149 | Rearrange Array Elements By Sign | Rust | [Yes](assets/writeups/2149.md)|
 | 2202 | Maximize The Topmost Element After K Moves | Ruby | No |
-| 2235 | Add Two Integers | Java, Ruby | No |
+| 2235 | Add Two Integers | C, Java, Ruby | No |
 | 2236 | Root Equals Sum Of Children | Rust | No |
 | 2246 | Longest Path With Different Adjacent Characters | Rust | No |
 | 2370 | Longest Ideal Subsequence | Python, Rust | No |
