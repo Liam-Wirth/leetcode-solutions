@@ -148,7 +148,8 @@ fn main() -> ! {
             "6" | "go" => {}
             "7" | "ruby" | "rb" => {
                 println!("I'd be lying if I said I didn't think this was crazy, but Ruby it is");
-                std::env::set_current_dir("./Ruby/")
+                std::env::set_current_dir("./Ruby/").expect("Ruby Subdirectory Not Found");
+                // TODO:
 
 
             }
