@@ -23,6 +23,22 @@ impl TreeNode {
     }
 }
 
+ #[derive(PartialEq, Eq, Clone, Debug)]
+ pub struct ListNode {
+   pub val: i32,
+   pub next: Option<Box<ListNode>>
+ }
+ 
+impl ListNode {
+   #[inline]
+   fn new(val: i32) -> Self {
+     ListNode {
+       next: None,
+       val
+     }
+   }
+ }
+
 
 //big chungus
 
@@ -100,3 +116,5 @@ mod reverse_prefix_of_word_2000;
 mod compare_version_numbers_165;
 mod boats_to_save_people_881;
 mod longest_ideal_subsequence_2370;
+mod double_a_number_represented_as_a_linked_list_2816;
+mod remove_nodes_from_a_linked_list_2487;

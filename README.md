@@ -130,7 +130,9 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2415 | Reverse Odd Levels Of Binary Tree | Java | No |
 | 2441 | Largest Positive Integer That Exists With It'S Negative | Rust | No |
 | 2485 | Find Pivot Integer | Rust | No |
+| 2487 | Remove Nodes From A Linked List | Rust | No |
 | 2540 | Minimum Common Value | Rust | No |
+| 2816 | Double A Number Represented As A Linked List | Python, Rust | No |
 | 2870 | Min Operations To Make Arr Empty | Rust | No |
 | 2966 | Divide Array Into Arrays With Max Difference | Rust | No |
 | 2971 | Find Polygon With The Largest Perimeter | Rust | No |
