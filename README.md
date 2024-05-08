@@ -75,6 +75,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 404 | Sum Of Left Leaves | Rust | No |
 | 442 | Find All Duplicates In Array | Rust | No |
 | 451 | Sort Characters By Frequency | Rust | No |
+| 506 | Relative Ranks | Rust | No |
 | 513 | Find Bottom Left Tree Value | Rust | No |
 | 514 | Freedom Trail | Python | No |
 | 623 | Add One Row To Tree | Rust | No |
