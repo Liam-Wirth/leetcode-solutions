@@ -119,3 +119,4 @@ mod longest_ideal_subsequence_2370;
 mod double_a_number_represented_as_a_linked_list_2816;
 mod remove_nodes_from_a_linked_list_2487;
 mod relative_ranks_506;
+mod maximize_happiness_of_selected_children_3075;

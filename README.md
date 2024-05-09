@@ -139,3 +139,4 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2971 | Find Polygon With The Largest Perimeter | Rust | No |
 | 3005 | Count Elements With Max Frequency | Rust | [Yes](assets/writeups/3005.md)|
 | 3028 | Ant On The Boundary | Rust | No |
+| 3075 | Maximize Happiness Of Selected Children | Rust | No |
