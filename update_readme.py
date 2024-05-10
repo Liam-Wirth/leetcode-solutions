@@ -1,36 +1,95 @@
+from json.encoder import INFINITY
 import os
 import pickle
+import git
+import json
+import datetime
 # Define a function to format problem name
 def format_problem_name(name):
     return name.replace('-', ' ').title()
 
+
+
+use_json = True
+do_extra_git_searches= False
 # Initialize an empty dictionary to store problem entries
-serialized = "./assets/problems.pkl"
-if os.path.exists(serialized):
-    with open(serialized, "rb") as f:
-        problem_entries = pickle.load(f)
+#NOTE: Only run this once, because this is a very costly thing to run otherwise
+scan_todo = False 
+if use_json:
+    serialized = "./assets/problems.json"
+    if os.path.exists(serialized):
+        with open(serialized, "r") as f:
+            problem_entries = json.load(f)
+    else:
+        problem_entries = {}
+        do_extra_git_searches = True
+
 else:
-    problem_entries = {}
+    serialized = "./assets/problems.pkl"
+
+    if os.path.exists(serialized):
+        with open(serialized, "rb") as f:
+            problem_entries = pickle.load(f)
+    else:
+        problem_entries = {}
+        do_extra_git_searches = True
+        
 
 
 problem_name =""
 language=""
+repo = git.Repo(".")
 
-
-
+def commit_date_info(file):
+    print("COMMIT STUFF CALLED!")
+    if file != "README.md" :
+        commits = list(repo.iter_commits(paths=file_path, reverse=True))
+        date = (INFINITY)
+        pretty_date = None
+        prefered_commit = None
+        print(f"Filename {file}, Commits found: {len(commits)}")
+        for commit in commits:
+            tmp = commit.authored_datetime.timestamp()
+            if tmp < date:
+                date = tmp
+                pretty_date = commit.authored_datetime
+                prefered_commit=commit
+        if prefered_commit is not None and pretty_date is not None: 
+            print(f"Filename: {file}  Date: {pretty_date}, Commit Message {prefered_commit.message}")
+            if date < INFINITY:
+                return date
+    else:
+        return None
+def tagswag(tags, probnum):
+        if problem_entries[probnum]['Tags'] != None:
+            if len(tags)>= 1:
+                    for t in tags:
+                        if t not in problem_entries[probnum][tags]:
+                            problem_entries[probnum]['Tags'].append(t)
+                    else:
+                        tags=None
 # Iterate over the directories
 for root, dirs, files in os.walk("."):
     for file in files:
         problem_number=0
+        file_path = os.path.join(root, file)
         problem_name =""
         language=""
         writeup=False
         writeup_path=""
+        date = None
+        repo = git.Repo(".")
+        tags = []
         # Check if the file is a solution file
         if file.endswith((".rs", ".rb", ".java", ".py", ".md", ".c", ".cpp")):
             if file == "lib.rs" or file == "main.rs" or file == "update_readme.py":
                 continue
             else:
+                if scan_todo:
+                    with open(file_path, "r") as f:
+                        content = f.read()
+                        if "TODO:" in content:
+                            tags.append("Revisit")
                 if file.endswith(".rs"):
                     # Split filename by underscores
                     parts = file.split('_')
@@ -91,31 +150,49 @@ for root, dirs, files in os.walk("."):
                     problem_name = format_problem_name(problem_name)
                     # Append entry to the dictionary of problem entries
                     language = "CPP"
+                # If the problem number is already in the dictionary
                 if problem_number in problem_entries:
-                    #this if else statement should help
-                    if language in problem_entries[problem_number][1]:
-                        problem_entries[problem_number][0] = problem_name #shouldn't have to do this, but maybe it's why I'm having problems
-                        continue
-                    else:
-                        print(f"Found new language {language}, for {problem_number}")
-                        # Update existing entry with the language
-                        problem_entries[problem_number][1].append(language)
-                        #if problem entry is added, but does not currently have a writeup linked? add it
-                        if writeup:
-                            problem_entries[problem_number][2] = True
-                            problem_entries[problem_number][3] = writeup_path
-                elif problem_number != 0:
-                    # Create new entry with problem name and language
-                    # TODO: Probably would be more ideal to just have this (writeup stuff) be a conditional entry in the table that 
-                    # exists only if its needed, instead of adding unneccessary extra keys 
+
+                    if do_extra_git_searches:
+                        # If the language is not already in the languages list, add it
+                        if language not in problem_entries[problem_number]['languages'] and language != "":
+                            problem_entries[problem_number]['languages'].append(language)
+                            if problem_entries[problem_number]['date'] is not None:    
+                                tmp = commit_date_info(file)
+                                if tmp != None:
+                                    if tmp < problem_entries[problem_number]['date']:
+                                            problem_entries[problem_number]['date'] = tmp
+                    # If it's a writeup, update writeup flag and path
                     if writeup:
-                        problem_entries[problem_number] = [problem_name, [language], True, writeup_path]
-                    else: 
-                        print("No writeup! appending false, and an empty value")
-                        problem_entries[problem_number] = [problem_name, [language], False, ""]
-                    
-                    languages = ', '.join(problem_entries[problem_number][1])
-                    print(f"{problem_number} {problem_entries[problem_number][0]} | {languages}")
+                        if scan_todo:
+                            tagswag(tags, problem_number)
+                        else:
+                            tags = None
+                        problem_entries[problem_number]['writeup'] = True
+                        problem_entries[problem_number]['writeup_path'] = writeup_path
+                    # Update problem name if it's not already set or if its value is an empty string
+                    if not problem_entries[problem_number]['name'] or problem_entries[problem_number]['name'] == "":
+                        problem_entries[problem_number]['name'] = problem_name
+                # If the problem number is not in the dictionary
+                elif problem_number != 0:
+                    tagswag(tags, problem_number)
+                    # Create a new entry
+                    if writeup:
+                        # If it's a writeup, initialize languages as an empty list
+                        #problem_entries[problem_number] = [problem_name, [], True, writeup_path]
+                        
+                        if len(tags) <= 0:
+                            tags=None
+                        problem_entries[problem_number] = {'name': problem_name, 'languages': [language],'date':INFINITY,'writeup': True, 'writeup_path': writeup_path, 'Tags': tags}
+
+                    else:
+                        # If it's not a writeup, initialize languages with the current language
+                        #problem_entries[problem_number] = [problem_name, [language], False] 
+                        #Also, initialize with the first found date, further added entries will only update this value if the found date is less than the date that is currently within the table
+                        if len(tags) <= 0:
+                            tags=None
+                        date=commit_date_info(file)
+                        problem_entries[problem_number] = {'name': problem_name, 'languages': [language], 'date':date, 'writeup': False, 'Tags': tags}
                 else:
                     continue
 
@@ -123,17 +200,25 @@ for root, dirs, files in os.walk("."):
 sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: int(x[0]))
 
 # Generate the Markdown table string
-markdown_table = "| Problem Number | Problem Name | Language | Writeup/Solution? |\n|--------------|----------------|----------|----------|\n"
+markdown_table = "| Problem Number | Problem Name | Language | Estimated Solved Date| Writeup/Solution? |\n|--------------|----------------|---------|----------|----------|\n"
 for problem_number, entry in sorted_problem_entries:
-    if entry[1]:
-        languages = ', '.join(filter(None, entry[1]))
+    datestring="Unknown (Based on Git Log)"
+    if entry['date']:
+        jan15 = datetime.datetime.combine(datetime.date(2023, 1, 15), datetime.time()).timestamp()
+        jan16 = datetime.datetime.combine(datetime.date(2023, 1, 16), datetime.time()).timestamp()
+        if (entry['date'] > jan15 and entry['date'] < jan16) or entry['date']==1673906820:
+            datestring="Unknown (Based on Git Log)"
+        else:
+            datestring = datetime.datetime.fromtimestamp(entry['date']).strftime("%B %d, %Y")
+
+    if entry['languages']:
+        languages = ', '.join(filter(None, entry['languages']))
     else:
         languages = ""
-    if entry[2]:
-        print(entry[3])
-        markdown_table += f"| {problem_number} | {entry[0]} | {languages} | [Yes]({entry[3]})|\n"
+    if entry['writeup']:
+        markdown_table += f"| {problem_number} | {entry['name']} | {languages} | {datestring} | [Yes]({entry['writeup_path']})|\n"
     else:
-        markdown_table += f"| {problem_number} | {entry[0]} | {languages} | No |\n"
+        markdown_table += f"| {problem_number} | {entry['name']} | {languages} | {datestring} | No |\n"
 
 # Read the content of the README.md file
 with open("README.md", "r") as file:
@@ -160,6 +245,10 @@ if start_index != 0 :
         file.write(markdown_table)
 
 #serialize and such
+if use_json:
+    with open(serialized, "w") as f:
+        json.dump(problem_entries, f)
+else:
     with open(serialized, "wb") as f:
         pickle.dump(problem_entries, f)
 
