@@ -41,7 +41,6 @@ language=""
 repo = git.Repo(".")
 
 def commit_date_info(file):
-    print("COMMIT STUFF CALLED!")
     if file != "README.md" :
         commits = list(repo.iter_commits(paths=file_path, reverse=True))
         date = (INFINITY)
@@ -58,9 +57,12 @@ def commit_date_info(file):
             print(f"Filename: {file}  Date: {pretty_date}, Commit Message {prefered_commit.message}")
             if date < INFINITY:
                 return date
+        else:
+            return(datetime.datetime.now().timestamp())
     else:
         return None
 def tagswag(tags, probnum):
+    # NOTE: Only call this function AFTER the key is in the dictionary
         if problem_entries[probnum]['Tags'] != None:
             if len(tags)>= 1:
                     for t in tags:
@@ -175,7 +177,6 @@ for root, dirs, files in os.walk("."):
                         problem_entries[problem_number]['name'] = problem_name
                 # If the problem number is not in the dictionary
                 elif problem_number != 0:
-                    tagswag(tags, problem_number)
                     # Create a new entry
                     if writeup:
                         # If it's a writeup, initialize languages as an empty list
@@ -193,6 +194,8 @@ for root, dirs, files in os.walk("."):
                             tags=None
                         date=commit_date_info(file)
                         problem_entries[problem_number] = {'name': problem_name, 'languages': [language], 'date':date, 'writeup': False, 'Tags': tags}
+
+                    tagswag(tags, problem_number)
                 else:
                     continue
 
@@ -206,7 +209,7 @@ for problem_number, entry in sorted_problem_entries:
     if entry['date']:
         jan15 = datetime.datetime.combine(datetime.date(2023, 1, 15), datetime.time()).timestamp()
         jan16 = datetime.datetime.combine(datetime.date(2023, 1, 16), datetime.time()).timestamp()
-        if (entry['date'] > jan15 and entry['date'] < jan16) or entry['date']==1673906820:
+        if entry['date']==1673906820:
             datestring="Unknown (Based on Git Log)"
         else:
             datestring = datetime.datetime.fromtimestamp(entry['date']).strftime("%B %d, %Y")

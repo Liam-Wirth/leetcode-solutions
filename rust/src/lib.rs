@@ -120,3 +120,4 @@ mod remove_nodes_from_a_linked_list_2487;
 mod relative_ranks_506;
 mod maximize_happiness_of_selected_children_3075;
 mod kth_smallest_prime_fraction_786;
+mod largest_local_values_in_a_matrix_2373;

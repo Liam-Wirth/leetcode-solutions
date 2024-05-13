@@ -63,7 +63,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 237 | Delete Node In Linked List | C, Python | May 05, 2024 | No |
 | 242 | Valid Anagram | Rust | February 10, 2024 | No |
 | 268 | Missing Number | Rust | February 19, 2024 | No |
-| 271 | Encode And Decode Strings | Python | Unknown (Based on Git Log) | No |
+| 271 | Encode And Decode Strings | Python | May 09, 2024 | No |
 | 287 | Find The Duplicate Number | Rust | March 23, 2024 | No |
 | 290 | Word Pattern | Rust | January 08, 2024 | No |
 | 310 | Minimum Height Trees | CPP | May 05, 2024 | No |
@@ -87,6 +87,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 722 | Remove Comments | Java | Unknown (Based on Git Log) | No |
 | 724 | Find Pivot Index | Rust | January 08, 2024 | No |
 | 752 | Open The Lock | Rust | April 22, 2024 | No |
+| 786 | Kth Smallest Prime Fraction | Rust | May 09, 2024 | No |
 | 791 | Custom Sort String | Rust | April 13, 2024 | No |
 | 868 | Binary Gap | Java | Unknown (Based on Git Log) | No |
 | 881 | Boats To Save People | Rust | May 04, 2024 | No |
@@ -129,6 +130,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2236 | Root Equals Sum Of Children | Rust | January 08, 2024 | No |
 | 2246 | Longest Path With Different Adjacent Characters | Rust | January 08, 2024 | No |
 | 2370 | Longest Ideal Subsequence | Python, Rust | April 25, 2024 | No |
+| 2373 | Largest Local Values In A Matrix | Python, Rust | May 12, 2024 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | Java | Unknown (Based on Git Log) | No |
 | 2441 | Largest Positive Integer That Exists With It'S Negative | Rust | May 02, 2024 | No |
 | 2485 | Find Pivot Integer | Rust | March 14, 2024 | No |
