@@ -11,12 +11,21 @@ impl Solution {
         }
 
         // Flip columns where the count of 0s is greater than the count of 1s
+        // Skipping first column as we already checked it above
         let cols = grid[0].len();
         for col in 1..cols {
-            let num_zeros = grid.iter().filter(|row| row[col] == 0).count();
-            if num_zeros > grid.len() / 2 {
-                for row in &mut grid {
-                    row[col] = 1 - row[col];
+            let mut num_zeros = 0;
+            for row in &grid {
+                if row[col] == 0 {
+                    num_zeros += 1
+                }
+                //if number of zeros is larger than half of the cols height
+                // then the amount of 0s will be larger than the amount of 1s
+                if num_zeros > grid.len() / 2 {
+                    for row in &mut grid {
+                        row[col] = 1 - row[col];
+                    }
+                    break;
                 }
             }
         }
