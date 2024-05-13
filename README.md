@@ -89,6 +89,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 752 | Open The Lock | Rust | April 22, 2024 | No |
 | 786 | Kth Smallest Prime Fraction | Rust | May 09, 2024 | No |
 | 791 | Custom Sort String | Rust | April 13, 2024 | No |
+| 861 | Score After Flipping Matrix | Rust | May 12, 2024 | No |
 | 868 | Binary Gap | Java | Unknown (Based on Git Log) | No |
 | 881 | Boats To Save People | Rust | May 04, 2024 | No |
 | 914 | X Of A Kind In A Deck Of Cards | Java, Rust | Unknown (Based on Git Log) | No |
