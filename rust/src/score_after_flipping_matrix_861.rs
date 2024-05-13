@@ -22,11 +22,11 @@ impl Solution {
         }
 
         // Calculate the decimal value of each row and accumulate
-        let score: i32 = grid.iter().map(|row| {
-            row.iter().fold(0, |acc, &bit| acc * 2 + bit)
-        }).sum();
+        let score: i32 = grid
+            .iter()
+            .map(|row| row.iter().fold(0, |acc, &bit| acc * 2 + bit))
+            .sum();
 
         score
     }
 }
-
