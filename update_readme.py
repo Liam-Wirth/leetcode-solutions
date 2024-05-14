@@ -33,8 +33,6 @@ else:
     else:
         problem_entries = {}
         do_extra_git_searches = True
-        
-
 
 problem_name =""
 language=""
@@ -66,10 +64,13 @@ def tagswag(tags, probnum):
         if problem_entries[probnum]['Tags'] != None:
             if len(tags)>= 1:
                     for t in tags:
-                        if t not in problem_entries[probnum][tags]:
+                        print(f"Tag found! {t}")
+                        if t not in problem_entries[probnum]['Tags']:
                             problem_entries[probnum]['Tags'].append(t)
+                        
                     else:
-                        tags=None
+                        return None 
+
 # Iterate over the directories
 for root, dirs, files in os.walk("."):
     for file in files:
@@ -190,12 +191,16 @@ for root, dirs, files in os.walk("."):
                         # If it's not a writeup, initialize languages with the current language
                         #problem_entries[problem_number] = [problem_name, [language], False] 
                         #Also, initialize with the first found date, further added entries will only update this value if the found date is less than the date that is currently within the table
-                        if len(tags) <= 0:
-                            tags=None
+                        
+                        with open(file_path, "r") as f:
+                            content = f.read()
+                            if "TODO:" in content:
+                                tags.append("Revisit")
+                        if len(tags) <= 0 or tags == None:
+                            tags = None
                         date=commit_date_info(file)
                         problem_entries[problem_number] = {'name': problem_name, 'languages': [language], 'date':date, 'writeup': False, 'Tags': tags}
-
-                    tagswag(tags, problem_number)
+                        tagswag(tags, problem_number)
                 else:
                     continue
 

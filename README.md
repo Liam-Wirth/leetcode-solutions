@@ -102,6 +102,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1026 | Maximum Difference Between Node And Ancestor | Java | Unknown (Based on Git Log) | No |
 | 1137 | Nth Tribonacci Number | C, Rust | January 08, 2024 | No |
 | 1143 | Longest Common Subsequence | Rust | January 25, 2024 | No |
+| 1219 | Path With Maximum Gold | Rust | May 13, 2024 | No |
 | 1291 | Sequential Digits | Rust | February 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | Java | Unknown (Based on Git Log) | No |
 | 1470 | Shuffle The Array | Ruby | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
@@ -133,7 +134,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2370 | Longest Ideal Subsequence | Python, Rust | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | Python, Rust | May 12, 2024 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | Java | Unknown (Based on Git Log) | No |
-| 2441 | Largest Positive Integer That Exists With It'S Negative | Rust | May 02, 2024 | No |
+| 2441 | Largest Postive Integer That Exists With Its Negative | Rust | May 12, 2024 | No |
 | 2485 | Find Pivot Integer | Rust | March 14, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | Rust | May 06, 2024 | No |
 | 2540 | Minimum Common Value | Rust | March 08, 2024 | No |

@@ -117,3 +117,4 @@ mod valid_parenthesis_string_678;
 mod word_pattern_290;
 mod word_search_79;
 mod x_of_a_kind_in_a_deck_of_cards_914;
+mod path_with_maximum_gold_1219;
