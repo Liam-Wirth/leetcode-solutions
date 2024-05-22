@@ -46,6 +46,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 58 | Length Of Last Word | Rust | March 31, 2024 | No |
 | 67 | Add Binary | Rust | January 29, 2024 | No |
 | 69 | Sqrt X | Ruby | Unknown (Based on Git Log) | No |
+| 78 | Subsets | Rust | May 22, 2024 | No |
 | 79 | Word Search | Rust | April 04, 2024 | No |
 | 85 | Maximal Rectangle | Rust | April 13, 2024 | No |
 | 125 | Valid Palindrome | Rust | January 08, 2024 | No |
