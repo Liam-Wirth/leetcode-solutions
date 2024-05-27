@@ -112,6 +112,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1519 | Nodes In Subtree With Same Label | Rust | January 08, 2024 | No |
 | 1544 | Make The String Great | Rust | April 04, 2024 | No |
 | 1603 | Design Parking System | Rust | January 08, 2024 | No |
+| 1608 | Special Array With X Elements Greather Than Or Equal X | Python | May 27, 2024 | No |
 | 1609 | Even Odd Tree | Python, Rust | February 29, 2024 | No |
 | 1614 | Maximum Nesting Depth Of Parenthesis | Rust | April 04, 2024 | No |
 | 1672 | Richest Customer Wealth | Rust | January 08, 2024 | No |
