@@ -68,6 +68,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 287 | Find The Duplicate Number | Rust | March 23, 2024 | No |
 | 290 | Word Pattern | Rust | January 08, 2024 | No |
 | 310 | Minimum Height Trees | CPP | May 05, 2024 | No |
+| 344 | Reverse String | Rust | June 01, 2024 | No |
 | 347 | Top K Frequent Elements | Rust | March 19, 2024 | No |
 | 349 | Intersection Of Two Arrays | Rust | March 09, 2024 | No |
 | 367 | Valid Perfect Square | Ruby | Unknown (Based on Git Log) | No |
@@ -149,3 +150,4 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 3005 | Count Elements With Max Frequency | Rust | March 07, 2024 | [Yes](assets/writeups/3005.md)|
 | 3028 | Ant On The Boundary | Rust | February 06, 2024 | No |
 | 3075 | Maximize Happiness Of Selected Children | Rust | May 09, 2024 | No |
+| 3110 | Score Of A String | Rust | June 01, 2024 | No |
