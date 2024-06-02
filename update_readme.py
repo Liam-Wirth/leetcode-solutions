@@ -8,6 +8,8 @@ import datetime
 def format_problem_name(name):
     return name.replace('-', ' ').title()
 
+# TODO: Add functionality to this script so that it will replace just the name of the problem with a
+# Markdown fancy link []() (<- like that) in the table, would look nicer I think
 
 
 use_json = True
