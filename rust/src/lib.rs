@@ -123,3 +123,4 @@ mod evaluate_boolean_binary_tree_2331;
 mod subsets_78;
 mod testing_2;;
 mod reverse_string_344;
+mod score_of_a_string_3110;
