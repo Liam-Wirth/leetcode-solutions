@@ -123,6 +123,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | Python, Rust | March 05, 2024 | [Yes](assets/writeups/1750.md)|
 | 1768 | Merge Strings Alternately | Rust | April 01, 2024 | No |
 | 1822 | Sign Of The Product Of An Array | Rust | January 08, 2024 | No |
+| 1827 | Minimum Operations To Make The Array Increasing | Rust | June 14, 2024 | No |
 | 1915 | Number Of Wonderful Substrings | Python | May 05, 2024 | No |
 | 1920 | Build Array From Permutation | Ruby, Rust | Unknown (Based on Git Log) | No |
 | 1971 | Find If Path Exists In Graph | CPP | May 05, 2024 | No |
@@ -141,6 +142,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2415 | Reverse Odd Levels Of Binary Tree | Java | Unknown (Based on Git Log) | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | Rust | May 12, 2024 | No |
 | 2485 | Find Pivot Integer | Rust | March 14, 2024 | No |
+| 2486 | Append Characters To String To Make Subsequence | Python | June 03, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | Rust | May 06, 2024 | No |
 | 2540 | Minimum Common Value | Rust | March 08, 2024 | No |
 | 2812 | Find The Safest Path In Grid | Rust | May 16, 2024 | No |
