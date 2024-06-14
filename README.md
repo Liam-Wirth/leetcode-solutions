@@ -98,6 +98,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 914 | X Of A Kind In A Deck Of Cards | Java, Rust | Unknown (Based on Git Log) | No |
 | 926 | Flip String To Monotone Increasing | Rust | January 08, 2024 | No |
 | 938 | Range Sum Of Bst | Rust | January 22, 2024 | No |
+| 945 | Minimum Increment To Make Array Unique | Rust | June 14, 2024 | No |
 | 961 | N Repeated Element In Size 2 N Array | Java | Unknown (Based on Git Log) | No |
 | 963 | Minimum Area Rectangle Ii | Java | Unknown (Based on Git Log) | No |
 | 974 | Subarray Sums Divisible By K | Rust | January 08, 2024 | No |
