@@ -112,6 +112,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1470 | Shuffle The Array | Ruby | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
 | 1480 | Running Sum Of 1 D Array | Java, Ruby, Rust | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | Rust | February 15, 2024 | No |
+| 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | Rust | July 02, 2024 | No |
 | 1519 | Nodes In Subtree With Same Label | Rust | January 08, 2024 | No |
 | 1544 | Make The String Great | Rust | April 04, 2024 | No |
 | 1603 | Design Parking System | Rust | January 08, 2024 | No |
