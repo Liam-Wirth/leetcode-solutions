@@ -148,6 +148,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2486 | Append Characters To String To Make Subsequence | Python | June 03, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | Rust | May 06, 2024 | No |
 | 2540 | Minimum Common Value | Rust | March 08, 2024 | No |
+| 2582 | Pass The Pillow | Python | July 06, 2024 | No |
 | 2812 | Find The Safest Path In Grid | Rust | May 16, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | Python, Rust | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | Rust | January 08, 2024 | No |
