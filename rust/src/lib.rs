@@ -128,3 +128,4 @@ mod sort_code_75;
 mod minimum_operations_to_make_the_array_increasing_1827;
 mod minimum_increment_to_make_array_unique_945;
 mod minimum_difference_between_largest_and_smallest_value_in_three_moves_1509;
+mod pass_the_pillow_2582;
