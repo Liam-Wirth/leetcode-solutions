@@ -131,6 +131,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1971 | Find If Path Exists In Graph | CPP | May 05, 2024 | No |
 | 1992 | Find All Groups Of Farmland | CPP | May 05, 2024 | No |
 | 2000 | Reverse Prefix Of Word | Rust | May 02, 2024 | No |
+| 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | Python | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | Rust | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | Ruby | Unknown (Based on Git Log) | No |
 | 2149 | Rearrange Array Elements By Sign | Rust | February 13, 2024 | [Yes](assets/writeups/2149.md)|
