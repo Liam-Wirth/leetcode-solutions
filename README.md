@@ -113,7 +113,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1480 | Running Sum Of 1 D Array | Java, Ruby, Rust | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | Rust | February 15, 2024 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | Rust | July 02, 2024 | No |
-| 1518 | Water Bottles | Python | July 06, 2024 | No |
+| 1518 | Water Bottles | Python, Rust | July 06, 2024 | No |
 | 1519 | Nodes In Subtree With Same Label | Rust | January 08, 2024 | No |
 | 1544 | Make The String Great | Rust | April 04, 2024 | No |
 | 1603 | Design Parking System | Rust | January 08, 2024 | No |
@@ -136,12 +136,12 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2108 | Find First Palindromic String In The Array | Rust | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | Ruby | Unknown (Based on Git Log) | No |
 | 2149 | Rearrange Array Elements By Sign | Rust | February 13, 2024 | [Yes](assets/writeups/2149.md)|
-| 2181 | Merge Nodes In Between Zeros | Python | July 07, 2024 | No |
+| 2181 | Merge Nodes In Between Zeros | Python, Rust | July 07, 2024 | No |
 | 2202 | Maximize The Topmost Element After K Moves | Ruby | Unknown (Based on Git Log) | No |
 | 2235 | Add Two Integers | C, Java, Ruby | Unknown (Based on Git Log) | No |
 | 2236 | Root Equals Sum Of Children | Rust | January 08, 2024 | No |
 | 2246 | Longest Path With Different Adjacent Characters | Rust | January 08, 2024 | No |
-| 2331 | Evaluate Boolean Binary Tree | Rust | May 16, 2024 | No |
+| 2331 | Evaluate Boolean Binary Tree | Rust | May 18, 2024 | No |
 | 2370 | Longest Ideal Subsequence | Python, Rust | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | Python, Rust | May 12, 2024 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | Java | Unknown (Based on Git Log) | No |
@@ -150,8 +150,8 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2486 | Append Characters To String To Make Subsequence | Python | June 03, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | Rust | May 06, 2024 | No |
 | 2540 | Minimum Common Value | Rust | March 08, 2024 | No |
-| 2582 | Pass The Pillow | Python | July 06, 2024 | No |
-| 2812 | Find The Safest Path In Grid | Rust | May 16, 2024 | No |
+| 2582 | Pass The Pillow | Python, Rust | July 06, 2024 | No |
+| 2812 | Find The Safest Path In Grid | Rust | May 18, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | Python, Rust | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | Rust | January 08, 2024 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | Rust | January 31, 2024 | No |
