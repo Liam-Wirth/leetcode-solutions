@@ -130,3 +130,4 @@ mod minimum_increment_to_make_array_unique_945;
 mod minimum_difference_between_largest_and_smallest_value_in_three_moves_1509;
 mod pass_the_pillow_2582;
 mod water_bottles_1518;
+mod merge_nodes_in_between_zeros_2181;
