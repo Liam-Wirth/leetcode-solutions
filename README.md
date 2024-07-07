@@ -113,6 +113,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1480 | Running Sum Of 1 D Array | Java, Ruby, Rust | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | Rust | February 15, 2024 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | Rust | July 02, 2024 | No |
+| 1518 | Water Bottles | Python | July 06, 2024 | No |
 | 1519 | Nodes In Subtree With Same Label | Rust | January 08, 2024 | No |
 | 1544 | Make The String Great | Rust | April 04, 2024 | No |
 | 1603 | Design Parking System | Rust | January 08, 2024 | No |
@@ -135,6 +136,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2108 | Find First Palindromic String In The Array | Rust | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | Ruby | Unknown (Based on Git Log) | No |
 | 2149 | Rearrange Array Elements By Sign | Rust | February 13, 2024 | [Yes](assets/writeups/2149.md)|
+| 2181 | Merge Nodes In Between Zeros | Python | July 07, 2024 | No |
 | 2202 | Maximize The Topmost Element After K Moves | Ruby | Unknown (Based on Git Log) | No |
 | 2235 | Add Two Integers | C, Java, Ruby | Unknown (Based on Git Log) | No |
 | 2236 | Root Equals Sum Of Children | Rust | January 08, 2024 | No |
