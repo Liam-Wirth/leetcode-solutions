@@ -1,3 +1,7 @@
+# FIX: There's a bug where the list won't update if it's already in the json? like if it finds two new 
+# files at the same time, (IE one solution in rust, another for the same prob in python),
+# it will only append the one that gets checked in the logic conditions first, 
+#(Python in the example I gave) the only workaround/fix rn is to wipe the problems.json file
 from json.encoder import INFINITY
 import os
 import pickle
