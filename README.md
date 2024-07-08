@@ -28,137 +28,137 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 ### Problems Marked "Revisit": 13
 | Problem Number | Problem Name | Language | Estimated Solved Date| Writeup/Solution? |
 |--------------|----------------|---------|----------|----------|
-| 1 | Two Sum | Java, Rust | Unknown (Based on Git Log) | No |
-| 2 | Add Two Numbers | Java | Unknown (Based on Git Log) | No |
-| 4 | Median Of Two Sorted Arrays | Java | Unknown (Based on Git Log) | No |
-| 9 | Palindrome Number | Java, Ruby, Rust | Unknown (Based on Git Log) | No |
-| 12 | Integer To Roman | Rust | January 08, 2024 | [Yes](assets/writeups/12.md)|
-| 13 | Roman To Integer | Ruby, Rust | Unknown (Based on Git Log) | No |
-| 14 | Longest Common Prefix | Ruby | Unknown (Based on Git Log) | No |
-| 17 | Letter Combinations Of A Phone Number | Java | Unknown (Based on Git Log) | No |
-| 20 | Valid Parentheses | Java | Unknown (Based on Git Log) | No |
-| 26 | Remove Duplicates From Sorted Array | Java, Rust | Unknown (Based on Git Log) | No |
-| 28 | Find Index Of First Occurence In String | Rust | April 04, 2024 | No |
-| 41 | First Missing Positive | Rust | March 25, 2024 | No |
-| 46 | Permutations | Java | Unknown (Based on Git Log) | No |
-| 48 | Rotate Image | Java, Ruby | Unknown (Based on Git Log) | No |
-| 49 | Group Anagrams | Python, Rust | February 06, 2024 | No |
-| 57 | Insert Interval | Rust | January 08, 2024 | No |
-| 58 | Length Of Last Word | Rust | March 31, 2024 | No |
-| 67 | Add Binary | Rust | January 29, 2024 | No |
-| 69 | Sqrt X | Ruby | Unknown (Based on Git Log) | No |
-| 75 | Sort Code | Rust | June 12, 2024 | No |
-| 78 | Subsets | Rust | May 22, 2024 | No |
-| 79 | Word Search | Rust | April 04, 2024 | No |
-| 85 | Maximal Rectangle | Rust | April 13, 2024 | No |
-| 125 | Valid Palindrome | Rust | January 08, 2024 | No |
-| 129 | Sum Root To Leaf Numbers | Rust | April 14, 2024 | No |
-| 136 | Single Number | Rust | February 11, 2024 | No |
-| 141 | Linked List Cycle | Python | March 06, 2024 | No |
-| 150 | Evaluate Reverse Polish Notation | Rust | January 29, 2024 | No |
-| 165 | Compare Version Numbers | Rust | May 03, 2024 | No |
-| 169 | Majority Element | Java, Rust | Unknown (Based on Git Log) | No |
-| 198 | House Robber | Rust | January 22, 2024 | No |
-| 205 | Isomorphic Strings | Rust | April 01, 2024 | No |
-| 217 | Contains Duplicate | Rust | February 10, 2024 | No |
-| 231 | Power Of Two | Python | February 18, 2024 | [Yes](assets/writeups/231.md)|
-| 232 | Implement Queue Using Stacks | Rust | January 29, 2024 | No |
-| 237 | Delete Node In Linked List | C, Python | May 05, 2024 | No |
-| 242 | Valid Anagram | Rust | February 10, 2024 | No |
-| 268 | Missing Number | Rust | February 19, 2024 | No |
-| 271 | Encode And Decode Strings | Python | May 09, 2024 | No |
-| 287 | Find The Duplicate Number | Rust | March 23, 2024 | No |
-| 290 | Word Pattern | Rust | January 08, 2024 | No |
-| 310 | Minimum Height Trees | CPP | May 05, 2024 | No |
-| 344 | Reverse String | Rust | June 01, 2024 | No |
-| 347 | Top K Frequent Elements | Rust | March 19, 2024 | No |
-| 349 | Intersection Of Two Arrays | Rust | March 09, 2024 | No |
-| 367 | Valid Perfect Square | Ruby | Unknown (Based on Git Log) | No |
-| 380 | Insert Delete Get Random | Rust | January 17, 2024 | No |
-| 387 | First Unique Character In A String | Rust | February 04, 2024 | No |
-| 389 | Find The Difference | Rust | April 04, 2024 | No |
-| 404 | Sum Of Left Leaves | Rust | April 13, 2024 | No |
-| 442 | Find All Duplicates In Array | Rust | March 24, 2024 | No |
-| 451 | Sort Characters By Frequency | Rust | February 07, 2024 | No |
-| 506 | Relative Ranks | Rust | May 07, 2024 | No |
-| 513 | Find Bottom Left Tree Value | Rust | February 28, 2024 | No |
-| 514 | Freedom Trail | Python | May 05, 2024 | No |
-| 623 | Add One Row To Tree | Rust | April 16, 2024 | No |
-| 645 | Set Mismatch | Rust | January 21, 2024 | No |
-| 647 | Palindromic Strings | Rust | February 10, 2024 | No |
-| 678 | Valid Parenthesis String | Rust | April 07, 2024 | No |
-| 680 | Valid Palindrome Ii | Java | Unknown (Based on Git Log) | No |
-| 722 | Remove Comments | Java | Unknown (Based on Git Log) | No |
-| 724 | Find Pivot Index | Rust | January 08, 2024 | No |
-| 752 | Open The Lock | Rust | April 22, 2024 | No |
-| 786 | Kth Smallest Prime Fraction | Rust | May 09, 2024 | No |
-| 791 | Custom Sort String | Rust | April 13, 2024 | No |
-| 861 | Score After Flipping Matrix | Rust | May 12, 2024 | No |
-| 868 | Binary Gap | Java | Unknown (Based on Git Log) | No |
-| 881 | Boats To Save People | Rust | May 04, 2024 | No |
-| 914 | X Of A Kind In A Deck Of Cards | Java, Rust | Unknown (Based on Git Log) | No |
-| 926 | Flip String To Monotone Increasing | Rust | January 08, 2024 | No |
-| 938 | Range Sum Of Bst | Rust | January 22, 2024 | No |
-| 945 | Minimum Increment To Make Array Unique | Rust | June 14, 2024 | No |
-| 961 | N Repeated Element In Size 2 N Array | Java | Unknown (Based on Git Log) | No |
-| 963 | Minimum Area Rectangle Ii | Java | Unknown (Based on Git Log) | No |
-| 974 | Subarray Sums Divisible By K | Rust | January 08, 2024 | No |
-| 981 | Time Based Key Value Store | Java | Unknown (Based on Git Log) | No |
-| 1026 | Maximum Difference Between Node And Ancestor | Java | Unknown (Based on Git Log) | No |
-| 1137 | Nth Tribonacci Number | C, Rust | January 08, 2024 | No |
-| 1143 | Longest Common Subsequence | Rust | January 25, 2024 | No |
-| 1219 | Path With Maximum Gold | Rust | May 13, 2024 | No |
-| 1291 | Sequential Digits | Rust | February 01, 2024 | No |
-| 1363 | Largest Multiple Of Three | Java | Unknown (Based on Git Log) | No |
-| 1470 | Shuffle The Array | Ruby | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
-| 1480 | Running Sum Of 1 D Array | Java, Ruby, Rust | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
-| 1481 | Least Number Of Unique Integers After K Removals | Rust | February 15, 2024 | No |
-| 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | Rust | July 02, 2024 | No |
-| 1518 | Water Bottles | Python, Rust | July 06, 2024 | No |
-| 1519 | Nodes In Subtree With Same Label | Rust | January 08, 2024 | No |
-| 1544 | Make The String Great | Rust | April 04, 2024 | No |
-| 1603 | Design Parking System | Rust | January 08, 2024 | No |
-| 1608 | Special Array With X Elements Greather Than Or Equal X | Python | May 27, 2024 | No |
-| 1609 | Even Odd Tree | Python, Rust | February 29, 2024 | No |
-| 1614 | Maximum Nesting Depth Of Parenthesis | Rust | April 04, 2024 | No |
-| 1672 | Richest Customer Wealth | Rust | January 08, 2024 | No |
-| 1700 | Number Of Students Unable To Eat Lunch | Rust | April 08, 2024 | No |
-| 1721 | Swapping Nodes In A Linked List | Java | April 14, 2024 | No |
-| 1750 | Minimum Length Of String After Deleting Similiar Ends | Python, Rust | March 05, 2024 | [Yes](assets/writeups/1750.md)|
-| 1768 | Merge Strings Alternately | Rust | April 01, 2024 | No |
-| 1822 | Sign Of The Product Of An Array | Rust | January 08, 2024 | No |
-| 1823 | Find The Winner Of The Circular Game | Python, Rust | July 08, 2024 | No |
-| 1827 | Minimum Operations To Make The Array Increasing | Rust | June 14, 2024 | No |
-| 1915 | Number Of Wonderful Substrings | Python | May 05, 2024 | No |
-| 1920 | Build Array From Permutation | Ruby, Rust | Unknown (Based on Git Log) | No |
-| 1971 | Find If Path Exists In Graph | CPP | May 05, 2024 | No |
-| 1992 | Find All Groups Of Farmland | CPP | May 05, 2024 | No |
-| 2000 | Reverse Prefix Of Word | Rust | May 02, 2024 | No |
-| 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | Python | July 05, 2024 | No |
-| 2108 | Find First Palindromic String In The Array | Rust | February 12, 2024 | No |
-| 2114 | Maximum Number Of Words Found In Sentences | Ruby | Unknown (Based on Git Log) | No |
-| 2149 | Rearrange Array Elements By Sign | Rust | February 13, 2024 | [Yes](assets/writeups/2149.md)|
-| 2181 | Merge Nodes In Between Zeros | Python, Rust | July 07, 2024 | No |
-| 2202 | Maximize The Topmost Element After K Moves | Ruby | Unknown (Based on Git Log) | No |
-| 2235 | Add Two Integers | C, Java, Ruby | Unknown (Based on Git Log) | No |
-| 2236 | Root Equals Sum Of Children | Rust | January 08, 2024 | No |
-| 2246 | Longest Path With Different Adjacent Characters | Rust | January 08, 2024 | No |
-| 2331 | Evaluate Boolean Binary Tree | Rust | May 18, 2024 | No |
-| 2370 | Longest Ideal Subsequence | Python, Rust | April 25, 2024 | No |
-| 2373 | Largest Local Values In A Matrix | Python, Rust | May 12, 2024 | No |
-| 2415 | Reverse Odd Levels Of Binary Tree | Java | Unknown (Based on Git Log) | No |
-| 2441 | Largest Postive Integer That Exists With Its Negative | Rust | May 12, 2024 | No |
-| 2485 | Find Pivot Integer | Rust | March 14, 2024 | No |
-| 2486 | Append Characters To String To Make Subsequence | Python | June 03, 2024 | No |
-| 2487 | Remove Nodes From A Linked List | Rust | May 06, 2024 | No |
-| 2540 | Minimum Common Value | Rust | March 08, 2024 | No |
-| 2582 | Pass The Pillow | Python, Rust | July 06, 2024 | No |
-| 2812 | Find The Safest Path In Grid | Rust | May 18, 2024 | No |
-| 2816 | Double A Number Represented As A Linked List | Python, Rust | May 06, 2024 | No |
-| 2870 | Min Operations To Make Arr Empty | Rust | January 08, 2024 | No |
-| 2966 | Divide Array Into Arrays With Max Difference | Rust | January 31, 2024 | No |
-| 2971 | Find Polygon With The Largest Perimeter | Rust | February 15, 2024 | No |
-| 3005 | Count Elements With Max Frequency | Rust | March 07, 2024 | [Yes](assets/writeups/3005.md)|
-| 3028 | Ant On The Boundary | Rust | February 06, 2024 | No |
-| 3075 | Maximize Happiness Of Selected Children | Rust | May 09, 2024 | No |
-| 3110 | Score Of A String | Rust | June 01, 2024 | No |
+| 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | Unknown (Based on Git Log) | No |
+| 2 | Add Two Numbers | [Java](./Java/2.add-two-numbers.java),  | Unknown (Based on Git Log) | No |
+| 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | Unknown (Based on Git Log) | No |
+| 9 | Palindrome Number | [Java](./Java/9.palindrome-number.java), [Ruby](./Ruby/9.palindrome-number.rb), [Rust](./rust/src/palindrome_number_9.rs),  | Unknown (Based on Git Log) | No |
+| 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | [Yes](assets/writeups/12.md)|
+| 13 | Roman To Integer | [Ruby](./Ruby/13.roman-to-integer.rb), [Rust](./rust/src/roman_to_integer_13.rs),  | Unknown (Based on Git Log) | No |
+| 14 | Longest Common Prefix | [Ruby](./Ruby/14.longest-common-prefix.rb),  | Unknown (Based on Git Log) | No |
+| 17 | Letter Combinations Of A Phone Number | [Java](./Java/17.letter-combinations-of-a-phone-number.java),  | Unknown (Based on Git Log) | No |
+| 20 | Valid Parentheses | [Java](./Java/20.valid-parentheses.java),  | Unknown (Based on Git Log) | No |
+| 26 | Remove Duplicates From Sorted Array | [Java](./Java/26.remove-duplicates-from-sorted-array.java), [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | Unknown (Based on Git Log) | No |
+| 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |
+| 41 | First Missing Positive | [Rust](./rust/src/first_missing_positive_41.rs),  | March 25, 2024 | No |
+| 46 | Permutations | [Java](./Java/46.permutations.java),  | Unknown (Based on Git Log) | No |
+| 48 | Rotate Image | [Java](./Java/48.rotate-image.java), [Ruby](./Ruby/48.rotate-image.rb),  | Unknown (Based on Git Log) | No |
+| 49 | Group Anagrams | [Python](./python/group_anagrams_49.py), [Rust](./rust/src/group_anagrams_49.rs),  | February 06, 2024 | No |
+| 57 | Insert Interval | [Rust](./rust/src/insert_interval_57.rs),  | January 08, 2024 | No |
+| 58 | Length Of Last Word | [Rust](./rust/src/length_of_last_word_58.rs),  | March 31, 2024 | No |
+| 67 | Add Binary | [Rust](./rust/src/add_binary_67.rs),  | January 29, 2024 | No |
+| 69 | Sqrt X | [Ruby](./Ruby/69.sqrt-x.rb),  | Unknown (Based on Git Log) | No |
+| 75 | Sort Code | [Rust](./rust/src/sort_code_75.rs),  | June 12, 2024 | No |
+| 78 | Subsets | [Rust](./rust/src/subsets_78.rs),  | May 22, 2024 | No |
+| 79 | Word Search | [Rust](./rust/src/word_search_79.rs),  | April 04, 2024 | No |
+| 85 | Maximal Rectangle | [Rust](./rust/src/maximal_rectangle_85.rs),  | April 13, 2024 | No |
+| 125 | Valid Palindrome | [Rust](./rust/src/valid_palindrome_125.rs),  | January 08, 2024 | No |
+| 129 | Sum Root To Leaf Numbers | [Rust](./rust/src/sum_root_to_leaf_numbers_129.rs),  | April 14, 2024 | No |
+| 136 | Single Number | [Rust](./rust/src/single_number_136.rs),  | February 11, 2024 | No |
+| 141 | Linked List Cycle | [Python](./python/linked_list_cycle_141.py),  | March 06, 2024 | No |
+| 150 | Evaluate Reverse Polish Notation | [Rust](./rust/src/evaluate_reverse_polish_notation_150.rs),  | January 29, 2024 | No |
+| 165 | Compare Version Numbers | [Rust](./rust/src/compare_version_numbers_165.rs),  | May 03, 2024 | No |
+| 169 | Majority Element | [Java](./Java/169.majority-element.java), [Rust](./rust/src/majority_element_169.rs),  | Unknown (Based on Git Log) | No |
+| 198 | House Robber | [Rust](./rust/src/house_robber_198.rs),  | January 22, 2024 | No |
+| 205 | Isomorphic Strings | [Rust](./rust/src/isomorphic_strings_205.rs),  | April 01, 2024 | No |
+| 217 | Contains Duplicate | [Rust](./rust/src/contains_duplicate_217.rs),  | February 10, 2024 | No |
+| 231 | Power Of Two | [Python](./python/power_of_two_231.py),  | February 18, 2024 | [Yes](assets/writeups/231.md)|
+| 232 | Implement Queue Using Stacks | [Rust](./rust/src/implement_queue_using_stacks_232.rs),  | January 29, 2024 | No |
+| 237 | Delete Node In Linked List | [C](./C/237.delete-node-in-linked-list.c), [Python](./python/delete_node_in_linked_list_237.py),  | May 05, 2024 | No |
+| 242 | Valid Anagram | [Rust](./rust/src/valid_anagram_242.rs),  | February 10, 2024 | No |
+| 268 | Missing Number | [Rust](./rust/src/missing_number_268.rs),  | February 19, 2024 | No |
+| 271 | Encode And Decode Strings | [Python](./python/encode_and_decode_strings_271.py),  | May 09, 2024 | No |
+| 287 | Find The Duplicate Number | [Rust](./rust/src/find_the_duplicate_number_287.rs),  | March 23, 2024 | No |
+| 290 | Word Pattern | [Rust](./rust/src/word_pattern_290.rs),  | January 08, 2024 | No |
+| 310 | Minimum Height Trees | [CPP](./C/310.minimum-height-trees.cpp),  | May 05, 2024 | No |
+| 344 | Reverse String | [Rust](./rust/src/reverse_string_344.rs),  | June 01, 2024 | No |
+| 347 | Top K Frequent Elements | [Rust](./rust/src/top_k_frequent_elements_347.rs),  | March 19, 2024 | No |
+| 349 | Intersection Of Two Arrays | [Rust](./rust/src/intersection_of_two_arrays_349.rs),  | March 09, 2024 | No |
+| 367 | Valid Perfect Square | [Ruby](./Ruby/367.valid-perfect-square.rb),  | Unknown (Based on Git Log) | No |
+| 380 | Insert Delete Get Random | [Rust](./rust/src/insert_delete_get_random_380.rs),  | January 17, 2024 | No |
+| 387 | First Unique Character In A String | [Rust](./rust/src/first_unique_character_in_a_string_387.rs),  | February 04, 2024 | No |
+| 389 | Find The Difference | [Rust](./rust/src/find_the_difference_389.rs),  | April 04, 2024 | No |
+| 404 | Sum Of Left Leaves | [Rust](./rust/src/sum_of_left_leaves_404.rs),  | April 13, 2024 | No |
+| 442 | Find All Duplicates In Array | [Rust](./rust/src/find_all_duplicates_in_array_442.rs),  | March 24, 2024 | No |
+| 451 | Sort Characters By Frequency | [Rust](./rust/src/sort_characters_by_frequency_451.rs),  | February 07, 2024 | No |
+| 506 | Relative Ranks | [Rust](./rust/src/relative_ranks_506.rs),  | May 07, 2024 | No |
+| 513 | Find Bottom Left Tree Value | [Rust](./rust/src/find_bottom_left_tree_value_513.rs),  | February 28, 2024 | No |
+| 514 | Freedom Trail | [Python](./python/freedom_trail_514.py),  | May 05, 2024 | No |
+| 623 | Add One Row To Tree | [Rust](./rust/src/add_one_row_to_tree_623.rs),  | April 16, 2024 | No |
+| 645 | Set Mismatch | [Rust](./rust/src/set_mismatch_645.rs),  | January 21, 2024 | No |
+| 647 | Palindromic Strings | [Rust](./rust/src/palindromic_strings_647.rs),  | February 10, 2024 | No |
+| 678 | Valid Parenthesis String | [Rust](./rust/src/valid_parenthesis_string_678.rs),  | April 07, 2024 | No |
+| 680 | Valid Palindrome Ii | [Java](./Java/680.valid-palindrome-II.java),  | Unknown (Based on Git Log) | No |
+| 722 | Remove Comments | [Java](./Java/722.remove-comments.java),  | Unknown (Based on Git Log) | No |
+| 724 | Find Pivot Index | [Rust](./rust/src/find_pivot_index_724.rs),  | January 08, 2024 | No |
+| 752 | Open The Lock | [Rust](./rust/src/open_the_lock_752.rs),  | April 22, 2024 | No |
+| 786 | Kth Smallest Prime Fraction | [Rust](./rust/src/kth_smallest_prime_fraction_786.rs),  | May 09, 2024 | No |
+| 791 | Custom Sort String | [Rust](./rust/src/custom_sort_string_791.rs),  | April 13, 2024 | No |
+| 861 | Score After Flipping Matrix | [Rust](./rust/src/score_after_flipping_matrix_861.rs),  | May 12, 2024 | No |
+| 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | Unknown (Based on Git Log) | No |
+| 881 | Boats To Save People | [Rust](./rust/src/boats_to_save_people_881.rs),  | May 04, 2024 | No |
+| 914 | X Of A Kind In A Deck Of Cards | [Java](./Java/914.x-of-a-kind-in-a-deck-of-cards.java), [Rust](./rust/src/x_of_a_kind_in_a_deck_of_cards_914.rs),  | Unknown (Based on Git Log) | No |
+| 926 | Flip String To Monotone Increasing | [Rust](./rust/src/flip_string_to_monotone_increasing_926.rs),  | January 08, 2024 | No |
+| 938 | Range Sum Of Bst | [Rust](./rust/src/range_sum_of_bst_938.rs),  | January 22, 2024 | No |
+| 945 | Minimum Increment To Make Array Unique | [Rust](./rust/src/minimum_increment_to_make_array_unique_945.rs),  | June 14, 2024 | No |
+| 961 | N Repeated Element In Size 2 N Array | [Java](./Java/961.n-repeated-element-in-size-2-n-array.java),  | Unknown (Based on Git Log) | No |
+| 963 | Minimum Area Rectangle Ii | [Java](./Java/963.minimum-area-rectangle-II.java),  | Unknown (Based on Git Log) | No |
+| 974 | Subarray Sums Divisible By K | [Rust](./rust/src/subarray_sums_divisible_by_k_974.rs),  | January 08, 2024 | No |
+| 981 | Time Based Key Value Store | [Java](./Java/981.time-based-key-value-store.java),  | Unknown (Based on Git Log) | No |
+| 1026 | Maximum Difference Between Node And Ancestor | [Java](./Java/1026.maximum-difference-between-node-and-ancestor.java),  | Unknown (Based on Git Log) | No |
+| 1137 | Nth Tribonacci Number | [C](./C/1137.nth-tribonacci-number.c), [Rust](./rust/src/nth_tribonacci_number_1137.rs),  | January 08, 2024 | No |
+| 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
+| 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
+| 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
+| 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | Unknown (Based on Git Log) | No |
+| 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
+| 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
+| 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
+| 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
+| 1518 | Water Bottles | [Python](./python/water_bottles_1518.py), [Rust](./rust/src/water_bottles_1518.rs),  | July 06, 2024 | No |
+| 1519 | Nodes In Subtree With Same Label | [Rust](./rust/src/nodes_in_subtree_with_same_label_1519.rs),  | January 08, 2024 | No |
+| 1544 | Make The String Great | [Rust](./rust/src/make_the_string_great_1544.rs),  | April 04, 2024 | No |
+| 1603 | Design Parking System | [Rust](./rust/src/design_parking_system_1603.rs),  | January 08, 2024 | No |
+| 1608 | Special Array With X Elements Greather Than Or Equal X | [Python](./python/special_array_with_x_elements_greather_than_or_equal_x_1608.py),  | May 27, 2024 | No |
+| 1609 | Even Odd Tree | [Python](./python/even_odd_tree_1609.py), [Rust](./rust/src/even_odd_tree_1609.rs),  | February 29, 2024 | No |
+| 1614 | Maximum Nesting Depth Of Parenthesis | [Rust](./rust/src/maximum_nesting_depth_of_parenthesis_1614.rs),  | April 04, 2024 | No |
+| 1672 | Richest Customer Wealth | [Rust](./rust/src/richest_customer_wealth_1672.rs),  | January 08, 2024 | No |
+| 1700 | Number Of Students Unable To Eat Lunch | [Rust](./rust/src/number_of_students_unable_to_eat_lunch_1700.rs),  | April 08, 2024 | No |
+| 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 14, 2024 | No |
+| 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assets/writeups/1750.md)|
+| 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
+| 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | January 08, 2024 | No |
+| 1823 | Find The Winner Of The Circular Game | [Python](./python/find_the_winner_of_the_circular_game_1823.py), [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
+| 1827 | Minimum Operations To Make The Array Increasing | [Rust](./rust/src/minimum_operations_to_make_the_array_increasing_1827.rs),  | June 14, 2024 | No |
+| 1915 | Number Of Wonderful Substrings | [Python](./python/number_of_wonderful_substrings_1915.py),  | May 05, 2024 | No |
+| 1920 | Build Array From Permutation | [Ruby](./Ruby/1920.build-array-from-permutation.rb), [Rust](./rust/src/build_array_from_permutation_1920.rs),  | Unknown (Based on Git Log) | No |
+| 1971 | Find If Path Exists In Graph | [CPP](./C/1971.find-if-path-exists-in-graph.cpp),  | May 05, 2024 | No |
+| 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | May 05, 2024 | No |
+| 2000 | Reverse Prefix Of Word | [Rust](./rust/src/reverse_prefix_of_word_2000.rs),  | May 02, 2024 | No |
+| 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
+| 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
+| 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | Unknown (Based on Git Log) | No |
+| 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assets/writeups/2149.md)|
+| 2181 | Merge Nodes In Between Zeros | [Python](./python/merge_nodes_in_between_zeros_2181.py), [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
+| 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | Unknown (Based on Git Log) | No |
+| 2235 | Add Two Integers | [C](./C/2235.add-two-integers.c), [Java](./Java/2235.add-two-integers.java), [Ruby](./Ruby/2235.add-two-integers.rb),  | Unknown (Based on Git Log) | No |
+| 2236 | Root Equals Sum Of Children | [Rust](./rust/src/root_equals_sum_of_children_2236.rs),  | January 08, 2024 | No |
+| 2246 | Longest Path With Different Adjacent Characters | [Rust](./rust/src/longest_path_with_different_adjacent_characters_2246.rs),  | January 08, 2024 | No |
+| 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 18, 2024 | No |
+| 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
+| 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
+| 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | Unknown (Based on Git Log) | No |
+| 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 12, 2024 | No |
+| 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
+| 2486 | Append Characters To String To Make Subsequence | [Python](./python/append_characters_to_string_to_make_subsequence_2486.py),  | June 03, 2024 | No |
+| 2487 | Remove Nodes From A Linked List | [Rust](./rust/src/remove_nodes_from_a_linked_list_2487.rs),  | May 06, 2024 | No |
+| 2540 | Minimum Common Value | [Rust](./rust/src/minimum_common_value_2540.rs),  | March 08, 2024 | No |
+| 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
+| 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 18, 2024 | No |
+| 2816 | Double A Number Represented As A Linked List | [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
+| 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
+| 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
+| 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
+| 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assets/writeups/3005.md)|
+| 3028 | Ant On The Boundary | [Rust](./rust/src/ant_on_the_boundary_3028.rs),  | February 06, 2024 | No |
+| 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
+| 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
