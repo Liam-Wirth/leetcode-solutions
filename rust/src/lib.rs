@@ -131,3 +131,4 @@ mod minimum_difference_between_largest_and_smallest_value_in_three_moves_1509;
 mod pass_the_pillow_2582;
 mod water_bottles_1518;
 mod merge_nodes_in_between_zeros_2181;
+mod find_the_winner_of_the_circular_game_1823;

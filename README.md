@@ -126,6 +126,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | Python, Rust | March 05, 2024 | [Yes](assets/writeups/1750.md)|
 | 1768 | Merge Strings Alternately | Rust | April 01, 2024 | No |
 | 1822 | Sign Of The Product Of An Array | Rust | January 08, 2024 | No |
+| 1823 | Find The Winner Of The Circular Game | Rust | July 08, 2024 | No |
 | 1827 | Minimum Operations To Make The Array Increasing | Rust | June 14, 2024 | No |
 | 1915 | Number Of Wonderful Substrings | Python | May 05, 2024 | No |
 | 1920 | Build Array From Permutation | Ruby, Rust | Unknown (Based on Git Log) | No |
