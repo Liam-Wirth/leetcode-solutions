@@ -280,7 +280,7 @@ for problem_number, entry in sorted_problem_entries:
     for language in entry["languages"]:
         temp ="["+language+"]("+entry["languages"][language]+")"
         print(temp)
-        languages += temp + ", "
+        languages += ", "+temp
     if entry["writeup"]:
         markdown_table += f"| {problem_number} | {entry['name']} | {languages} | {datestring} | [Yes]({entry['writeup_path']})|\n"
     else:
