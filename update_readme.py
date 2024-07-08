@@ -17,6 +17,7 @@ def format_problem_name(name):
 
 
 use_json = True
+revisit_count = 0;
 do_extra_git_searches= False
 # Initialize an empty dictionary to store problem entries
 #NOTE: Only run this once, because this is a very costly thing to run otherwise
@@ -73,7 +74,7 @@ def tagswag(tags, probnum):
                         print(f"Tag found! {t}")
                         if t not in problem_entries[probnum]['Tags']:
                             problem_entries[probnum]['Tags'].append(t)
-                        
+                            revisit_count+=1
                     else:
                         return None 
 
@@ -224,6 +225,8 @@ for problem_number, entry in sorted_problem_entries:
             datestring="Unknown (Based on Git Log)"
         else:
             datestring = datetime.datetime.fromtimestamp(entry['date']).strftime("%B %d, %Y")
+    if entry['Tags'] != None:
+        revisit_count+=1
 
     if entry['languages']:
         languages = ', '.join(filter(None, entry['languages']))
@@ -256,6 +259,9 @@ if start_index != 0 :
 
 # Write the updated content back to the README.md file
     with open("README.md", "a") as file:
+        file.write("### Problems Marked \"Revisit\": ")
+        file.write(str(revisit_count))
+        file.write("\n")
         file.write(markdown_table)
 
 #serialize and such
