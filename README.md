@@ -123,6 +123,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1614 | Maximum Nesting Depth Of Parenthesis | [Rust](./rust/src/maximum_nesting_depth_of_parenthesis_1614.rs),  | April 04, 2024 | No |
 | 1672 | Richest Customer Wealth | [Rust](./rust/src/richest_customer_wealth_1672.rs),  | January 08, 2024 | No |
 | 1700 | Number Of Students Unable To Eat Lunch | [Rust](./rust/src/number_of_students_unable_to_eat_lunch_1700.rs),  | April 08, 2024 | No |
+| 1701 | Average Waiting Time | [Rust](./rust/src/average_waiting_time_1701.rs),  | July 09, 2024 | No |
 | 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 14, 2024 | No |
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assets/writeups/1750.md)|
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
