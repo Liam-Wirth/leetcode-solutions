@@ -107,6 +107,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1026 | Maximum Difference Between Node And Ancestor | [Java](./Java/1026.maximum-difference-between-node-and-ancestor.java),  | Unknown (Based on Git Log) | No |
 | 1137 | Nth Tribonacci Number | [C](./C/1137.nth-tribonacci-number.c), [Rust](./rust/src/nth_tribonacci_number_1137.rs),  | January 08, 2024 | No |
 | 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
+| 1190 | Reverse Substrings Between Each Pair Of Parenthesis | [Python](./python/reverse_substrings_between_each_pair_of_parenthesis_1190.py),  | July 11, 2024 | No |
 | 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | Unknown (Based on Git Log) | No |
@@ -148,6 +149,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | Unknown (Based on Git Log) | No |
+| 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 12, 2024 | No |
 | 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
 | 2486 | Append Characters To String To Make Subsequence | [Python](./python/append_characters_to_string_to_make_subsequence_2486.py),  | June 03, 2024 | No |

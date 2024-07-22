@@ -133,3 +133,4 @@ mod water_bottles_1518;
 mod merge_nodes_in_between_zeros_2181;
 mod find_the_winner_of_the_circular_game_1823;
 mod average_waiting_time_1701;
+mod sort_the_people_2418;
