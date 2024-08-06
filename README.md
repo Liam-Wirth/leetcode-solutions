@@ -159,9 +159,11 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 18, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
+| 2942 | Find Words Containing Character | [Rust](./rust/src/find_words_containing_character_2942.rs),  | August 06, 2024 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
 | 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
 | 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assets/writeups/3005.md)|
+| 3024 | Type Of Triangle | [Rust](./rust/src/type_of_triangle_3024.rs),  | August 06, 2024 | No |
 | 3028 | Ant On The Boundary | [Rust](./rust/src/ant_on_the_boundary_3028.rs),  | February 06, 2024 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
