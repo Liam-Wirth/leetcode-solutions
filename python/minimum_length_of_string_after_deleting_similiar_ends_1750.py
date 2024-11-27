@@ -1,6 +1,7 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
-       return self.helper(s, 0, len(s) - 1)
+        return self.helper(s, 0, len(s) - 1)
+
     def helper(self, s: str, start: int, end: int) -> int:
         if start == end:
             return 1

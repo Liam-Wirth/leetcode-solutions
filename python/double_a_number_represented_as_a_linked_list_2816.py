@@ -13,4 +13,4 @@ class Solution:
             if node.next and node.next.val > 4:
                 node.val += 1
             node = node.next
-        return head        
+        return head

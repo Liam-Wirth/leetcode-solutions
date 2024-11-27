@@ -13,6 +13,6 @@ class Solution:
                 grid[i - 1][j - 1] = temp
 
         n = len(grid)
-        grid = [row[:n-2] for row in grid[:n-2]]
+        grid = [row[: n - 2] for row in grid[: n - 2]]
 
         return grid
