@@ -112,6 +112,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
 | 1346 | Check If N And Its Double Exist | [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs), [Python](./python/check_if_n_and_its_double_exist_1346.py),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | Unknown (Based on Git Log) | No |
+| 1455 | Check If A Word Occurs As A Prefix Of Any Word In A Sentence | [Python](./python/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.py), [Rust](./rust/src/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.rs),  | December 01, 2024 | No |
 | 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
 | 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
