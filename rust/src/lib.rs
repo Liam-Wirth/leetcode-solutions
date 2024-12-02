@@ -136,3 +136,4 @@ mod sort_the_people_2418;
 mod find_words_containing_character_2942;
 mod type_of_triangle_3024;
 mod minimum_string_length_after_removing_substrings_2696;
+mod check_if_n_and_its_double_exist_1346;
