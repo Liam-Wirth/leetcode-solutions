@@ -110,7 +110,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1190 | Reverse Substrings Between Each Pair Of Parenthesis | [Python](./python/reverse_substrings_between_each_pair_of_parenthesis_1190.py),  | July 11, 2024 | No |
 | 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
-| 1346 | Check If N And Its Double Exist | [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs), [Python](./python/check_if_n_and_its_double_exist_1346.py),  | December 01, 2024 | No |
+| 1346 | Check If N And Its Double Exist | [Python](./python/check_if_n_and_its_double_exist_1346.py), [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | Unknown (Based on Git Log) | No |
 | 1455 | Check If A Word Occurs As A Prefix Of Any Word In A Sentence | [Python](./python/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.py), [Rust](./rust/src/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.rs),  | December 01, 2024 | No |
 | 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|

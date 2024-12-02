@@ -138,3 +138,4 @@ mod type_of_triangle_3024;
 mod minimum_string_length_after_removing_substrings_2696;
 mod check_if_n_and_its_double_exist_1346;
 mod check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455;
+mod two_1;
