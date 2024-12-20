@@ -29,7 +29,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | Problem Number | Problem Name | Language | Estimated Solved Date| Writeup/Solution? |
 |--------------|----------------|---------|----------|----------|
 | 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | Unknown (Based on Git Log) | No |
-| 2 | Add Two Numbers | [Java](./Java/2.add-two-numbers.java),  | Unknown (Based on Git Log) | No |
+| 2 | Add Two Numbers | [Java](./Java/2.add-two-numbers.java), [C](./C/2.add-two-numbers.c), [Rust](./rust/src/add_two_numbers_2.rs),  | Unknown (Based on Git Log) | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | Unknown (Based on Git Log) | No |
 | 9 | Palindrome Number | [Java](./Java/9.palindrome-number.java), [Ruby](./Ruby/9.palindrome-number.rb), [Rust](./rust/src/palindrome_number_9.rs),  | Unknown (Based on Git Log) | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | [Yes](assets/writeups/12.md)|
@@ -150,7 +150,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 18, 2024 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
-| 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | Unknown (Based on Git Log) | No |
+| 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java), [CPP](./C/2415.reverse-odd-levels-of-binary-tree.cpp),  | Unknown (Based on Git Log) | No |
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 12, 2024 | No |
 | 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
