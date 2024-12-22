@@ -74,6 +74,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 347 | Top K Frequent Elements | [Rust](./rust/src/top_k_frequent_elements_347.rs),  | March 19, 2024 | No |
 | 349 | Intersection Of Two Arrays | [Rust](./rust/src/intersection_of_two_arrays_349.rs),  | March 09, 2024 | No |
 | 367 | Valid Perfect Square | [Ruby](./Ruby/367.valid-perfect-square.rb),  | Unknown (Based on Git Log) | No |
+| 371 | Sum Of Two Integers | [C](./C/371.sum-of-two-integers.c),  | December 19, 2024 | No |
 | 380 | Insert Delete Get Random | [Rust](./rust/src/insert_delete_get_random_380.rs),  | January 17, 2024 | No |
 | 387 | First Unique Character In A String | [Rust](./rust/src/first_unique_character_in_a_string_387.rs),  | February 04, 2024 | No |
 | 389 | Find The Difference | [Rust](./rust/src/find_the_difference_389.rs),  | April 04, 2024 | No |
@@ -160,8 +161,9 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 18, 2024 | No |
-| 2816 | Double A Number Represented As A Linked List | [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
+| 2816 | Double A Number Represented As A Linked List | [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs), [C](./C/2816.double-a-number-represented-as-a-linked-list.c),  | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
+| 2940 | Find Building Where Allice And Bob Can Meet | [CPP](./C/2940.find-building-where-allice-and-bob-can-meet.cpp), [Python](./python/find_building_where_alice_and_bob_can_meet_2940.py), [Rust](./rust/src/find_building_where_alice_and_bob_can_meet_2940.rs),  | December 21, 2024 | No |
 | 2942 | Find Words Containing Character | [Rust](./rust/src/find_words_containing_character_2942.rs),  | August 06, 2024 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
 | 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
