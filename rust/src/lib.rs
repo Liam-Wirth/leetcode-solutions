@@ -141,3 +141,4 @@ mod check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455;
 mod two_1;
 mod add_two_numbers_2;
 mod find_building_where_alice_and_bob_can_meet_2940;
+mod valid_sudoku_36;

@@ -39,6 +39,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 20 | Valid Parentheses | [Java](./Java/20.valid-parentheses.java),  | Unknown (Based on Git Log) | No |
 | 26 | Remove Duplicates From Sorted Array | [Java](./Java/26.remove-duplicates-from-sorted-array.java), [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | Unknown (Based on Git Log) | No |
 | 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |
+| 36 | Valid Sudoku | [Python](./python/valid_sudoku_36.py), [Rust](./rust/src/valid_sudoku_36.rs),  | December 23, 2024 | No |
 | 41 | First Missing Positive | [Rust](./rust/src/first_missing_positive_41.rs),  | March 25, 2024 | No |
 | 46 | Permutations | [Java](./Java/46.permutations.java),  | Unknown (Based on Git Log) | No |
 | 48 | Rotate Image | [Java](./Java/48.rotate-image.java), [Ruby](./Ruby/48.rotate-image.rb),  | Unknown (Based on Git Log) | No |
@@ -52,6 +53,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 79 | Word Search | [Rust](./rust/src/word_search_79.rs),  | April 04, 2024 | No |
 | 85 | Maximal Rectangle | [Rust](./rust/src/maximal_rectangle_85.rs),  | April 13, 2024 | No |
 | 125 | Valid Palindrome | [Rust](./rust/src/valid_palindrome_125.rs),  | January 08, 2024 | No |
+| 128 | Longest Consecutive Sequence | [Java](./Java/128.longest-consecutive-sequence.java), [Python](./python/longest_consecutive_sequence_128.py),  | December 23, 2024 | No |
 | 129 | Sum Root To Leaf Numbers | [Rust](./rust/src/sum_root_to_leaf_numbers_129.rs),  | April 14, 2024 | No |
 | 136 | Single Number | [Rust](./rust/src/single_number_136.rs),  | February 11, 2024 | No |
 | 141 | Linked List Cycle | [Python](./python/linked_list_cycle_141.py),  | March 06, 2024 | No |
@@ -64,6 +66,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 231 | Power Of Two | [Python](./python/power_of_two_231.py),  | February 18, 2024 | [Yes](assets/writeups/231.md)|
 | 232 | Implement Queue Using Stacks | [Rust](./rust/src/implement_queue_using_stacks_232.rs),  | January 29, 2024 | No |
 | 237 | Delete Node In Linked List | [C](./C/237.delete-node-in-linked-list.c), [Python](./python/delete_node_in_linked_list_237.py),  | May 05, 2024 | No |
+| 238 | Product Of Array Except Self | [CPP](./C/238.product-of-array-except-self.cpp),  | December 23, 2024 | No |
 | 242 | Valid Anagram | [Rust](./rust/src/valid_anagram_242.rs),  | February 10, 2024 | No |
 | 268 | Missing Number | [Rust](./rust/src/missing_number_268.rs),  | February 19, 2024 | No |
 | 271 | Encode And Decode Strings | [Python](./python/encode_and_decode_strings_271.py),  | May 09, 2024 | No |
