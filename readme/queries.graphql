@@ -1,0 +1,44 @@
+query userFirstSolveDate($username: String!, $titleSlug: String!) {
+  matchedUser(username: $username) {
+    username
+  }
+  questionSubmissionList(
+    limit: 1000
+    offset: 0
+    questionSlug: $titleSlug
+    status: 10
+  ) {
+    submissions {
+      id
+      timestamp
+      status
+      titleSlug
+    }
+  }
+}
+
+    query problemDifficulty($titleSlug: String!) {
+      question(titleSlug: $titleSlug) {
+        difficulty
+      }
+    }
+
+
+     query problemCategories($titleSlug: String!) {
+      question(titleSlug: $titleSlug) {
+        topicTags {
+          name
+          slug
+        }
+      }
+    }
+
+     query userOverallRanking($username: String!) {
+      matchedUser(username: $username) {
+        profile {
+          ranking
+        }
+      }
+    }
+
+

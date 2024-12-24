@@ -26,13 +26,13 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 [![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
 ## List of problems solved
 ### Problems Marked "Revisit": 13
-| Problem Number | Problem Name | Language | Estimated Solved Date| Writeup/Solution? |
+| Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |
 |--------------|----------------|---------|----------|----------|
 | 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | Unknown (Based on Git Log) | No |
-| 2 | Add Two Numbers | [Java](./Java/2.add-two-numbers.java), [C](./C/2.add-two-numbers.c), [Rust](./rust/src/add_two_numbers_2.rs),  | Unknown (Based on Git Log) | No |
+| 2 | Add Two Numbers | [C](./C/2.add-two-numbers.c), [Java](./Java/2.add-two-numbers.java), [Rust](./rust/src/add_two_numbers_2.rs),  | Unknown (Based on Git Log) | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | Unknown (Based on Git Log) | No |
 | 9 | Palindrome Number | [Java](./Java/9.palindrome-number.java), [Ruby](./Ruby/9.palindrome-number.rb), [Rust](./rust/src/palindrome_number_9.rs),  | Unknown (Based on Git Log) | No |
-| 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | [Yes](assets/writeups/12.md)|
+| 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | [Yes](assewriteu/12.md)|
 | 13 | Roman To Integer | [Ruby](./Ruby/13.roman-to-integer.rb), [Rust](./rust/src/roman_to_integer_13.rs),  | Unknown (Based on Git Log) | No |
 | 14 | Longest Common Prefix | [Ruby](./Ruby/14.longest-common-prefix.rb),  | Unknown (Based on Git Log) | No |
 | 17 | Letter Combinations Of A Phone Number | [Java](./Java/17.letter-combinations-of-a-phone-number.java),  | Unknown (Based on Git Log) | No |
@@ -63,7 +63,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 198 | House Robber | [Rust](./rust/src/house_robber_198.rs),  | January 22, 2024 | No |
 | 205 | Isomorphic Strings | [Rust](./rust/src/isomorphic_strings_205.rs),  | April 01, 2024 | No |
 | 217 | Contains Duplicate | [Rust](./rust/src/contains_duplicate_217.rs),  | February 10, 2024 | No |
-| 231 | Power Of Two | [Python](./python/power_of_two_231.py),  | February 18, 2024 | [Yes](assets/writeups/231.md)|
+| 231 | Power Of Two | [Python](./python/power_of_two_231.py),  | February 18, 2024 | [Yes](assewriteu/231.md)|
 | 232 | Implement Queue Using Stacks | [Rust](./rust/src/implement_queue_using_stacks_232.rs),  | January 29, 2024 | No |
 | 237 | Delete Node In Linked List | [C](./C/237.delete-node-in-linked-list.c), [Python](./python/delete_node_in_linked_list_237.py),  | May 05, 2024 | No |
 | 238 | Product Of Array Except Self | [CPP](./C/238.product-of-array-except-self.cpp),  | December 23, 2024 | No |
@@ -117,8 +117,8 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1346 | Check If N And Its Double Exist | [Python](./python/check_if_n_and_its_double_exist_1346.py), [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | Unknown (Based on Git Log) | No |
 | 1455 | Check If A Word Occurs As A Prefix Of Any Word In A Sentence | [Python](./python/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.py), [Rust](./rust/src/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.rs),  | December 01, 2024 | No |
-| 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1470.md)|
-| 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | Unknown (Based on Git Log) | [Yes](assets/writeups/1480.md)|
+| 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | Unknown (Based on Git Log) | [Yes](assewriteu/1470.md)|
+| 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | Unknown (Based on Git Log) | [Yes](assewriteu/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
 | 1518 | Water Bottles | [Python](./python/water_bottles_1518.py), [Rust](./rust/src/water_bottles_1518.rs),  | July 06, 2024 | No |
@@ -132,7 +132,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 1700 | Number Of Students Unable To Eat Lunch | [Rust](./rust/src/number_of_students_unable_to_eat_lunch_1700.rs),  | April 08, 2024 | No |
 | 1701 | Average Waiting Time | [Rust](./rust/src/average_waiting_time_1701.rs),  | July 09, 2024 | No |
 | 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 14, 2024 | No |
-| 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assets/writeups/1750.md)|
+| 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assewriteu/1750.md)|
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
 | 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | January 08, 2024 | No |
 | 1823 | Find The Winner Of The Circular Game | [Python](./python/find_the_winner_of_the_circular_game_1823.py), [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
@@ -145,7 +145,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | Unknown (Based on Git Log) | No |
-| 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assets/writeups/2149.md)|
+| 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assewriteu/2149.md)|
 | 2181 | Merge Nodes In Between Zeros | [Python](./python/merge_nodes_in_between_zeros_2181.py), [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | Unknown (Based on Git Log) | No |
 | 2235 | Add Two Integers | [C](./C/2235.add-two-integers.c), [Java](./Java/2235.add-two-integers.java), [Ruby](./Ruby/2235.add-two-integers.rb),  | Unknown (Based on Git Log) | No |
@@ -154,7 +154,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 18, 2024 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
-| 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java), [CPP](./C/2415.reverse-odd-levels-of-binary-tree.cpp),  | Unknown (Based on Git Log) | No |
+| 2415 | Reverse Odd Levels Of Binary Tree | [CPP](./C/2415.reverse-odd-levels-of-binary-tree.cpp), [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | Unknown (Based on Git Log) | No |
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 12, 2024 | No |
 | 2471 | Minimum Number Of Operations To Sort A Binary Tree By Level | [Python](./python/minimum_number_of_operations_to_sort_a_binary_tree_by_level_2471.py),  | December 22, 2024 | No |
@@ -165,13 +165,13 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 18, 2024 | No |
-| 2816 | Double A Number Represented As A Linked List | [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs), [C](./C/2816.double-a-number-represented-as-a-linked-list.c),  | May 06, 2024 | No |
+| 2816 | Double A Number Represented As A Linked List | [C](./C/2816.double-a-number-represented-as-a-linked-list.c), [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
 | 2940 | Find Building Where Allice And Bob Can Meet | [CPP](./C/2940.find-building-where-allice-and-bob-can-meet.cpp), [Python](./python/find_building_where_alice_and_bob_can_meet_2940.py), [Rust](./rust/src/find_building_where_alice_and_bob_can_meet_2940.rs),  | December 21, 2024 | No |
 | 2942 | Find Words Containing Character | [Rust](./rust/src/find_words_containing_character_2942.rs),  | August 06, 2024 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
 | 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
-| 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assets/writeups/3005.md)|
+| 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assewriteu/3005.md)|
 | 3024 | Type Of Triangle | [Rust](./rust/src/type_of_triangle_3024.rs),  | August 06, 2024 | No |
 | 3028 | Ant On The Boundary | [Rust](./rust/src/ant_on_the_boundary_3028.rs),  | February 06, 2024 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |

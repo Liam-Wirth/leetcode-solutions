@@ -1,4 +1,5 @@
 rust/target/*
 .idea/*
 /**/target/
+.env
 
