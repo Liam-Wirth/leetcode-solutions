@@ -25,7 +25,8 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 
 [![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
 ## List of problems solved
-# Chart:```mermaid
+# Chart:
+```mermaid
 pie title Problems Solved by Language
     "Rust": 110
     "Ruby": 12

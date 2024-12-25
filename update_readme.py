@@ -131,7 +131,7 @@ if start_index != 0:
     # Write the content before the table back to the README.md file
     with open("README.md", "w") as file:
         file.write(before_table)
-        file.write('# Chart:')
+        file.write('# Chart:\n')
         file.write(mermaid_chart)
         file.write('\n')
 
