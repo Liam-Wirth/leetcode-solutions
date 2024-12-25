@@ -112,7 +112,18 @@ for index, line in enumerate(content):
     if "List of problems solved" in line:
         start_index = index + 1
         break
+# Calculate problems solved by language
+language_counts = {}
+for entry in problem_entries.values():
+    for language in entry["languages"]:
+        language_counts[language] = language_counts.get(language, 0) + 1
 
+# Generate Mermaid pie chart syntax
+mermaid_chart = "```mermaid\npie title Problems Solved by Language\n"
+for language, count in language_counts.items():
+    mermaid_chart += f'    "{language}": {count}\n'
+mermaid_chart += "```\n"
+print(mermaid_chart)
 # Extract the content before the table
 if start_index != 0:
     before_table: str = "".join(content[:start_index])
@@ -120,6 +131,9 @@ if start_index != 0:
     # Write the content before the table back to the README.md file
     with open("README.md", "w") as file:
         file.write(before_table)
+        file.write('# Chart:')
+        file.write(mermaid_chart)
+        file.write('\n')
 
     # Write the updated content back to the README.md file
     with open("README.md", "a") as file:
@@ -143,5 +157,3 @@ else:
         pickle.dump(problem_entries, f)
     with open(rankings_serialized, "wb") as f:
         pickle.dump(user_rankings, f)
-
-
