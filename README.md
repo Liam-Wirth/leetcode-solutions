@@ -87,6 +87,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 | 506 | Relative Ranks | [Rust](./rust/src/relative_ranks_506.rs),  | May 07, 2024 | No |
 | 513 | Find Bottom Left Tree Value | [Rust](./rust/src/find_bottom_left_tree_value_513.rs),  | February 28, 2024 | No |
 | 514 | Freedom Trail | [Python](./python/freedom_trail_514.py),  | May 05, 2024 | No |
+| 515 | Find Largest Value In Each Tree Row | [Python](./python/find_largest_value_in_each_tree_row_515.py), [Rust](./rust/src/find_largest_value_in_each_tree_row_515.rs),  | December 25, 2024 | No |
 | 623 | Add One Row To Tree | [Rust](./rust/src/add_one_row_to_tree_623.rs),  | April 16, 2024 | No |
 | 645 | Set Mismatch | [Rust](./rust/src/set_mismatch_645.rs),  | January 21, 2024 | No |
 | 647 | Palindromic Strings | [Rust](./rust/src/palindromic_strings_647.rs),  | February 10, 2024 | No |
