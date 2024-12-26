@@ -1,5 +1,4 @@
 
-
 # Liam's LeetCode solutions
 ## Table of Contents
 + [About](#about)
@@ -28,7 +27,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 114
+    "Rust": 115
     "Ruby": 12
     "Java": 24
     "Python": 27
@@ -158,6 +157,7 @@ pie title Problems Solved by Language
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | May 05, 2024 | No |
 | 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
 | 2000 | Reverse Prefix Of Word | [Rust](./rust/src/reverse_prefix_of_word_2000.rs),  | May 02, 2024 | No |
+| 2011 | Final Value Of Variable After Performing Operations | [Rust](./rust/src/final_value_of_variable_after_performing_operations_2011.rs),  | December 25, 2024 | No |
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | Unknown (Based on Git Log) | No |
