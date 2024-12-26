@@ -30,12 +30,12 @@ pie title Problems Solved by Language
     "Rust": 115
     "Ruby": 12
     "Java": 24
-    "Python": 27
+    "Python": 31
     "C": 6
     "CPP": 6
 ```
 
-### Problems Marked "Revisit": 14
+### Problems Marked "Revisit": 15
 | Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |
 |--------------|----------------|---------|----------|----------|
 | 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | Unknown (Based on Git Log) | No |
@@ -79,6 +79,7 @@ pie title Problems Solved by Language
 | 237 | Delete Node In Linked List | [C](./C/237.delete-node-in-linked-list.c), [Python](./python/delete_node_in_linked_list_237.py),  | May 05, 2024 | No |
 | 238 | Product Of Array Except Self | [CPP](./C/238.product-of-array-except-self.cpp),  | December 23, 2024 | No |
 | 242 | Valid Anagram | [Rust](./rust/src/valid_anagram_242.rs),  | February 10, 2024 | No |
+| 258 | Add Digits | [Python](./python/add_digits_258.py),  | December 26, 2024 | No |
 | 268 | Missing Number | [Rust](./rust/src/missing_number_268.rs),  | February 19, 2024 | No |
 | 271 | Encode And Decode Strings | [Python](./python/encode_and_decode_strings_271.py),  | May 09, 2024 | No |
 | 283 | Move Zeroes | [Rust](./rust/src/move_zeroes_283.rs),  | December 25, 2024 | No |
@@ -96,6 +97,7 @@ pie title Problems Solved by Language
 | 404 | Sum Of Left Leaves | [Rust](./rust/src/sum_of_left_leaves_404.rs),  | April 13, 2024 | No |
 | 442 | Find All Duplicates In Array | [Rust](./rust/src/find_all_duplicates_in_array_442.rs),  | March 24, 2024 | No |
 | 451 | Sort Characters By Frequency | [Rust](./rust/src/sort_characters_by_frequency_451.rs),  | February 07, 2024 | No |
+| 494 | Target Sum | [Python](./python/target_sum_494.py),  | December 26, 2024 | No |
 | 506 | Relative Ranks | [Rust](./rust/src/relative_ranks_506.rs),  | May 07, 2024 | No |
 | 513 | Find Bottom Left Tree Value | [Rust](./rust/src/find_bottom_left_tree_value_513.rs),  | February 28, 2024 | No |
 | 514 | Freedom Trail | [Python](./python/freedom_trail_514.py),  | May 05, 2024 | No |
@@ -122,6 +124,7 @@ pie title Problems Solved by Language
 | 974 | Subarray Sums Divisible By K | [Rust](./rust/src/subarray_sums_divisible_by_k_974.rs),  | January 08, 2024 | No |
 | 981 | Time Based Key Value Store | [Java](./Java/981.time-based-key-value-store.java),  | Unknown (Based on Git Log) | No |
 | 1026 | Maximum Difference Between Node And Ancestor | [Java](./Java/1026.maximum-difference-between-node-and-ancestor.java),  | Unknown (Based on Git Log) | No |
+| 1108 | Defanging An Ip Address | [Python](./python/defanging_an_ip_address_1108.py),  | December 26, 2024 | No |
 | 1137 | Nth Tribonacci Number | [C](./C/1137.nth-tribonacci-number.c), [Rust](./rust/src/nth_tribonacci_number_1137.rs),  | January 08, 2024 | No |
 | 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
 | 1190 | Reverse Substrings Between Each Pair Of Parenthesis | [Python](./python/reverse_substrings_between_each_pair_of_parenthesis_1190.py),  | July 11, 2024 | No |
@@ -157,7 +160,7 @@ pie title Problems Solved by Language
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | May 05, 2024 | No |
 | 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
 | 2000 | Reverse Prefix Of Word | [Rust](./rust/src/reverse_prefix_of_word_2000.rs),  | May 02, 2024 | No |
-| 2011 | Final Value Of Variable After Performing Operations | [Rust](./rust/src/final_value_of_variable_after_performing_operations_2011.rs),  | December 25, 2024 | No |
+| 2011 | Final Value Of Variable After Performing Operations | [Rust](./rust/src/final_value_of_variable_after_performing_operations_2011.rs), [Python](./python/final_value_of_variable_after_performing_operations_2011.py),  | December 25, 2024 | No |
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | Unknown (Based on Git Log) | No |
