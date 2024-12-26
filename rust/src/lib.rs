@@ -143,3 +143,7 @@ mod add_two_numbers_2;
 mod find_building_where_alice_and_bob_can_meet_2940;
 mod valid_sudoku_36;
 mod find_largest_value_in_each_tree_row_515;
+mod count_good_triplets_1534;
+mod count_special_quadruplets_1995;
+mod remove_element_27;
+mod move_zeroes_283;

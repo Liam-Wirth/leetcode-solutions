@@ -28,7 +28,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 110
+    "Rust": 114
     "Ruby": 12
     "Java": 24
     "Python": 27
@@ -36,7 +36,7 @@ pie title Problems Solved by Language
     "CPP": 6
 ```
 
-### Problems Marked "Revisit": 13
+### Problems Marked "Revisit": 14
 | Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |
 |--------------|----------------|---------|----------|----------|
 | 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | Unknown (Based on Git Log) | No |
@@ -49,6 +49,7 @@ pie title Problems Solved by Language
 | 17 | Letter Combinations Of A Phone Number | [Java](./Java/17.letter-combinations-of-a-phone-number.java),  | Unknown (Based on Git Log) | No |
 | 20 | Valid Parentheses | [Java](./Java/20.valid-parentheses.java),  | Unknown (Based on Git Log) | No |
 | 26 | Remove Duplicates From Sorted Array | [Java](./Java/26.remove-duplicates-from-sorted-array.java), [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | Unknown (Based on Git Log) | No |
+| 27 | Remove Element | [Rust](./rust/src/remove_element_27.rs),  | December 25, 2024 | No |
 | 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |
 | 36 | Valid Sudoku | [Python](./python/valid_sudoku_36.py), [Rust](./rust/src/valid_sudoku_36.rs),  | December 23, 2024 | No |
 | 41 | First Missing Positive | [Rust](./rust/src/first_missing_positive_41.rs),  | March 25, 2024 | No |
@@ -81,6 +82,7 @@ pie title Problems Solved by Language
 | 242 | Valid Anagram | [Rust](./rust/src/valid_anagram_242.rs),  | February 10, 2024 | No |
 | 268 | Missing Number | [Rust](./rust/src/missing_number_268.rs),  | February 19, 2024 | No |
 | 271 | Encode And Decode Strings | [Python](./python/encode_and_decode_strings_271.py),  | May 09, 2024 | No |
+| 283 | Move Zeroes | [Rust](./rust/src/move_zeroes_283.rs),  | December 25, 2024 | No |
 | 287 | Find The Duplicate Number | [Rust](./rust/src/find_the_duplicate_number_287.rs),  | March 23, 2024 | No |
 | 290 | Word Pattern | [Rust](./rust/src/word_pattern_290.rs),  | January 08, 2024 | No |
 | 310 | Minimum Height Trees | [CPP](./C/310.minimum-height-trees.cpp),  | May 05, 2024 | No |
@@ -135,6 +137,7 @@ pie title Problems Solved by Language
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
 | 1518 | Water Bottles | [Python](./python/water_bottles_1518.py), [Rust](./rust/src/water_bottles_1518.rs),  | July 06, 2024 | No |
 | 1519 | Nodes In Subtree With Same Label | [Rust](./rust/src/nodes_in_subtree_with_same_label_1519.rs),  | January 08, 2024 | No |
+| 1534 | Count Good Triplets | [Rust](./rust/src/count_good_triplets_1534.rs),  | December 25, 2024 | No |
 | 1544 | Make The String Great | [Rust](./rust/src/make_the_string_great_1544.rs),  | April 04, 2024 | No |
 | 1603 | Design Parking System | [Rust](./rust/src/design_parking_system_1603.rs),  | January 08, 2024 | No |
 | 1608 | Special Array With X Elements Greather Than Or Equal X | [Python](./python/special_array_with_x_elements_greather_than_or_equal_x_1608.py),  | May 27, 2024 | No |
@@ -153,6 +156,7 @@ pie title Problems Solved by Language
 | 1920 | Build Array From Permutation | [Ruby](./Ruby/1920.build-array-from-permutation.rb), [Rust](./rust/src/build_array_from_permutation_1920.rs),  | Unknown (Based on Git Log) | No |
 | 1971 | Find If Path Exists In Graph | [CPP](./C/1971.find-if-path-exists-in-graph.cpp),  | May 05, 2024 | No |
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | May 05, 2024 | No |
+| 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
 | 2000 | Reverse Prefix Of Word | [Rust](./rust/src/reverse_prefix_of_word_2000.rs),  | May 02, 2024 | No |
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
