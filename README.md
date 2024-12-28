@@ -27,10 +27,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 115
+    "Rust": 116
     "Ruby": 12
     "Java": 24
-    "Python": 31
+    "Python": 32
     "C": 6
     "CPP": 6
 ```
@@ -63,6 +63,7 @@ pie title Problems Solved by Language
 | 78 | Subsets | [Rust](./rust/src/subsets_78.rs),  | May 22, 2024 | No |
 | 79 | Word Search | [Rust](./rust/src/word_search_79.rs),  | April 04, 2024 | No |
 | 85 | Maximal Rectangle | [Rust](./rust/src/maximal_rectangle_85.rs),  | April 13, 2024 | No |
+| 88 | Merge Sorted Array | [Python](./python/merge_sorted_array_88.py), [Rust](./rust/src/merge_sorted_array_88.rs),  | December 27, 2024 | No |
 | 125 | Valid Palindrome | [Rust](./rust/src/valid_palindrome_125.rs),  | January 08, 2024 | No |
 | 128 | Longest Consecutive Sequence | [Java](./Java/128.longest-consecutive-sequence.java), [Python](./python/longest_consecutive_sequence_128.py),  | December 23, 2024 | No |
 | 129 | Sum Root To Leaf Numbers | [Rust](./rust/src/sum_root_to_leaf_numbers_129.rs),  | April 14, 2024 | No |
