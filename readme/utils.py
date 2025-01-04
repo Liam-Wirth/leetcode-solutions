@@ -49,36 +49,41 @@ def create_markdown_table(sorted_problem_entries: List[Any]) -> str:
     """Generates a markdown table from the problem entries."""
     markdown_table: str = (
         "| Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |\n"
-        "|--------------|----------------|---------|----------|----------|\n"
+        "|--------------|----------------|---------|-----------------------|----------------|\n"
     )
     revisit_count = 0
+
     for problem_number, entry in sorted_problem_entries:
-        datestring: str = "Unknown (Based on Git Log)"
-        if entry["date"]:
-            jan15: float = datetime.datetime.combine(
-                datetime.date(2023, 1, 15), datetime.time()
-            ).timestamp()
-            jan16: float = datetime.datetime.combine(
-                datetime.date(2023, 1, 16), datetime.time()
-            ).timestamp()
-            if entry["date"] == 1673906820:
-                datestring = "Unknown (Based on Git Log)"
-            else:
-                datestring = datetime.datetime.fromtimestamp(float(entry["date"])).strftime(
-                    "%B %d, %Y"
-                )
+        # If date is None or inf, we assume "No accepted submission found on API"
+        if not entry["date"] or entry["date"] == float("inf"):
+            datestring = "No accepted submission found on API"
+        else:
+            datestring = datetime.datetime.fromtimestamp(float(entry["date"])).strftime(
+                "%B %d, %Y"
+            )
+
+        # Increase revisit_count if it has any tags (like "Revisit")
         if entry["Tags"] is not None:
             revisit_count += 1
+
+        # List out languages with links
         languages: str = ""
         if entry["languages"]:
             for language in entry["languages"]:  # type: ignore
-                temp = f"[{language}]({entry['languages'][language]})"  # type: ignore
-                print(temp)
+                temp = f"[{language}]({entry['languages'][language]})"
                 languages += temp + ", "
-        if entry["writeup"]:
-            markdown_table += f"| {problem_number} | {entry['name']} | {languages} | {datestring} | [Yes]({entry['writeup_path']})|\n"
-        else:
-            markdown_table += f"| {problem_number} | {entry['name']} | {languages} | {datestring} | No |\n"
-    return markdown_table, revisit_count
 
+        # Show a link if there's a writeup
+        if entry.get("writeup"):
+            markdown_table += (
+                f"| {problem_number} | {entry['name']} | {languages} | "
+                f"{datestring} | [Yes]({entry['writeup_path']})|\n"
+            )
+        else:
+            markdown_table += (
+                f"| {problem_number} | {entry['name']} | {languages} | "
+                f"{datestring} | No |\n"
+            )
+
+    return markdown_table, revisit_count
 
