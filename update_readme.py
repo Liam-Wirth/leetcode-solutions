@@ -14,6 +14,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "readme"))
 from readme.api_testing import fetch_first_solve_date, fetch_problem_info, fetch_user_info
 from readme.utils import create_markdown_table
 from readme.parser import parse_solution_file
+from readme.update_dates import update_dates
 
 good = dotenv.load_dotenv()  # Load environment variables from .env
 if not good:
@@ -109,6 +110,8 @@ for prob_id, entry in problem_entries.items():
                 print(f"No official solve date for {prob_id} (slug={slug})")
     else:
         print(f"[WARNING] Problem ID {prob_id} not found in filtered_probs.pkl")
+
+update_dates(problem_entries, username, True)
 
 # --- 6) Sort & create the markdown table ---
 sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: int(x[0]))
