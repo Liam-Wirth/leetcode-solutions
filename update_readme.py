@@ -16,6 +16,8 @@ from readme.utils import create_markdown_table
 from readme.parser import parse_solution_file
 from readme.update_dates import update_dates
 
+FORCE_UPDATE_DATE = False
+
 good = dotenv.load_dotenv()  # Load environment variables from .env
 if not good:
     print("ERROR: Please update your .env file with LEETCODE_API_KEY")
@@ -111,7 +113,7 @@ for prob_id, entry in problem_entries.items():
     else:
         print(f"[WARNING] Problem ID {prob_id} not found in filtered_probs.pkl")
 
-update_dates(problem_entries, username, True)
+update_dates(problem_entries, username, FORCE_UPDATE_DATE)
 
 # --- 6) Sort & create the markdown table ---
 sorted_problem_entries = sorted(problem_entries.items(), key=lambda x: int(x[0]))

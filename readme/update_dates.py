@@ -23,19 +23,25 @@ def is_placeholder_date(ts: float) -> bool:
             return True
     return False
 
+# leetcode/readme/date_updater.py
+import datetime
+import math
+from typing import Dict, Any
+
+from readme.api_testing import fetch_first_solve_date
+
 def update_dates(
     problem_entries: Dict[str, Any], 
     username: str, 
     force_update: bool = False
 ) -> None:
     """
-    If force_update = False:
-        - Re-check problems that:
-          1) Have date == None or float('inf'), or
-          2) Date is a known placeholder (like January 16, 2023).
-    If force_update = True:
-        - Re-check all problems that have a slug.
-          If the new date from the API is different from the old, update it.
+    If force_update=False:
+      - Only re-check problems with date == None, float('inf'), or your known placeholders (optional).
+    If force_update=True:
+      - Re-check *all* problems that have a slug from the LeetCode API.
+        If the fetched date differs from the currently stored date (beyond microsecond rounding),
+        we update it.
     """
     for prob_id, entry in problem_entries.items():
         slug = entry.get("slug")
@@ -43,43 +49,31 @@ def update_dates(
             # No slug => can't do an API lookup
             continue
 
-        current_date = entry.get("date")
+        current_ts = entry.get("date")  # This might be None, float('inf'), or a float.
 
-        # Force update => check every problem with a slug
         if force_update:
-            solve_dt = fetch_first_solve_date(username, slug)
-            if solve_dt is not None:
-                new_ts = solve_dt.timestamp()
-                # If we either don't have a date or the new date differs
-                if current_date is None or float(current_date) != new_ts:
-                    old_str = (
-                        "None" 
-                        if current_date is None 
-                        else str(datetime.datetime.fromtimestamp(float(current_date)))
-                    )
+            # Force re-check all
+            new_dt = fetch_first_solve_date(username, slug)
+            if new_dt is not None:
+                # Convert to an *integer* to avoid float microsecond issues
+                new_ts = int(new_dt.timestamp())
+                if current_ts is None or math.isclose(float(current_ts), new_ts, abs_tol=0.999) is False:
+                    old_ts = current_ts  # capture old before overwriting
                     entry["date"] = new_ts
-                    print(
-                        f"[update_dates] [FORCE] Updated date for problem {prob_id}"
-                        f" from {old_str} to {solve_dt}"
-                    )
-                else:
-                    # The new date == old date, or we choose not to update if identical
-                    pass  
+                    old_str = ("None" if old_ts is None 
+                               else str(datetime.datetime.fromtimestamp(float(old_ts))))
+                    print(f"[update_dates] [FORCE] Problem {prob_id}: date updated from {old_str} to {new_dt}")
+                # else: old and new are effectively the same => do nothing
             else:
                 print(f"[update_dates] [FORCE] No accepted submission found for {prob_id}")
-
         else:
-            # Not force-updating => only fix missing or placeholders
-            if current_date is None or current_date == float("inf") or (
-                isinstance(current_date, (int, float)) and is_placeholder_date(float(current_date))
-            ):
-                solve_dt = fetch_first_solve_date(username, slug)
-                if solve_dt is not None:
-                    entry["date"] = solve_dt.timestamp()
-                    print(
-                        f"[update_dates] Updated date for problem {prob_id} to {solve_dt}"
-                    )
+            # Not force-update => only fix "missing" or obviously invalid
+            if current_ts is None or current_ts == float("inf"):
+                new_dt = fetch_first_solve_date(username, slug)
+                if new_dt is not None:
+                    entry["date"] = int(new_dt.timestamp())
+                    print(f"[update_dates] Problem {prob_id}: date set to {new_dt}")
                 else:
                     print(f"[update_dates] No accepted submission found for {prob_id}")
-            # else: date looks valid and not placeholder => do nothing
+            # else: date is presumably valid => skip
 
