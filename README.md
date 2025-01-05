@@ -27,10 +27,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 116
+    "Rust": 117
     "Ruby": 12
     "Java": 24
-    "Python": 36
+    "Python": 37
     "C": 6
     "CPP": 6
 ```
@@ -177,6 +177,7 @@ pie title Problems Solved by Language
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 16, 2024 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
+| 2381 | Shifting Letters Ii | [Rust](./rust/src/shifting_letters_ii_2381.rs), [Python](./python/shifting_letters_ii_2381.py),  | January 04, 2025 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | [CPP](./C/2415.reverse-odd-levels-of-binary-tree.cpp), [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | December 09, 2022 | No |
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 02, 2024 | No |
