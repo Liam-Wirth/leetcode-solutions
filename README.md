@@ -30,7 +30,7 @@ pie title Problems Solved by Language
     "Rust": 117
     "Ruby": 12
     "Java": 24
-    "Python": 37
+    "Python": 38
     "C": 6
     "CPP": 6
 ```
@@ -134,6 +134,7 @@ pie title Problems Solved by Language
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
 | 1346 | Check If N And Its Double Exist | [Python](./python/check_if_n_and_its_double_exist_1346.py), [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | June 12, 2022 | No |
+| 1408 | String Matching In An Array | [Python](./python/string_matching_in_an_array_1408.py),  | January 06, 2025 | No |
 | 1422 | Maximum Score After Splitting A String | [Python](./python/maximum_score_after_splitting_a_string_1422.py),  | January 03, 2025 | No |
 | 1455 | Check If A Word Occurs As A Prefix Of Any Word In A Sentence | [Python](./python/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.py), [Rust](./rust/src/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.rs),  | December 01, 2024 | No |
 | 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | June 28, 2022 | [Yes](assewriteu/1470.md)|
