@@ -30,7 +30,7 @@ pie title Problems Solved by Language
     "Rust": 117
     "Ruby": 12
     "Java": 24
-    "Python": 38
+    "Python": 39
     "C": 6
     "CPP": 6
 ```
@@ -200,5 +200,6 @@ pie title Problems Solved by Language
 | 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assewriteu/3005.md)|
 | 3024 | Type Of Triangle | [Rust](./rust/src/type_of_triangle_3024.rs),  | August 06, 2024 | No |
 | 3028 | Ant On The Boundary | [Rust](./rust/src/ant_on_the_boundary_3028.rs),  | February 04, 2024 | No |
+| 3042 | Count Prefix And Suffix Pairs I | [Python](./python/count_prefix_and_suffix_pairs_I_3042.py),  | January 07, 2025 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
