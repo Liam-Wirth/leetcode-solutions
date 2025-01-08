@@ -3,4 +3,7 @@ rust/target/*
 /**/target/
 .env
 *.pyc
+assets/api_probs.json
+assets/filtered_probs.json
+
 
