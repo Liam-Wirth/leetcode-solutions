@@ -30,7 +30,7 @@ pie title Problems Solved by Language
     "Rust": 117
     "Ruby": 12
     "Java": 24
-    "Python": 39
+    "Python": 44
     "C": 6
     "CPP": 6
 ```
@@ -141,6 +141,7 @@ pie title Problems Solved by Language
 | 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | June 07, 2022 | [Yes](assewriteu/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
+| 1512 | Number Of Good Pairs | [Python](./number_of_good_pairs_1512.py),  | January 07, 2025 | No |
 | 1518 | Water Bottles | [Python](./python/water_bottles_1518.py), [Rust](./rust/src/water_bottles_1518.rs),  | July 06, 2024 | No |
 | 1519 | Nodes In Subtree With Same Label | [Rust](./rust/src/nodes_in_subtree_with_same_label_1519.rs),  | January 12, 2023 | No |
 | 1534 | Count Good Triplets | [Rust](./rust/src/count_good_triplets_1534.rs),  | December 25, 2024 | No |
@@ -189,7 +190,10 @@ pie title Problems Solved by Language
 | 2540 | Minimum Common Value | [Rust](./rust/src/minimum_common_value_2540.rs),  | March 08, 2024 | No |
 | 2559 | Count Vowel Strings In Ranges | [Python](./python/count_vowel_strings_in_ranges_2559.py),  | January 03, 2025 | No |
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
+| 2627 | Debounce | [Python](./JS/debounce_2627.py),  | January 07, 2025 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
+| 2769 | Find The Maximum Acheivable Number | [Python](./python/find_the_maximum_acheivable_number_2769.py),  | January 07, 2025 | No |
+| 2807 | Insert Greatest Common Divisor In Linked List | [Python](./python/insert_greatest_common_divisor_in_linked_list_2807.py),  | January 07, 2025 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 15, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | [C](./C/2816.double-a-number-represented-as-a-linked-list.c), [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
@@ -203,3 +207,4 @@ pie title Problems Solved by Language
 | 3042 | Count Prefix And Suffix Pairs I | [Python](./python/count_prefix_and_suffix_pairs_I_3042.py),  | January 07, 2025 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
+| 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |
