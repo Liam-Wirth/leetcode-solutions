@@ -21,18 +21,19 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 |**June 6th 2022**| First Ruby Solution | [Leetcode 2235 Add Two Integers](editor/en/Ruby/2235.add-two-integers.rb)
 |**January 11th 2023| First independant Rust solution AND explanation! | [Leetcode 12 Integer to Roman](editor/en/rust/src/12_roman-to-integer.rs)|
 |**February 12 2024| First tried a medium problem, and it ran on first try, as well as had the answer accepted| [leetcode 2149 Rearrange Array elements by sign](/rust/src/rearrange_array_elements_by_sign_2149.rs)|
+|**January 8th 2024**| Fastest time to solve a problem, 46 seconds | [Leetcode 2255 Count prefixes of a given string](count_prefixes_of_a_given_string_2255.rs) |
 
 [![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
 ## List of problems solved
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 117
-    "Ruby": 12
-    "Java": 24
-    "Python": 44
+    "Rust": 119
+    "Ruby": 13
+    "Java": 25
+    "Python": 47
     "C": 6
-    "CPP": 6
+    "CPP": 7
 ```
 
 ### Problems Marked "Revisit": 18
@@ -161,6 +162,7 @@ pie title Problems Solved by Language
 | 1827 | Minimum Operations To Make The Array Increasing | [Rust](./rust/src/minimum_operations_to_make_the_array_increasing_1827.rs),  | June 14, 2024 | No |
 | 1915 | Number Of Wonderful Substrings | [Python](./python/number_of_wonderful_substrings_1915.py),  | April 30, 2024 | No |
 | 1920 | Build Array From Permutation | [Ruby](./Ruby/1920.build-array-from-permutation.rb), [Rust](./rust/src/build_array_from_permutation_1920.rs),  | June 07, 2022 | No |
+| 1930 | Unique Length 3 Palindromic Subsequences | [Python](./python/unique_length_3_palindromic_subsequences_1930.py),  | January 08, 2025 | No |
 | 1971 | Find If Path Exists In Graph | [CPP](./C/1971.find-if-path-exists-in-graph.cpp),  | April 21, 2024 | No |
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | April 20, 2024 | No |
 | 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
@@ -171,10 +173,12 @@ pie title Problems Solved by Language
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | July 01, 2022 | No |
 | 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assewriteu/2149.md)|
 | 2181 | Merge Nodes In Between Zeros | [Python](./python/merge_nodes_in_between_zeros_2181.py), [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
+| 2185 | Counting Words With A Given Prefix | [Python](./python/counting_words_with_a_given_prefix_2185.py), [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs),  | January 08, 2025 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | June 11, 2022 | No |
 | 2235 | Add Two Integers | [C](./C/2235.add-two-integers.c), [Java](./Java/2235.add-two-integers.java), [Ruby](./Ruby/2235.add-two-integers.rb),  | June 03, 2022 | No |
 | 2236 | Root Equals Sum Of Children | [Rust](./rust/src/root_equals_sum_of_children_2236.rs),  | July 07, 2022 | No |
 | 2246 | Longest Path With Different Adjacent Characters | [Rust](./rust/src/longest_path_with_different_adjacent_characters_2246.rs),  | January 12, 2023 | No |
+| 2255 | Count Prefixes Of A Given String | [Rust](./rust/src/count_prefixes_of_a_given_string_2255.rs), [CPP](./C/2255.count_prefixes_of_a_given_string.cpp), [Java](./Java/2255.count_prefixes_of_a_given_string.java), [Python](./python/count_prefixes_of_a_given_string_2255.py), [Ruby](./Ruby/2255.count_prefixes_of_a_given_string.rb),  | January 08, 2025 | [Yes](assewriteu/2255.md)|
 | 2270 | Number Of Ways To Split Array | [Python](./python/number_of_ways_to_split_array_2270.py),  | January 03, 2025 | No |
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 16, 2024 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |

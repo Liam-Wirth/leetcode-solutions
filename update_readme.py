@@ -1,3 +1,4 @@
+# TODO: Would be nice to update the api calls to check and provide a website link to the solution as well, visible on leetcode instead of just the repo/local solution
 from typing import Union, Optional, Dict, Any, List
 import os
 import pickle
@@ -22,7 +23,9 @@ good = dotenv.load_dotenv()  # Load environment variables from .env
 if not good:
     print("ERROR: Please update your .env file with LEETCODE_API_KEY")
 else:
-    print(os.getenv("LEETCODE_API_KEY"))
+    # print(os.getenv("LEETCODE_API_KEY"))
+    # old debug statement, disregard lol
+    pass    
 
 leetcode_api_key = os.getenv("LEETCODE_API_KEY")
 
