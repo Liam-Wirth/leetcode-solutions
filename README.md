@@ -28,12 +28,16 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 119
+    "Rust": 124
     "Ruby": 13
     "Java": 25
-    "Python": 47
+    "Python": 53
     "C": 6
     "CPP": 7
+    "Elixir": 1
+    "JavaScript": 2
+    "Racket": 1
+    "SQL": 2
 ```
 
 ### Problems Marked "Revisit": 18
@@ -81,7 +85,7 @@ pie title Problems Solved by Language
 | 237 | Delete Node In Linked List | [C](./C/237.delete-node-in-linked-list.c), [Python](./python/delete_node_in_linked_list_237.py),  | May 05, 2024 | No |
 | 238 | Product Of Array Except Self | [CPP](./C/238.product-of-array-except-self.cpp),  | March 14, 2024 | No |
 | 242 | Valid Anagram | [Rust](./rust/src/valid_anagram_242.rs),  | February 10, 2024 | No |
-| 258 | Add Digits | [Python](./python/add_digits_258.py),  | December 25, 2024 | No |
+| 258 | Add Digits | [Python](./python/add_digits_258.py), [Elixir](./elixir/add_digits_258.ex),  | December 25, 2024 | No |
 | 268 | Missing Number | [Rust](./rust/src/missing_number_268.rs),  | February 19, 2024 | No |
 | 271 | Encode And Decode Strings | [Python](./python/encode_and_decode_strings_271.py),  | May 09, 2024 | No |
 | 283 | Move Zeroes | [Rust](./rust/src/move_zeroes_283.rs),  | December 25, 2024 | No |
@@ -94,7 +98,7 @@ pie title Problems Solved by Language
 | 367 | Valid Perfect Square | [Ruby](./Ruby/367.valid-perfect-square.rb),  | June 14, 2022 | No |
 | 371 | Sum Of Two Integers | [C](./C/371.sum-of-two-integers.c),  | December 19, 2024 | No |
 | 380 | Insert Delete Get Random | [Rust](./rust/src/insert_delete_get_random_380.rs),  | January 17, 2024 | No |
-| 387 | First Unique Character In A String | [Rust](./rust/src/first_unique_character_in_a_string_387.rs),  | February 04, 2024 | No |
+| 387 | First Unique Character In A String | [Rust](./rust/src/first_unique_character_in_a_string_387.rs), [Python](./python/first_unique_character_in_a_string_387.py),  | February 04, 2024 | No |
 | 389 | Find The Difference | [Rust](./rust/src/find_the_difference_389.rs),  | April 04, 2024 | No |
 | 404 | Sum Of Left Leaves | [Rust](./rust/src/sum_of_left_leaves_404.rs),  | April 13, 2024 | No |
 | 442 | Find All Duplicates In Array | [Rust](./rust/src/find_all_duplicates_in_array_442.rs),  | March 24, 2024 | No |
@@ -156,13 +160,16 @@ pie title Problems Solved by Language
 | 1701 | Average Waiting Time | [Rust](./rust/src/average_waiting_time_1701.rs),  | July 09, 2024 | No |
 | 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 04, 2022 | No |
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assewriteu/1750.md)|
+| 1757 | Recyclable And Low Fat Products | [SQL](./SQL/recyclable_and_low_fat_products_1757.sql),  | July 02, 2024 | No |
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
 | 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | July 26, 2022 | No |
 | 1823 | Find The Winner Of The Circular Game | [Python](./python/find_the_winner_of_the_circular_game_1823.py), [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
 | 1827 | Minimum Operations To Make The Array Increasing | [Rust](./rust/src/minimum_operations_to_make_the_array_increasing_1827.rs),  | June 14, 2024 | No |
+| 1832 | Check If Sentence Is Pangram | [Python](./python/check_if_sentence_is_pangram_1832.py), [Rust](./rust/src/check_if_sentene_is_pangram_1832.rs),  | January 08, 2025 | No |
 | 1915 | Number Of Wonderful Substrings | [Python](./python/number_of_wonderful_substrings_1915.py),  | April 30, 2024 | No |
 | 1920 | Build Array From Permutation | [Ruby](./Ruby/1920.build-array-from-permutation.rb), [Rust](./rust/src/build_array_from_permutation_1920.rs),  | June 07, 2022 | No |
 | 1930 | Unique Length 3 Palindromic Subsequences | [Python](./python/unique_length_3_palindromic_subsequences_1930.py),  | January 08, 2025 | No |
+| 1961 | Check If String Is A Prefix Of Array | [Python](./python/check_if_string_is_a_prefix_of_array_1961.py), [Rust](./rust/src/check_if_string_is_a_prefix_of_array_1961.rs),  | January 08, 2025 | No |
 | 1971 | Find If Path Exists In Graph | [CPP](./C/1971.find-if-path-exists-in-graph.cpp),  | April 21, 2024 | No |
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | April 20, 2024 | No |
 | 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
@@ -173,7 +180,7 @@ pie title Problems Solved by Language
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | July 01, 2022 | No |
 | 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assewriteu/2149.md)|
 | 2181 | Merge Nodes In Between Zeros | [Python](./python/merge_nodes_in_between_zeros_2181.py), [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
-| 2185 | Counting Words With A Given Prefix | [Python](./python/counting_words_with_a_given_prefix_2185.py), [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs),  | January 08, 2025 | No |
+| 2185 | Counting Words With A Given Prefix | [Python](./python/counting_words_with_a_given_prefix_2185.py), [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs), [Racket](./racket/counting_words_with_a_given_prefix_2185.rkt),  | January 08, 2025 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | June 11, 2022 | No |
 | 2235 | Add Two Integers | [C](./C/2235.add-two-integers.c), [Java](./Java/2235.add-two-integers.java), [Ruby](./Ruby/2235.add-two-integers.rb),  | June 03, 2022 | No |
 | 2236 | Root Equals Sum Of Children | [Rust](./rust/src/root_equals_sum_of_children_2236.rs),  | July 07, 2022 | No |
@@ -181,6 +188,7 @@ pie title Problems Solved by Language
 | 2255 | Count Prefixes Of A Given String | [Rust](./rust/src/count_prefixes_of_a_given_string_2255.rs), [CPP](./C/2255.count_prefixes_of_a_given_string.cpp), [Java](./Java/2255.count_prefixes_of_a_given_string.java), [Python](./python/count_prefixes_of_a_given_string_2255.py), [Ruby](./Ruby/2255.count_prefixes_of_a_given_string.rb),  | January 08, 2025 | [Yes](assewriteu/2255.md)|
 | 2270 | Number Of Ways To Split Array | [Python](./python/number_of_ways_to_split_array_2270.py),  | January 03, 2025 | No |
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 16, 2024 | No |
+| 2356 | Number Of Unique Subjects Taught By Each Teacher | [SQL](./SQL/number_of_unique_subjects_taught_by_each_teacher_2356.sql),  | January 08, 2025 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
 | 2381 | Shifting Letters Ii | [Rust](./rust/src/shifting_letters_ii_2381.rs), [Python](./python/shifting_letters_ii_2381.py),  | January 04, 2025 | No |
@@ -191,18 +199,22 @@ pie title Problems Solved by Language
 | 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
 | 2486 | Append Characters To String To Make Subsequence | [Python](./python/append_characters_to_string_to_make_subsequence_2486.py),  | June 03, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | [Rust](./rust/src/remove_nodes_from_a_linked_list_2487.rs),  | May 06, 2024 | No |
+| 2520 | Count The Digits That Divide A Number | [Rust](./rust/src/count_the_digits_that_divide_a_number_2520.rs), [Python](./python/count_the_digits_that_divide_a_number_2520.py),  | January 08, 2025 | No |
 | 2540 | Minimum Common Value | [Rust](./rust/src/minimum_common_value_2540.rs),  | March 08, 2024 | No |
 | 2559 | Count Vowel Strings In Ranges | [Python](./python/count_vowel_strings_in_ranges_2559.py),  | January 03, 2025 | No |
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
-| 2627 | Debounce | [Python](./JS/debounce_2627.py),  | January 07, 2025 | No |
+| 2627 | Debounce | [Python](./JS/debounce_2627.py), [JavaScript](./JS/debounce_2627.js),  | January 07, 2025 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
+| 2715 | Timeout Cancelation | [JavaScript](./JS/timeout_cancelation_2715.js),  | January 07, 2025 | No |
 | 2769 | Find The Maximum Acheivable Number | [Python](./python/find_the_maximum_acheivable_number_2769.py),  | January 07, 2025 | No |
+| 2798 | Number Of Employees Who Meet The Target | [Rust](./rust/src/number_of_employees_who_meet_the_target_2798.rs), [Python](./python/number_of_employees_who_meet_the_target_2798.py),  | January 08, 2025 | No |
 | 2807 | Insert Greatest Common Divisor In Linked List | [Python](./python/insert_greatest_common_divisor_in_linked_list_2807.py),  | January 07, 2025 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 15, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | [C](./C/2816.double-a-number-represented-as-a-linked-list.c), [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
 | 2940 | Find Building Where Allice And Bob Can Meet | [CPP](./C/2940.find-building-where-allice-and-bob-can-meet.cpp), [Python](./python/find_building_where_alice_and_bob_can_meet_2940.py), [Rust](./rust/src/find_building_where_alice_and_bob_can_meet_2940.rs),  | December 21, 2024 | No |
 | 2942 | Find Words Containing Character | [Rust](./rust/src/find_words_containing_character_2942.rs),  | August 06, 2024 | No |
+| 2947 | Minimum Number Game | [Python](./minimum_number_game_2947.py), [Rust](./rust/src/minimum_number_game_2947.rs),  | January 08, 2025 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
 | 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
 | 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | [Yes](assewriteu/3005.md)|

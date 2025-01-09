@@ -55,6 +55,7 @@ if use_json:
     if os.path.exists(serialized):
         with open(serialized, "r") as f:
             problem_entries = json.load(f)
+            print("Loaded problem entries, length: ", len(problem_entries))
     else:
         problem_entries = {}
         do_extra_git_searches = True

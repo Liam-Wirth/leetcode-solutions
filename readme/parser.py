@@ -1,6 +1,75 @@
+from dataclasses import dataclass
+from enum import Enum
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple, Any
 import os
-from typing import List, Dict, Any, Tuple
-from readme.utils import format_problem_name, commit_date_info, tagswag
+
+from readme.utils import commit_date_info, format_problem_name, tagswag
+
+class Language(Enum):
+    RUST = "Rust"
+    RUBY = "Ruby"
+    JAVA = "Java"
+    PYTHON = "Python"
+    C = "C"
+    CPP = "CPP"
+    MARKDOWN = "Markdown"
+    RACKET = "Racket"
+    SQL = "SQL"
+    JS = "JavaScript"
+    ELIXIR = "Elixir"
+
+@dataclass
+class FileConfig:
+    extension: str
+    language: Optional[Language] = None
+    is_writeup: bool = False
+    parse_format: str = "underscore"  # underscore or dot
+
+SUPPORTED_FILES: Dict[str, FileConfig] = {
+    ".rs": FileConfig(".rs", Language.RUST, parse_format="underscore"),
+    ".rb": FileConfig(".rb", Language.RUBY, parse_format="dot"),
+    ".java": FileConfig(".java", Language.JAVA, parse_format="dot"),
+    ".py": FileConfig(".py", Language.PYTHON, parse_format="underscore"),
+    ".md": FileConfig(".md", is_writeup=True, parse_format="dot"),
+    ".c": FileConfig(".c", Language.C, parse_format="dot"),
+    ".cpp": FileConfig(".cpp", Language.CPP, parse_format="dot"),
+    ".rkt": FileConfig(".rkt", Language.RACKET, parse_format="underscore"),
+    ".sql": FileConfig(".sql", Language.SQL, parse_format="underscore"),
+    ".js": FileConfig(".js", Language.JS, parse_format="underscore"),
+    ".ex": FileConfig(".ex", Language.ELIXIR, parse_format="underscore")
+}
+
+SKIP_FILES = {"lib.rs", "main.rs", "update_readme.py", "README.md", "update_dates.py", "utils.py", "api_testing.py", "api_probs_parse.py", "parser.py"}
+
+def get_file_config(file_path: str) -> Optional[FileConfig]:
+    """Get file configuration based on extension"""
+    ext = Path(file_path).suffix
+    return SUPPORTED_FILES.get(ext)
+
+def parse_problem_number(file_name: str, parse_format: str) -> Optional[int]:
+    """Extract problem number from filename based on parse format"""
+    try:
+        match parse_format:
+            case "underscore":
+                return int(file_name.split("_")[-1].split(".")[0])
+            case "dot":
+                return int(file_name.split(".")[0])
+    except ValueError:
+        print(f"Skipping file due to invalid problem number: {file_name}")
+        return None
+
+def parse_problem_name(file_name: str, file_config: FileConfig) -> str:
+    """Extract and format problem name from filename"""
+    match file_config.parse_format:
+        case "underscore":
+            parts = file_name.split("_")
+            return format_problem_name(" ".join(parts[:-1]))
+        case "dot":
+            parts = file_name.split(".")
+            if file_config.language == Language.JAVA:
+                return format_problem_name(parts[1])
+            return format_problem_name(" ".join(parts[1:-1]))
 
 def parse_solution_file(
     file_path: str,
@@ -9,163 +78,72 @@ def parse_solution_file(
     scan_todo: bool,
     repo_path: str
 ) -> Tuple[Dict[str, Any], int]:
-    """Parses a solution file and extracts problem information."""
-    problem_number: int = 0
-    file_name: str = os.path.basename(file_path)
-    problem_name: str = ""
-    language: str = ""
-    writeup: bool = False
-    writeup_path: str = ""
-    date: float | None = None
+    """
+    Parses a solution file and extracts problem information.
+    """
+    file_name = Path(file_path).name
+    if file_name in SKIP_FILES:
+        return problem_entries, 0
+
+    file_config = get_file_config(file_path)
+    if not file_config:
+        return problem_entries, 0
+
     tags: List[str] = []
+    if scan_todo:
+        with open(file_path, "r") as f:
+            if "TODO:" in f.read():
+                tags.append("Revisit")
+
+    problem_number = parse_problem_number(file_name, file_config.parse_format)
+    if problem_number is None:
+        return problem_entries, 0
+
+    problem_name = parse_problem_name(file_name, file_config)
+    problem_id = str(problem_number)
     revisit_count = 0
 
-    if file_name.endswith((".rs", ".rb", ".java", ".py", ".md", ".c", ".cpp")):
-        if file_name in ("lib.rs", "main.rs", "update_readme.py"):
-            return problem_entries, revisit_count
-        
-        if scan_todo:
-            with open(file_path, "r") as f:
-                content = f.read()
-                if "TODO:" in content:
-                    tags.append("Revisit")
+    # Create entry data
+    entry_data = {
+        "name": problem_name,
+        "languages": {},
+        "date": float("inf"),
+        "writeup": file_config.is_writeup,
+        "Tags": tags if tags else None
+    }
 
-        if file_name.endswith(".rs"):
-            parts: List[str] = file_name.split("_")
-            problem_name = " ".join(parts[:-1])
-            problem_name = format_problem_name(problem_name)
-            try:
-                problem_number = int(parts[-1].split(".")[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            language = "Rust"
+    if file_config.is_writeup:
+        entry_data["writeup_path"] = os.path.join("assewriteu", file_name)
+    elif file_config.language:
+        entry_data["languages"][file_config.language.value] = file_path
+        if commit_date := commit_date_info(repo_path, file_path):
+            entry_data["date"] = commit_date
 
-        elif file_name.endswith(".rb"):
-            parts = file_name.split(".")
-            try:
-                problem_number = int(parts[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            problem_name = " ".join(parts[1:-1])
-            problem_name = format_problem_name(problem_name)
-            language = "Ruby"
+    # Update or create problem entry
+    if existing := problem_entries.get(problem_id):
+        if do_extra_git_searches and existing["date"] is not None:
+            if commit_date := commit_date_info(repo_path, file_path):
+                if commit_date < float(existing["date"]):
+                    existing["date"] = commit_date
 
-        elif file_name.endswith(".java"):
-            try:
-                problem_number = int(file_name.split(".")[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            parts = file_name.split(".")[1]
-            parts = format_problem_name(parts)
-            problem_name = format_problem_name(parts)
-            language = "Java"
+        if file_config.language and file_config.language.value not in existing["languages"]:
+            existing["languages"][file_config.language.value] = file_path
 
-        elif file_name.endswith(".py"):
-            parts = file_name.split("_")
-            problem_name = " ".join(parts[:-1])
-            problem_name = format_problem_name(problem_name)
-            try:
-                problem_number = int(parts[-1].split(".")[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            language = "Python"
+        if file_config.is_writeup:
+            existing.update({
+                "writeup": True,
+                "writeup_path": entry_data["writeup_path"],
+                "Tags": tags if tags else None
+            })
+            if scan_todo:
+                revisit_count = tagswag(problem_entries, revisit_count, tags, problem_id)
 
-        elif file_name.endswith(".md") and file_name != "README.md":
-            try:
-                problem_number = int(file_name.split(".")[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            writeup = True
-            writeup_path = os.path.join("assewriteu", file_name)
+        if not existing["name"]:
+            existing["name"] = problem_name
 
-        elif file_name.endswith(".c"):
-            parts = file_name.split(".")
-            try:
-                problem_number = int(parts[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            problem_name = " ".join(parts[1:-1])
-            problem_name = format_problem_name(problem_name)
-            language = "C"
+    else:
+        problem_entries[problem_id] = entry_data
+        if tags:
+            revisit_count = tagswag(problem_entries, revisit_count, tags, problem_id)
 
-        elif file_name.endswith(".cpp"):
-            parts = file_name.split(".")
-            try:
-                problem_number = int(parts[0])
-            except ValueError:
-                print(f"Skipping file due to invalid problem number: {file_name}")
-                return problem_entries, revisit_count
-            problem_name = " ".join(parts[1:-1])
-            problem_name = format_problem_name(problem_name)
-            language = "CPP"
-
-
-        if str(problem_number) in problem_entries:
-            if do_extra_git_searches:
-                if problem_entries[str(problem_number)]["date"] is not None:
-                    tmp = commit_date_info(repo_path, file_path)
-                    if tmp is not None:
-                        if tmp < float(problem_entries[str(problem_number)]["date"]):  # type: ignore
-                            problem_entries[str(problem_number)]["date"] = tmp
-
-            if language not in problem_entries[str(problem_number)]["languages"] and language != "":  # type: ignore
-                problem_entries[str(problem_number)]["languages"][language] = file_path  # type: ignore
-
-            if writeup:
-                if scan_todo:
-                    revisit_count = tagswag(problem_entries, revisit_count, tags, str(problem_number))
-                else:
-                    tags = None
-                problem_entries[str(problem_number)]["writeup"] = True
-                problem_entries[str(problem_number)][
-                    "writeup_path"
-                ] = writeup_path
-
-            if (
-                not problem_entries[str(problem_number)]["name"]
-                or problem_entries[str(problem_number)]["name"] == ""
-            ):
-                problem_entries[str(problem_number)]["name"] = problem_name
-
-            if language not in problem_entries[str(problem_number)]["languages"] and language != "":  # type: ignore
-                problem_entries[str(problem_number)]["languages"][language] = file_path  # type: ignore
-
-        elif problem_number != 0:
-            if writeup:
-                if len(tags) <= 0:
-                    tags = None
-                problem_entries[str(problem_number)] = {
-                    "name": problem_name,
-                    "languages": {},
-                    "date": float("inf"),
-                    "writeup": True,
-                    "writeup_path": writeup_path,
-                    "Tags": tags,
-                }
-                print(problem_entries[str(problem_number)]["languages"])
-            else:
-                with open(file_path, "r") as f:
-                    content = f.read()
-                    if "TODO:" in content:
-                        tags.append("Revisit")
-                if len(tags) <= 0 or tags is None:
-                    tags = None
-                date = commit_date_info(repo_path, file_path)
-                temp: Dict[str, str] = {language: file_path} if language else {}
-                problem_entries[str(problem_number)] = {
-                    "name": problem_name,
-                    "languages": temp,
-                    "date": date if date is not None else float("inf"),
-                    "writeup": False,
-                    "Tags": tags,
-                }
-                revisit_count = tagswag(problem_entries, revisit_count, tags, str(problem_number))
-    
     return problem_entries, revisit_count
-
