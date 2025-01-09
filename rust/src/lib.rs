@@ -160,3 +160,8 @@ mod check_if_sentene_is_pangram_1832;
 mod count_the_digits_that_divide_a_number_2520;
 mod number_of_employees_who_meet_the_target_2978;
 mod number_of_employees_who_meet_the_target_2798;
+mod difference_between_element_sum_and_digit_sum_of_an_array_2535;
+mod sum_multiples_2652;
+mod XOR_operation_in_an_array_1486;
+mod divisible_and_non_divisible_sums_difference_2894;
+mod to_lower_case_709;
