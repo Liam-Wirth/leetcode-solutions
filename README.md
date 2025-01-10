@@ -28,10 +28,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 129
+    "Rust": 130
     "Ruby": 13
     "Java": 25
-    "Python": 58
+    "Python": 59
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -123,6 +123,7 @@ pie title Problems Solved by Language
 | 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | April 04, 2022 | No |
 | 881 | Boats To Save People | [Rust](./rust/src/boats_to_save_people_881.rs),  | May 04, 2024 | No |
 | 914 | X Of A Kind In A Deck Of Cards | [Java](./Java/914.x-of-a-kind-in-a-deck-of-cards.java), [Rust](./rust/src/x_of_a_kind_in_a_deck_of_cards_914.rs),  | June 21, 2022 | No |
+| 916 | Word Subsets | [Rust](./rust/src/word_subsets_916.rs), [Python](./python/word_subsets_916.py),  | January 09, 2025 | [Yes](assewriteu/916.md)|
 | 926 | Flip String To Monotone Increasing | [Rust](./rust/src/flip_string_to_monotone_increasing_926.rs),  | January 17, 2023 | No |
 | 938 | Range Sum Of Bst | [Rust](./rust/src/range_sum_of_bst_938.rs),  | January 08, 2024 | No |
 | 945 | Minimum Increment To Make Array Unique | [Rust](./rust/src/minimum_increment_to_make_array_unique_945.rs),  | June 14, 2024 | No |
