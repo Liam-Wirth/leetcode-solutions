@@ -28,10 +28,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 130
+    "Rust": 131
     "Ruby": 13
     "Java": 25
-    "Python": 59
+    "Python": 60
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -181,6 +181,7 @@ pie title Problems Solved by Language
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | July 01, 2022 | No |
+| 2116 | Check If A Parenthesis String Can Be Valid | [Rust](./rust/src/check_if_a_parenthesis_string_can_be_valid_2116.rs), [Python](./python/check_if_a_parenthesis_string_can_be_valid_2116.py),  | January 11, 2025 | [Yes](assewriteu/2116.md)|
 | 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | [Yes](assewriteu/2149.md)|
 | 2181 | Merge Nodes In Between Zeros | [Python](./python/merge_nodes_in_between_zeros_2181.py), [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
 | 2185 | Counting Words With A Given Prefix | [Python](./python/counting_words_with_a_given_prefix_2185.py), [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs), [Racket](./racket/counting_words_with_a_given_prefix_2185.rkt),  | January 08, 2025 | No |
