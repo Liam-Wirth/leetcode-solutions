@@ -31,7 +31,7 @@ pie title Problems Solved by Language
     "Rust": 131
     "Ruby": 13
     "Java": 25
-    "Python": 60
+    "Python": 61
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -198,6 +198,7 @@ pie title Problems Solved by Language
 | 2381 | Shifting Letters Ii | [Rust](./rust/src/shifting_letters_ii_2381.rs), [Python](./python/shifting_letters_ii_2381.py),  | January 04, 2025 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | [CPP](./C/2415.reverse-odd-levels-of-binary-tree.cpp), [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | December 09, 2022 | No |
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
+| 2429 | Minimize Xor | [Python](./python/minimize_xor_2429.py),  | January 14, 2025 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 02, 2024 | No |
 | 2471 | Minimum Number Of Operations To Sort A Binary Tree By Level | [Python](./python/minimum_number_of_operations_to_sort_a_binary_tree_by_level_2471.py),  | December 22, 2024 | No |
 | 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
