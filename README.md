@@ -31,7 +31,7 @@ pie title Problems Solved by Language
     "Rust": 131
     "Ruby": 13
     "Java": 25
-    "Python": 61
+    "Python": 62
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -211,6 +211,7 @@ pie title Problems Solved by Language
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
 | 2627 | Debounce | [Python](./JS/debounce_2627.py), [JavaScript](./JS/debounce_2627.js),  | January 07, 2025 | No |
 | 2652 | Sum Multiples | [Rust](./rust/src/sum_multiples_2652.rs), [Python](./python/sum_multiples_2652.py),  | January 08, 2025 | No |
+| 2661 | First Completely Painted Row Or Column | [Python](./python/first_completely_painted_row_or_column_2661.py),  | January 20, 2025 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
 | 2715 | Timeout Cancelation | [JavaScript](./JS/timeout_cancelation_2715.js),  | January 07, 2025 | No |
 | 2769 | Find The Maximum Acheivable Number | [Python](./python/find_the_maximum_acheivable_number_2769.py),  | January 07, 2025 | No |
