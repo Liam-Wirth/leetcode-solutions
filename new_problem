@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+import json
+import os
+import pickle
+import sys
+from typing import Optional
+
+
+
+from readme.parser import Language, get_file_config
+
+
+"""
+Format of json in problems is as follows:
+problem_id_number: {
+  "question_id": str,
+  "question__title": str,  <-- you'll typically want this
+  "question__title_slug": str,
+}
+"""
+
+api_problems: dict = pickle.load(open("assets/filtered_probs.pkl", "rb"))
+solved: dict = json.load(open("assets/problems.json", "r"))
+# todo: make simple script such that given problem number/ desired language it will create and or open the file in the correct directory, with the right name
+from readme.parser import Language, FileConfig, SUPPORTED_FILES
+
+def format_filename(problem_name: str, problem_number: int, file_config: FileConfig) -> str:
+    """Format filename according to language conventions"""
+    clean_name = problem_name.lower().replace(" ", "_")
+    
+    match file_config.parse_format:
+        case "underscore":
+            return f"{clean_name}_{problem_number}{file_config.extension}"
+        case "dot":
+            return f"{problem_number}.{clean_name}{file_config.extension}"
+
+def get_directory(language: Language) -> str:
+    """Get the appropriate directory for each language"""
+    match language:
+        case Language.RUST:
+            return "rust/src"
+        case Language.PYTHON:
+            return "python"
+        case Language.JAVA:
+            return "Java"
+        case Language.CPP | Language.C:
+            return "C"
+        case Language.RUBY:
+            return "Ruby"
+        case Language.JS:
+            return "JS"
+        case Language.ELIXIR:
+            return "elixir"
+        case Language.SQL:
+            return "sql"
+        case Language.RACKET:
+            return "racket"
+        case _:
+            return "."
+
+def get_template_content(language: Language) -> str:
+    """Get language-specific template content"""
+    match language:
+        case Language.RUST:
+            return "use crate::Solution;\n\nimpl Solution {\n    pub fn solve() {\n        \n    }\n}"
+        case Language.PYTHON:
+            return "class Solution:\n    def solve(self):\n        pass"
+        case Language.JAVA:
+            return "class Solution {\n    public void solve() {\n        \n    }\n}"
+        case _:
+            return ""
+
+def create_problem(problem_number: int, language: Language) -> Optional[str]:
+    """
+    Create a new solution file for the given problem number and language.
+    Returns the created file path if successful.
+    """
+    try:
+        # Get problem info
+        if str(problem_number) not in api_problems:
+            print(f"Problem {problem_number} not found")
+            return None
+            
+        problem_info = api_problems[str(problem_number)]
+        problem_name = problem_info["question__title"]
+        
+        # Get file config for the language
+        file_config = next(
+            (cfg for cfg in SUPPORTED_FILES.values() if cfg.language == language),
+            None
+        )
+        if not file_config:
+            print(f"Language {language} not supported")
+            return None
+            
+        # Create directory if needed
+        directory = get_directory(language)
+        os.makedirs(directory, exist_ok=True)
+        
+        # Generate filename and full path
+        filename = format_filename(problem_name, problem_number, file_config)
+        file_path = os.path.join(directory, filename)
+        
+        # Create file with template
+        if not os.path.exists(file_path):
+            with open(file_path, "w") as f:
+                template = get_template_content(language)
+                f.write(template)
+                
+            # Special handling for Rust
+            if language == Language.RUST:
+                with open("rust/src/lib.rs", "a") as f:
+                    mod_name = filename.replace(".rs", "")
+                    f.write(f"\nmod {mod_name};\n")
+                    
+            print(f"Created {file_path}")
+            return file_path
+        else:
+            print(f"File {file_path} already exists")
+            return file_path
+            
+    except Exception as e:
+        print(f"Error creating problem: {e}")
+        return None
+
+def main():
+    """CLI interface"""
+    if len(sys.argv) < 3:
+        print("Usage: new_problem <problem_number> <language>")
+        return
+        
+    try:
+        problem_number = int(sys.argv[1])
+        language = Language[sys.argv[2].upper()]
+        
+        # Check if problem is already solved
+        if str(problem_number) in solved:
+            existing = solved[str(problem_number)]
+            print(f"\nProblem {problem_number} ({existing['name']}) already solved in:")
+            for lang, path in existing['languages'].items():
+                print(f"- {lang}: {path}")
+                
+            if lang := existing['languages'].get(language.value):
+                response = input(f"\nOpen existing {language.value} solution? (y/n): ")
+                if response.lower() in ['y', 'yes']:
+                    os.system(f"nvim {lang}")
+                return
+            else:
+                response = input(f"\nCreate new solution in {language.value}? (y/n): ")
+                if response.lower() not in ['y', 'yes']:
+                    return
+        
+        # Continue with file creation if not solved or user wants new solution
+        if file_path := create_problem(problem_number, language):
+            if input("Open file? (y/n): ").lower() in ['y', 'yes']:
+                os.system(f"nvim {file_path}")
+            if input("Update README? (y/n): ").lower() in ['y', 'yes']:
+                os.system("python3 update_readme.py")
+                
+    except ValueError:
+        print("Invalid problem number or language")
+    except KeyError:
+        print(f"Unsupported language. Supported: {[l.name for l in Language]}")
+
+if __name__ == "__main__":
+    main()
