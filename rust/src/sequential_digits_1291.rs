@@ -1,3 +1,4 @@
+use crate::Solution;
 impl Solution {
     pub fn sequential_digits(low: i32, high: i32) -> Vec<i32> {
         //Dumb solution first (o(n), not at ALL scaleable);

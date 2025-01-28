@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 use std::collections::VecDeque;
+use crate::Solution;
 
 impl Solution {
     pub fn open_lock(deadends: Vec<String>, target: String) -> i32 {

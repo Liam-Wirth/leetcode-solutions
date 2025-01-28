@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use crate::Solution;
 impl Solution {
     pub fn top_k_frequent(nums: Vec<i32>, mut k: i32) -> Vec<i32> {
         let mut hm: HashMap<i32, i32> = HashMap::new();

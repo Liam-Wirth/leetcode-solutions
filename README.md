@@ -28,10 +28,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 132
+    "Rust": 134
     "Ruby": 13
     "Java": 25
-    "Python": 62
+    "Python": 66
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -45,6 +45,7 @@ pie title Problems Solved by Language
 |--------------|----------------|---------|-----------------------|----------------|
 | 1 | Two Sum | [Java](./Java/1.two-sum.java), [Rust](./rust/src/two_sum_1.rs),  | April 04, 2022 | No |
 | 2 | Add Two Numbers | [C](./C/2.add-two-numbers.c), [Java](./Java/2.add-two-numbers.java), [Rust](./rust/src/add_two_numbers_2.rs),  | December 19, 2024 | No |
+| 3 | Longest Substring Without Repeating Characters | [Python](./python/longest_substring_without_repeating_characters_3.py),  | January 26, 2025 | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | June 09, 2022 | No |
 | 9 | Palindrome Number | [Java](./Java/9.palindrome-number.java), [Ruby](./Ruby/9.palindrome-number.rb), [Rust](./rust/src/palindrome_number_9.rs),  | June 13, 2022 | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 11, 2023 | [Yes](assewriteu/12.md)|
@@ -79,6 +80,8 @@ pie title Problems Solved by Language
 | 169 | Majority Element | [Java](./Java/169.majority-element.java), [Rust](./rust/src/majority_element_169.rs),  | June 04, 2022 | No |
 | 198 | House Robber | [Rust](./rust/src/house_robber_198.rs),  | January 23, 2024 | No |
 | 205 | Isomorphic Strings | [Rust](./rust/src/isomorphic_strings_205.rs),  | April 01, 2024 | No |
+| 207 | Course Schedule | [Python](./python/course_schedule_207.py), [Rust](./rust/src/course_schedule_207.rs),  | January 24, 2025 | No |
+| 210 | Course Schedule Ii | [Rust](./rust/src/course_schedule_ii_210.rs),  | January 24, 2025 | No |
 | 217 | Contains Duplicate | [Rust](./rust/src/contains_duplicate_217.rs),  | February 10, 2024 | No |
 | 231 | Power Of Two | [Python](./python/power_of_two_231.py),  | February 18, 2024 | [Yes](assewriteu/231.md)|
 | 232 | Implement Queue Using Stacks | [Rust](./rust/src/implement_queue_using_stacks_232.rs),  | January 29, 2024 | No |
@@ -212,11 +215,13 @@ pie title Problems Solved by Language
 | 2582 | Pass The Pillow | [Python](./python/pass_the_pillow_2582.py), [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
 | 2627 | Debounce | [Python](./JS/debounce_2627.py), [JavaScript](./JS/debounce_2627.js),  | January 07, 2025 | No |
 | 2652 | Sum Multiples | [Rust](./rust/src/sum_multiples_2652.rs), [Python](./python/sum_multiples_2652.py),  | January 08, 2025 | No |
+| 2658 | Maximum Number Of Fish In A Grid | [Python](./python/maximum_number_of_fish_in_a_grid_2658.py),  | January 27, 2025 | No |
 | 2661 | First Completely Painted Row Or Column | [Python](./python/first_completely_painted_row_or_column_2661.py),  | January 20, 2025 | No |
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
 | 2715 | Timeout Cancelation | [JavaScript](./JS/timeout_cancelation_2715.js),  | January 07, 2025 | No |
 | 2769 | Find The Maximum Acheivable Number | [Python](./python/find_the_maximum_acheivable_number_2769.py),  | January 07, 2025 | No |
 | 2798 | Number Of Employees Who Meet The Target | [Rust](./rust/src/number_of_employees_who_meet_the_target_2798.rs), [Python](./python/number_of_employees_who_meet_the_target_2798.py),  | January 08, 2025 | No |
+| 2799 | Count Complete Subarrays In An Array | [Python](./python/count_complete_subarrays_in_an_array_2799.py),  | January 26, 2025 | No |
 | 2807 | Insert Greatest Common Divisor In Linked List | [Python](./python/insert_greatest_common_divisor_in_linked_list_2807.py),  | January 07, 2025 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 15, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | [C](./C/2816.double-a-number-represented-as-a-linked-list.c), [Python](./python/double_a_number_represented_as_a_linked_list_2816.py), [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |

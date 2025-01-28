@@ -5,7 +5,7 @@ impl Solution {
 
         for i in 0..board.len() {
             for j in 0..board[0].len() {
-                if Solution::dfs(&mut board, &word, i, j) {
+                if Solution::word_search_dfs(&mut board, &word, i, j) {
                     return true;
                 }
             }
@@ -25,7 +25,7 @@ impl Solution {
 
     */
 
-    fn dfs(board: &mut Vec<Vec<char>>, word: &[char], x: usize, y: usize) -> bool {
+    fn word_search_dfs(board: &mut Vec<Vec<char>>, word: &[char], x: usize, y: usize) -> bool {
         if word.len() == 1 {
             return board[x][y] == word[0];
         }
@@ -51,7 +51,7 @@ impl Solution {
             if board[x][y] == '~' {
                 continue;
             }
-            if Solution::dfs(board, &word[1..], x, y) {
+            if Solution::word_search_dfs(board, &word[1..], x, y) {
                 board[x][y] = word[0];
                 return true;
             }

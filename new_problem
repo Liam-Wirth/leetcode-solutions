@@ -3,7 +3,7 @@ import json
 import os
 import pickle
 import sys
-from typing import Optional
+from typing import Any, Optional
 
 
 
@@ -62,9 +62,9 @@ def get_template_content(language: Language) -> str:
     """Get language-specific template content"""
     match language:
         case Language.RUST:
-            return "use crate::Solution;\n\nimpl Solution {\n    pub fn solve() {\n        \n    }\n}"
+            return "use crate::Solution;\n\nimpl Solution {\n   \n}"
         case Language.PYTHON:
-            return "class Solution:\n    def solve(self):\n        pass"
+            return "class Solution:\n"
         case Language.JAVA:
             return "class Solution {\n    public void solve() {\n        \n    }\n}"
         case _:
@@ -135,15 +135,16 @@ def main():
         
         # Check if problem is already solved
         if str(problem_number) in solved:
-            existing = solved[str(problem_number)]
+            existing:dict[Any, Any] = solved[str(problem_number)]
+            print(existing)
+            # ensure that the problem is solved in the language, if not create a new solution in the target language
             print(f"\nProblem {problem_number} ({existing['name']}) already solved in:")
             for lang, path in existing['languages'].items():
                 print(f"- {lang}: {path}")
-                
             if lang := existing['languages'].get(language.value):
                 response = input(f"\nOpen existing {language.value} solution? (y/n): ")
                 if response.lower() in ['y', 'yes']:
-                    os.system(f"nvim {lang}")
+                    _ = os.system(f"nvim {lang}")
                 return
             else:
                 response = input(f"\nCreate new solution in {language.value}? (y/n): ")
@@ -153,9 +154,9 @@ def main():
         # Continue with file creation if not solved or user wants new solution
         if file_path := create_problem(problem_number, language):
             if input("Open file? (y/n): ").lower() in ['y', 'yes']:
-                os.system(f"nvim {file_path}")
+                _ = os.system(f"nvim {file_path}")
             if input("Update README? (y/n): ").lower() in ['y', 'yes']:
-                os.system("python3 update_readme.py")
+                _ = os.system("python3 update_readme.py")
                 
     except ValueError:
         print("Invalid problem number or language")
