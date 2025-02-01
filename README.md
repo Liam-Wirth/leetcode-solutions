@@ -31,7 +31,7 @@ pie title Problems Solved by Language
     "Rust": 134
     "Ruby": 13
     "Java": 25
-    "Python": 66
+    "Python": 68
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -122,6 +122,7 @@ pie title Problems Solved by Language
 | 752 | Open The Lock | [Rust](./rust/src/open_the_lock_752.rs),  | April 22, 2024 | No |
 | 786 | Kth Smallest Prime Fraction | [Rust](./rust/src/kth_smallest_prime_fraction_786.rs),  | May 09, 2024 | No |
 | 791 | Custom Sort String | [Rust](./rust/src/custom_sort_string_791.rs),  | March 11, 2024 | No |
+| 827 | Making A Large Island | [Python](./python/making_a_large_island_827.py),  | January 31, 2025 | No |
 | 861 | Score After Flipping Matrix | [Rust](./rust/src/score_after_flipping_matrix_861.rs),  | May 12, 2024 | No |
 | 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | April 04, 2022 | No |
 | 881 | Boats To Save People | [Rust](./rust/src/boats_to_save_people_881.rs),  | May 04, 2024 | No |
@@ -238,4 +239,5 @@ pie title Problems Solved by Language
 | 3042 | Count Prefix And Suffix Pairs I | [Python](./python/count_prefix_and_suffix_pairs_I_3042.py),  | January 07, 2025 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
+| 3151 | Special Array I | [Python](./python/special_array_i_3151.py),  | January 31, 2025 | No |
 | 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |
