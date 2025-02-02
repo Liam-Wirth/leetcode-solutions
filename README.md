@@ -31,7 +31,7 @@ pie title Problems Solved by Language
     "Rust": 134
     "Ruby": 13
     "Java": 25
-    "Python": 68
+    "Python": 69
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -167,6 +167,7 @@ pie title Problems Solved by Language
 | 1701 | Average Waiting Time | [Rust](./rust/src/average_waiting_time_1701.rs),  | July 09, 2024 | No |
 | 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 04, 2022 | No |
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assewriteu/1750.md)|
+| 1752 | Check If Array Is Sorted And Rotated | [Python](./python/check_if_array_is_sorted_and_rotated_1752.py),  | February 01, 2025 | No |
 | 1757 | Recyclable And Low Fat Products | [SQL](./SQL/recyclable_and_low_fat_products_1757.sql),  | July 02, 2024 | No |
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
 | 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | July 26, 2022 | No |
