@@ -40,7 +40,7 @@ pie title Problems Solved by Language
     "SQL": 2
 ```
 
-![Ranking Graph](assets/ranking_plot.png)
+![Ranking Graph](assets/rankings_plot.png)
 
 ### Problems Marked "Revisit": 18
 | Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |

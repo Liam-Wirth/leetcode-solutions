@@ -153,7 +153,7 @@ if start_index != 0:
         file.write(before_table)
         file.write('# Chart:\n')
         file.write(mermaid_chart)
-        file.write('\n![Ranking Graph](assets/ranking_plot.png)\n')
+        file.write('\n![Ranking Graph](assets/rankings_plot.png)\n')
         file.write('\n')
 
     with open("README.md", "a") as file:
