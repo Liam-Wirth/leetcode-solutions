@@ -28,10 +28,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 134
+    "Rust": 135
     "Ruby": 13
     "Java": 25
-    "Python": 69
+    "Python": 70
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -239,6 +239,7 @@ pie title Problems Solved by Language
 | 3028 | Ant On The Boundary | [Rust](./rust/src/ant_on_the_boundary_3028.rs),  | February 04, 2024 | No |
 | 3042 | Count Prefix And Suffix Pairs I | [Python](./python/count_prefix_and_suffix_pairs_I_3042.py),  | January 07, 2025 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
+| 3105 | Longest Strictly Increasing Or Strictly Decreasing Subarray | [Rust](./rust/src/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.rs), [Python](./python/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.py),  | February 02, 2025 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
 | 3151 | Special Array I | [Python](./python/special_array_i_3151.py),  | January 31, 2025 | No |
 | 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |

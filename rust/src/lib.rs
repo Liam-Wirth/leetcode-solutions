@@ -173,3 +173,5 @@ mod amazon1;
 mod course_schedule_ii_210;
 
 mod course_schedule_207;
+
+mod longest_strictly_increasing_or_strictly_decreasing_subarray_3105;
