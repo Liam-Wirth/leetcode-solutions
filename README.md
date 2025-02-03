@@ -23,8 +23,6 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 |**February 12 2024| First tried a medium problem, and it ran on first try, as well as had the answer accepted| [leetcode 2149 Rearrange Array elements by sign](/rust/src/rearrange_array_elements_by_sign_2149.rs)|
 |**January 8th 2024**| Fastest time to solve a problem, 46 seconds | [Leetcode 2255 Count prefixes of a given string](count_prefixes_of_a_given_string_2255.rs) |
 
-[![Update README](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml/badge.svg)](https://github.com/Liam-Wirth/leetcode-solutions/actions/workflows/update_readmepy.yml)
-## List of problems solved
 # Chart:
 ```mermaid
 pie title Problems Solved by Language

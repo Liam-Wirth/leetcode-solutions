@@ -151,15 +151,16 @@ if start_index != 0:
     before_table: str = "".join(content[:start_index])
     with open("README.md", "w") as file:
         file.write(before_table)
+
         file.write('# Chart:\n')
         file.write(mermaid_chart)
         file.write('\n![Ranking Graph](assets/rankings_plot.png)\n')
         file.write('\n')
-
-    with open("README.md", "a") as file:
         file.write('### Problems Marked "Revisit": ')
         file.write(str(revisit_count))
         file.write("\n")
+
+    with open("README.md", "a") as file:
         file.write(markdown_table)
 
 # --- 8) Serialize everything back out ---
