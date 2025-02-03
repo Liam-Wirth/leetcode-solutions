@@ -1,4 +1,5 @@
 # TODO: Would be nice to update the api calls to check and provide a website link to the solution as well, visible on leetcode instead of just the repo/local solution
+import subprocess
 from typing import Union, Optional, Dict, Any, List
 import os
 import pickle
@@ -145,12 +146,14 @@ for lang, count in language_counts.items():
 mermaid_chart += "```\n"
 print(mermaid_chart)
 
+subprocess.run(['python', 'assets/graphrank.py'])
 if start_index != 0:
     before_table: str = "".join(content[:start_index])
     with open("README.md", "w") as file:
         file.write(before_table)
         file.write('# Chart:\n')
         file.write(mermaid_chart)
+        file.write('\n![Ranking Graph](assets/ranking_plot.png)\n')
         file.write('\n')
 
     with open("README.md", "a") as file:

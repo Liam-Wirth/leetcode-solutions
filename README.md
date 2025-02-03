@@ -28,10 +28,10 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 135
+    "Rust": 137
     "Ruby": 13
     "Java": 25
-    "Python": 74
+    "Python": 75
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -39,6 +39,8 @@ pie title Problems Solved by Language
     "Racket": 1
     "SQL": 2
 ```
+
+![Ranking Graph](assets/ranking_plot.png)
 
 ### Problems Marked "Revisit": 18
 | Problem Number | Problem Name | Language | Estimated Solved Date| WriteSolution? |
@@ -52,7 +54,9 @@ pie title Problems Solved by Language
 | 13 | Roman To Integer | [Ruby](./Ruby/13.roman-to-integer.rb), [Rust](./rust/src/roman_to_integer_13.rs),  | June 13, 2022 | No |
 | 14 | Longest Common Prefix | [Ruby](./Ruby/14.longest-common-prefix.rb),  | June 26, 2022 | No |
 | 17 | Letter Combinations Of A Phone Number | [Java](./Java/17.letter-combinations-of-a-phone-number.java),  | June 19, 2022 | No |
+| 19 | Remove Nth Node From End Of List | [Rust](./rust/src/remove_nth_node_from_end_of_list_19.rs), [Python](./python/remove_nth_node_from_end_of_list_19.py),  | February 02, 2025 | No |
 | 20 | Valid Parentheses | [Java](./Java/20.valid-parentheses.java),  | June 15, 2022 | No |
+| 21 | Merge Two Sorted Lists | [Rust](./rust/src/merge_two_sorted_lists_21.rs),  | February 02, 2025 | No |
 | 26 | Remove Duplicates From Sorted Array | [Java](./Java/26.remove-duplicates-from-sorted-array.java), [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | November 11, 2022 | No |
 | 27 | Remove Element | [Rust](./rust/src/remove_element_27.rs),  | December 25, 2024 | No |
 | 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |

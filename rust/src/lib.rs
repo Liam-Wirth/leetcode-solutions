@@ -175,3 +175,7 @@ mod course_schedule_ii_210;
 mod course_schedule_207;
 
 mod longest_strictly_increasing_or_strictly_decreasing_subarray_3105;
+
+mod remove_nth_node_from_end_of_list_19;
+
+mod merge_two_sorted_lists_21;
