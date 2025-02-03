@@ -31,7 +31,7 @@ pie title Problems Solved by Language
     "Rust": 135
     "Ruby": 13
     "Java": 25
-    "Python": 70
+    "Python": 74
     "C": 6
     "CPP": 7
     "Elixir": 1
@@ -56,6 +56,7 @@ pie title Problems Solved by Language
 | 26 | Remove Duplicates From Sorted Array | [Java](./Java/26.remove-duplicates-from-sorted-array.java), [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | November 11, 2022 | No |
 | 27 | Remove Element | [Rust](./rust/src/remove_element_27.rs),  | December 25, 2024 | No |
 | 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |
+| 35 | Search Insert Position | [Python](./python/search_insert_position_35.py),  | February 02, 2025 | No |
 | 36 | Valid Sudoku | [Python](./python/valid_sudoku_36.py), [Rust](./rust/src/valid_sudoku_36.rs),  | December 23, 2024 | No |
 | 41 | First Missing Positive | [Rust](./rust/src/first_missing_positive_41.rs),  | March 25, 2024 | No |
 | 46 | Permutations | [Java](./Java/46.permutations.java),  | June 11, 2022 | No |
@@ -111,6 +112,7 @@ pie title Problems Solved by Language
 | 513 | Find Bottom Left Tree Value | [Rust](./rust/src/find_bottom_left_tree_value_513.rs),  | February 28, 2024 | No |
 | 514 | Freedom Trail | [Python](./python/freedom_trail_514.py),  | April 28, 2024 | No |
 | 515 | Find Largest Value In Each Tree Row | [Python](./python/find_largest_value_in_each_tree_row_515.py), [Rust](./rust/src/find_largest_value_in_each_tree_row_515.rs),  | December 25, 2024 | No |
+| 535 | Encode And Decode Tinyurl | [Python](./python/encode_and_decode_tinyurl_535.py),  | February 02, 2025 | No |
 | 623 | Add One Row To Tree | [Rust](./rust/src/add_one_row_to_tree_623.rs),  | April 16, 2024 | No |
 | 645 | Set Mismatch | [Rust](./rust/src/set_mismatch_645.rs),  | January 21, 2024 | No |
 | 647 | Palindromic Strings | [Rust](./rust/src/palindromic_strings_647.rs),  | February 10, 2024 | No |
@@ -137,6 +139,7 @@ pie title Problems Solved by Language
 | 981 | Time Based Key Value Store | [Java](./Java/981.time-based-key-value-store.java),  | June 05, 2022 | No |
 | 983 | Minimum Cost For Tickets | [Python](./python/minimum_cost_for_tickets_983.py),  | January 03, 2025 | No |
 | 1026 | Maximum Difference Between Node And Ancestor | [Java](./Java/1026.maximum-difference-between-node-and-ancestor.java),  | December 09, 2022 | No |
+| 1051 | Height Checker | [Python](./python/height_checker_1051.py),  | February 02, 2025 | No |
 | 1108 | Defanging An Ip Address | [Python](./python/defanging_an_ip_address_1108.py),  | December 25, 2024 | No |
 | 1137 | Nth Tribonacci Number | [C](./C/1137.nth-tribonacci-number.c), [Rust](./rust/src/nth_tribonacci_number_1137.rs),  | January 30, 2023 | No |
 | 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
@@ -152,6 +155,7 @@ pie title Problems Solved by Language
 | 1480 | Running Sum Of 1 D Array | [Java](./Java/1480.running-sum-of-1-d-array.java), [Ruby](./Ruby/1480.running-sum-of-1-d-array.rb), [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | June 07, 2022 | [Yes](assewriteu/1480.md)|
 | 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
 | 1486 | Xor Operation In An Array | [Rust](./rust/src/XOR_operation_in_an_array_1486.rs), [Python](./python/xor_operation_in_an_array_1486.py),  | January 08, 2025 | No |
+| 1504 | Count Submatrices With All Ones | [Python](./python/count_submatrices_with_all_ones_1504.py),  | February 02, 2025 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
 | 1512 | Number Of Good Pairs | [Python](./number_of_good_pairs_1512.py),  | January 07, 2025 | No |
 | 1518 | Water Bottles | [Python](./python/water_bottles_1518.py), [Rust](./rust/src/water_bottles_1518.rs),  | July 06, 2024 | No |
