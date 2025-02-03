@@ -11,40 +11,40 @@ def format_problem_name(name: str) -> str:
 def commit_date_info(repo_path: str, file_path: str, debug: bool = False) -> Optional[float]:
     """
     Retrieves the earliest commit date for a file from git history.
-    
+
     Args:
         repo_path: Path to git repository
         file_path: Path to file to check
         debug: Whether to print debug information
-        
+
     Returns:
         Timestamp of earliest commit or None
     """
     repo = git.Repo(repo_path)
     if os.path.basename(file_path) != "README.md":
         commits = list(repo.iter_commits(paths=file_path, reverse=True))
-        date: float = float("inf") 
+        date: float = float("inf")
         pretty_date: datetime.datetime | None = None
         preferred_commit: git.Commit | None = None
-        
+
         if debug:
             print(f"Filename {file_path}, Commits found: {len(commits)}")
-            
+
         for commit in commits:
             tmp = commit.authored_datetime.timestamp()
             if tmp < date:
                 date = tmp
-                pretty_date = commit.authored_datetime 
+                pretty_date = commit.authored_datetime
                 preferred_commit = commit
-                
+
         if preferred_commit is not None and pretty_date is not None:
             if debug:
                 print(f"Filename: {file_path}  Date: {pretty_date}, Commit Message {preferred_commit.message}")
             if date < float("inf"):
                 return date
-                
+
         return datetime.datetime.now().timestamp()
-        
+
     return None
 
 
@@ -102,3 +102,11 @@ def create_markdown_table(sorted_problem_entries: List[Any]) -> str:
 
     return markdown_table, revisit_count
 
+import hashlib
+# maybe better to pikl or use sqlite
+
+def has_content_changed(new_content: str, hash_file: str = "assets/content_hash.txt") -> bool:
+    # TODO: do this
+    new_hash = hashlib.md5(new_content.encode()).hexdigest()
+
+    return False

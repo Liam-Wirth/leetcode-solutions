@@ -113,7 +113,7 @@ def parse_solution_file(
     }
 
     if file_config.is_writeup:
-        entry_data["writeup_path"] = os.path.join("assewriteu", file_name)
+        entry_data["writeup_path"] = os.path.join("assets/writeups/", file_name)
     elif file_config.language:
         entry_data["languages"][file_config.language.value] = file_path
         if commit_date := commit_date_info(repo_path, file_path):

@@ -26,7 +26,7 @@ if not good:
 else:
     # print(os.getenv("LEETCODE_API_KEY"))
     # old debug statement, disregard lol
-    pass    
+    pass
 
 leetcode_api_key = os.getenv("LEETCODE_API_KEY")
 
@@ -130,9 +130,13 @@ with open("README.md", "r") as file:
 
 start_index: int = 0
 for index, line in enumerate(content):
-    if "List of problems solved" in line:
+    if "List of problems solved".lower() in line.lower():
         start_index = index + 1
         break
+    else:
+        print(line)
+        print("FUCKFUCKUFKCKFJFL")
+print(start_index)
 
 # Count # solutions per language (pie chart)
 language_counts = {}
@@ -159,10 +163,7 @@ if start_index != 0:
         file.write('### Problems Marked "Revisit": ')
         file.write(str(revisit_count))
         file.write("\n")
-
-    with open("README.md", "a") as file:
         file.write(markdown_table)
-
 # --- 8) Serialize everything back out ---
 assets_dir = os.path.dirname(serialized)
 os.makedirs(assets_dir, exist_ok=True)
@@ -177,4 +178,3 @@ else:
         pickle.dump(problem_entries, f)
     with open(rankings_serialized, "wb") as f:
         pickle.dump(user_rankings, f)
-
