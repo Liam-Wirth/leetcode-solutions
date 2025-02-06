@@ -48,7 +48,7 @@ pie title Problems Solved by Language
     "Rust": 139
     "Ruby": 13
     "Java": 25
-    "Python": 76
+    "Python": 78
     "CPP": 7
     "C": 6
     "Elixir": 1
@@ -193,11 +193,12 @@ pie title Problems Solved by Language
 | 1700 | Number Of Students Unable To Eat Lunch | [Rust](./rust/src/number_of_students_unable_to_eat_lunch_1700.rs),  | April 08, 2024 | No |
 | 1701 | Average Waiting Time | [Rust](./rust/src/average_waiting_time_1701.rs),  | July 09, 2024 | No |
 | 1721 | Swapping Nodes In A Linked List | [Java](./Java/1721.swapping-nodes-in-a-linked-list.java),  | April 14, 2024 | No |
+| 1726 | Tuple With Same Product | [Python](./python/tuple_with_same_product_1726.py),  | February 06, 2025 | No |
 | 1750 | Minimum Length Of String After Deleting Similiar Ends | [Python](./python/minimum_length_of_string_after_deleting_similiar_ends_1750.py), [Rust](./rust/src/minimum_length_of_string_after_deleting_similar_ends_1750.rs),  | March 05, 2024 | [Yes](assets/writeups/1750.md)|
 | 1752 | Check If Array Is Sorted And Rotated | [Python](./python/check_if_array_is_sorted_and_rotated_1752.py),  | February 01, 2025 | No |
 | 1757 | Recyclable And Low Fat Products | [SQL](./sql/recyclable_and_low_fat_products_1757.sql),  | January 08, 2025 | No |
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
-| 1800 | Maximum Ascending Subarray Sum | [Rust](./rust/src/maximum_ascending_subarray_sum_1800.rs),  | February 04, 2025 | No |
+| 1800 | Maximum Ascending Subarray Sum | [Rust](./rust/src/maximum_ascending_subarray_sum_1800.rs), [Python](./python/maximum_ascending_subarray_sum_1800.py),  | February 04, 2025 | No |
 | 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | January 08, 2024 | No |
 | 1823 | Find The Winner Of The Circular Game | [Python](./python/find_the_winner_of_the_circular_game_1823.py), [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
 | 1827 | Minimum Operations To Make The Array Increasing | [Rust](./rust/src/minimum_operations_to_make_the_array_increasing_1827.rs),  | June 14, 2024 | No |

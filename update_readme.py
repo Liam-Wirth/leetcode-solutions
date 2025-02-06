@@ -134,6 +134,7 @@ for index, line in enumerate(content):
         start_index = index + 1
         break
     else:
+        pass
 print(start_index)
 
 # Count # solutions per language (pie chart)
