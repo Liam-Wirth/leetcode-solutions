@@ -48,7 +48,7 @@ pie title Problems Solved by Language
     "Rust": 139
     "Ruby": 13
     "Java": 25
-    "Python": 78
+    "Python": 79
     "CPP": 7
     "C": 6
     "Elixir": 1
@@ -271,4 +271,5 @@ pie title Problems Solved by Language
 | 3105 | Longest Strictly Increasing Or Strictly Decreasing Subarray | [Python](./python/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.py), [Rust](./rust/src/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.rs),  | February 02, 2025 | No |
 | 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
 | 3151 | Special Array I | [Python](./python/special_array_i_3151.py),  | January 31, 2025 | No |
+| 3160 | Find The Number Of Distinct Colors Among The Balls | [Python](./python/find_the_number_of_distinct_colors_among_the_balls_3160.py),  | February 07, 2025 | No |
 | 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |
