@@ -45,7 +45,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 139
+    "Rust": 140
     "Ruby": 13
     "Java": 25
     "Python": 79
@@ -227,6 +227,7 @@ pie title Problems Solved by Language
 | 2255 | Count_Prefixes_Of_A_Given_String | [CPP](./C/2255.count_prefixes_of_a_given_string.cpp), [Java](./Java/2255.count_prefixes_of_a_given_string.java), [Python](./python/count_prefixes_of_a_given_string_2255.py), [Ruby](./Ruby/2255.count_prefixes_of_a_given_string.rb), [Rust](./rust/src/count_prefixes_of_a_given_string_2255.rs),  | January 08, 2025 | [Yes](assets/writeups/2255.md)|
 | 2270 | Number Of Ways To Split Array | [Python](./python/number_of_ways_to_split_array_2270.py),  | January 03, 2025 | No |
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 18, 2024 | No |
+| 2349 | Design A Number Container System | [Rust](./rust/src/design_a_number_container_system_2349.rs),  | February 07, 2025 | No |
 | 2356 | Number Of Unique Subjects Taught By Each Teacher | [SQL](./sql/number_of_unique_subjects_taught_by_each_teacher_2356.sql),  | January 08, 2025 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
