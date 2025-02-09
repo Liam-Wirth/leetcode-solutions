@@ -185,3 +185,5 @@ mod palindrome_linked_list_234;
 mod maximum_ascending_subarray_sum_1800;
 
 mod design_a_number_container_system_2349;
+
+mod count_number_of_bad_pairs_2364;

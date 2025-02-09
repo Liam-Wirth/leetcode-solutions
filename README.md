@@ -45,13 +45,13 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 140
+    "Rust": 141
     "Ruby": 13
     "Java": 25
-    "Python": 79
+    "Python": 80
     "CPP": 7
     "C": 6
-    "Elixir": 1
+    "Elixir": 2
     "JavaScript": 2
     "Racket": 1
     "SQL": 2
@@ -229,6 +229,7 @@ pie title Problems Solved by Language
 | 2331 | Evaluate Boolean Binary Tree | [Rust](./rust/src/evaluate_boolean_binary_tree_2331.rs),  | May 18, 2024 | No |
 | 2349 | Design A Number Container System | [Rust](./rust/src/design_a_number_container_system_2349.rs),  | February 07, 2025 | No |
 | 2356 | Number Of Unique Subjects Taught By Each Teacher | [SQL](./sql/number_of_unique_subjects_taught_by_each_teacher_2356.sql),  | January 08, 2025 | No |
+| 2364 | Count Number Of Bad Pairs | [Python](./python/count_number_of_bad_pairs_2364.py), [Rust](./rust/src/count_number_of_bad_pairs_2364.rs),  | February 09, 2025 | No |
 | 2370 | Longest Ideal Subsequence | [Python](./python/longest_ideal_subsequence_2370.py), [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Python](./python/largest_local_values_in_a_matrix_2373.py), [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
 | 2381 | Shifting Letters Ii | [Python](./python/shifting_letters_ii_2381.py), [Rust](./rust/src/shifting_letters_ii_2381.rs),  | January 04, 2025 | No |
@@ -270,7 +271,7 @@ pie title Problems Solved by Language
 | 3042 | Count Prefix And Suffix Pairs I | [Python](./python/count_prefix_and_suffix_pairs_I_3042.py),  | January 07, 2025 | No |
 | 3075 | Maximize Happiness Of Selected Children | [Rust](./rust/src/maximize_happiness_of_selected_children_3075.rs),  | May 09, 2024 | No |
 | 3105 | Longest Strictly Increasing Or Strictly Decreasing Subarray | [Python](./python/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.py), [Rust](./rust/src/longest_strictly_increasing_or_strictly_decreasing_subarray_3105.rs),  | February 02, 2025 | No |
-| 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs),  | June 01, 2024 | No |
+| 3110 | Score Of A String | [Rust](./rust/src/score_of_a_string_3110.rs), [Elixir](./elixir/score_of_a_string_3110.ex),  | June 01, 2024 | No |
 | 3151 | Special Array I | [Python](./python/special_array_i_3151.py),  | January 31, 2025 | No |
 | 3160 | Find The Number Of Distinct Colors Among The Balls | [Python](./python/find_the_number_of_distinct_colors_among_the_balls_3160.py),  | February 07, 2025 | No |
 | 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |
