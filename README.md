@@ -45,11 +45,11 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 141
+    "Rust": 142
     "Ruby": 13
     "Java": 25
-    "Python": 80
-    "CPP": 7
+    "Python": 82
+    "CPP": 9
     "C": 6
     "Elixir": 2
     "JavaScript": 2
@@ -168,6 +168,7 @@ pie title Problems Solved by Language
 | 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
 | 1190 | Reverse Substrings Between Each Pair Of Parenthesis | [Python](./python/reverse_substrings_between_each_pair_of_parenthesis_1190.py),  | July 11, 2024 | No |
 | 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
+| 1261 | Find_Elements_In_A_Contaminated_Binary_Tree | [CPP](./C/1261.find_elements_in_a_contaminated_binary_tree.cpp),  | February 20, 2025 | No |
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
 | 1346 | Check If N And Its Double Exist | [Python](./python/check_if_n_and_its_double_exist_1346.py), [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | January 16, 2023 | No |
@@ -203,11 +204,13 @@ pie title Problems Solved by Language
 | 1823 | Find The Winner Of The Circular Game | [Python](./python/find_the_winner_of_the_circular_game_1823.py), [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
 | 1827 | Minimum Operations To Make The Array Increasing | [Rust](./rust/src/minimum_operations_to_make_the_array_increasing_1827.rs),  | June 14, 2024 | No |
 | 1832 | Check If Sentence Is Pangram | [Python](./python/check_if_sentence_is_pangram_1832.py), [Rust](./rust/src/check_if_sentene_is_pangram_1832.rs),  | January 08, 2025 | No |
+| 1910 | Remove All Occurrences Of A Substring | [Python](./python/remove_all_occurrences_of_a_substring_1910.py),  | February 11, 2025 | No |
 | 1915 | Number Of Wonderful Substrings | [Python](./python/number_of_wonderful_substrings_1915.py),  | May 05, 2024 | No |
 | 1920 | Build Array From Permutation | [Ruby](./Ruby/1920.build-array-from-permutation.rb), [Rust](./rust/src/build_array_from_permutation_1920.rs),  | January 16, 2023 | No |
 | 1930 | Unique Length 3 Palindromic Subsequences | [Python](./python/unique_length_3_palindromic_subsequences_1930.py),  | January 08, 2025 | No |
 | 1961 | Check If String Is A Prefix Of Array | [Python](./python/check_if_string_is_a_prefix_of_array_1961.py), [Rust](./rust/src/check_if_string_is_a_prefix_of_array_1961.rs),  | January 08, 2025 | No |
 | 1971 | Find If Path Exists In Graph | [CPP](./C/1971.find-if-path-exists-in-graph.cpp),  | May 05, 2024 | No |
+| 1980 | Find_Unique_Binary_String | [CPP](./C/1980.find_unique_binary_string.cpp), [Python](./python/find_unique_binary_string_1980.py), [Rust](./rust/src/find_unique_binary_string_1980.rs),  | February 20, 2025 | [Yes](assets/writeups/1980.md)|
 | 1992 | Find All Groups Of Farmland | [CPP](./C/1992.find-all-groups-of-farmland.cpp),  | May 05, 2024 | No |
 | 1995 | Count Special Quadruplets | [Rust](./rust/src/count_special_quadruplets_1995.rs),  | December 25, 2024 | No |
 | 2000 | Reverse Prefix Of Word | [Rust](./rust/src/reverse_prefix_of_word_2000.rs),  | May 02, 2024 | No |

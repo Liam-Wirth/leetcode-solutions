@@ -13,7 +13,11 @@ import git
 # Add the directory containing api_testing.py to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "readme"))
 
-from readme.api_testing import fetch_first_solve_date, fetch_problem_info, fetch_user_info
+from readme.api_testing import (
+    fetch_first_solve_date,
+    fetch_problem_info,
+    fetch_user_info,
+)
 from readme.utils import create_markdown_table
 from readme.parser import parse_solution_file
 from readme.update_dates import update_dates
@@ -39,6 +43,7 @@ ProblemEntry = dict[str, str | dict[str, str] | float | bool | list[str] | None]
 
 problem_entries: dict[str, ProblemEntry] = {}
 user_rankings: list[dict[str, Union[str, int]]] = []
+user_points: list[dict[str, Union[str, int]]] = []
 
 # --- 1) Load filtered_probs (with string keys) ---
 filtered_probs_path = "assets/filtered_probs.pkl"
@@ -51,31 +56,39 @@ else:
 
 # --- 2) Load existing problem_entries & user_rankings ---
 if use_json:
-    serialized: str = "assets/problems.json"
-    rankings_serialized: str = "assets/rankings.json"
-    if os.path.exists(serialized):
-        with open(serialized, "r") as f:
+    problems_ser: str = "assets/problems.json"
+    ranking_ser: str = "assets/rankings.json"
+    points_ser: str = "assets/points.json"
+    if os.path.exists(problems_ser):
+        with open(problems_ser, "r") as f:
             problem_entries = json.load(f)
             print("Loaded problem entries, length: ", len(problem_entries))
     else:
         problem_entries = {}
         do_extra_git_searches = True
-    if os.path.exists(rankings_serialized):
-        with open(rankings_serialized, "r") as f:
+    if os.path.exists(ranking_ser):
+        with open(ranking_ser, "r") as f:
             user_rankings = json.load(f)
     else:
         user_rankings = []
+
+    if os.path.exists(points_ser):
+        with open(points_ser, "r") as f:
+            user_points = json.load(f)
+    else:
+        user_points = []
+
 else:
-    serialized: str = "assets/problems.pkl"
-    rankings_serialized: str = "assets/rankings.pkl"
-    if os.path.exists(serialized):
-        with open(serialized, "rb") as f:
+    problems_ser: str = "assets/problems.pkl"
+    ranking_ser: str = "assets/rankings.pkl"
+    if os.path.exists(problems_ser):
+        with open(problems_ser, "rb") as f:
             problem_entries = pickle.load(f)
     else:
         problem_entries = {}
         do_extra_git_searches = True
-    if os.path.exists(rankings_serialized):
-        with open(rankings_serialized, "rb") as f:
+    if os.path.exists(ranking_ser):
+        with open(ranking_ser, "rb") as f:
             user_rankings = pickle.load(f)
     else:
         user_rankings = []
@@ -95,10 +108,21 @@ for root, dirs, files in os.walk("."):
 username = "liam-wirth"
 user_info = fetch_user_info(username)
 current_ranking = user_info.get("ranking")
+from readme.api_testing import fetch_user_points
+
+current_points = fetch_user_points()
 if current_ranking is not None:
     if not user_rankings or user_rankings[-1].get("ranking") != current_ranking:
         user_rankings.append(
-            {"timestamp": datetime.datetime.now().isoformat(), "ranking": current_ranking}
+            {
+                "timestamp": datetime.datetime.now().isoformat(),
+                "ranking": current_ranking,
+            }
+        )
+if current_points > 0:
+    if not user_points or user_points[-1].get("points") != current_points:
+        user_points.append(
+            {"timestamp": datetime.datetime.now().isoformat(), "points": current_points}
         )
 
 # --- 5) Attach slug & fetch solve dates if needed ---
@@ -149,31 +173,35 @@ for lang, count in language_counts.items():
 mermaid_chart += "```\n"
 print(mermaid_chart)
 
-subprocess.run(['python', 'assets/graphrank.py'])
+subprocess.run(["python", "assets/graphrank.py"])
 if start_index != 0:
     before_table: str = "".join(content[:start_index])
     with open("README.md", "w") as file:
         file.write(before_table)
 
-        file.write('# Chart:\n')
+        file.write("# Chart:\n")
         file.write(mermaid_chart)
-        file.write('\n![Ranking Graph](assets/rankings_plot.png)\n')
-        file.write('\n')
+        file.write("\n![Ranking Graph](assets/rankings_plot.png)\n")
+        file.write("\n")
         file.write('### Problems Marked "Revisit": ')
         file.write(str(revisit_count))
         file.write("\n")
         file.write(markdown_table)
 # --- 8) Serialize everything back out ---
-assets_dir = os.path.dirname(serialized)
+assets_dir = os.path.dirname(problems_ser)
 os.makedirs(assets_dir, exist_ok=True)
 
 if use_json:
-    with open(serialized, "w") as f:
+    with open(problems_ser, "w") as f:
         json.dump(problem_entries, f)
-    with open(rankings_serialized, "w") as f:
+    with open(ranking_ser, "w") as f:
         json.dump(user_rankings, f)
+    with open(points_ser, "w") as f:
+        json.dump(user_points, f)
 else:
-    with open(serialized, "wb") as f:
+    with open(problems_ser, "wb") as f:
         pickle.dump(problem_entries, f)
-    with open(rankings_serialized, "wb") as f:
+    with open(ranking_ser, "wb") as f:
         pickle.dump(user_rankings, f)
+    with open(points_ser, "wb") as f:
+        pickle.dump(user_points, f)

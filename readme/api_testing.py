@@ -1,14 +1,20 @@
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
+import requests
 import os
 import dotenv
 import datetime
 from typing import Optional, Dict, Any, List
 
+
 dotenv.load_dotenv()
 
 leetcode_api_key = os.getenv("LEETCODE_API_KEY")
 leetcode_session = f"LEETCODE_SESSION={leetcode_api_key or ''}"
+
+csrf_token = os.getenv("LEETCODE_CSRF_TOKEN")
+cf_clearance = os.getenv("LEETCODE_CF_CLEARANCE")
+session = os.getenv("LEETCODE_SESSION")
 
 headers = {
     "Cookie": leetcode_session
@@ -151,6 +157,43 @@ def fetch_user_info(username: str) -> Dict[str, Any]:
         user_info["ranking"] = result["matchedUser"]["profile"].get("ranking")
     return user_info
 
+headers = {
+    "Host": "leetcode.com",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Sec-GPC": "1",
+    "Connection": "keep-alive",
+    "Cookie": f"csrftoken={csrf_token}; cf_clearance={cf_clearance}; LEETCODE_SESSION={session}",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Priority": "u=0, i",
+    "Pragma": "no-cache",
+    "Cache-Control": "no-cache"
+}
+
+def fetch_user_points() -> int:
+    """
+    Fetches the total points of the user.
+
+    Returns:
+        The total points of the user.
+    """
+    url = "https://leetcode.com/points/api/total/"
+    
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        data = response.json()
+        return data.get("points", 0)
+    else:
+        print(f"Failed to retrieve points data: {response.status_code}")
+        return 0
+
 if __name__ == "__main__":
     username = "liam-wirth"  # Replace with your LeetCode username
     title_slug = "two-sum"  # Replace with your LeetCode problem slug
@@ -166,4 +209,7 @@ if __name__ == "__main__":
 
     user_info = fetch_user_info(username)
     print(f"User Info for {username}: {user_info}")
+
+    user_points = fetch_user_points()
+    print(f"User Points: {user_points}")
 
