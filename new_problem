@@ -62,7 +62,7 @@ def get_template_content(language: Language) -> str:
     """Get language-specific template content"""
     match language:
         case Language.RUST:
-            return "use crate::Solution;\n\nimpl Solution {\n   \n}"
+            return "use crate::Solution;"
         case Language.PYTHON:
             return "class Solution:\n"
         case Language.JAVA:
@@ -131,7 +131,9 @@ def main():
         
     try:
         problem_number = int(sys.argv[1])
-        language = Language[sys.argv[2].upper()]
+        lang = sys.argv[2].upper()
+        lang = lang.replace("C++", "CPP") # this is just in case the user (me) wants to put in C++ instead of cpp
+        language = Language[lang]
         
         # Check if problem is already solved
         if str(problem_number) in solved:

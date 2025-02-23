@@ -49,7 +49,7 @@ pie title Problems Solved by Language
     "Ruby": 13
     "Java": 25
     "Python": 82
-    "CPP": 9
+    "CPP": 10
     "C": 6
     "Elixir": 2
     "JavaScript": 2
@@ -151,6 +151,7 @@ pie title Problems Solved by Language
 | 861 | Score After Flipping Matrix | [Rust](./rust/src/score_after_flipping_matrix_861.rs),  | May 12, 2024 | No |
 | 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | January 16, 2023 | No |
 | 881 | Boats To Save People | [Rust](./rust/src/boats_to_save_people_881.rs),  | May 04, 2024 | No |
+| 889 | Construct_Binary_Tree_From_Preorder_And_Postorder_Traversal | [CPP](./C/889.construct_binary_tree_from_preorder_and_postorder_traversal.cpp),  | February 23, 2025 | No |
 | 914 | X Of A Kind In A Deck Of Cards | [Java](./Java/914.x-of-a-kind-in-a-deck-of-cards.java), [Rust](./rust/src/x_of_a_kind_in_a_deck_of_cards_914.rs),  | January 16, 2023 | No |
 | 916 | Word Subsets | [Python](./python/word_subsets_916.py), [Rust](./rust/src/word_subsets_916.rs),  | January 09, 2025 | [Yes](assets/writeups/916.md)|
 | 926 | Flip String To Monotone Increasing | [Rust](./rust/src/flip_string_to_monotone_increasing_926.rs),  | January 08, 2024 | No |
