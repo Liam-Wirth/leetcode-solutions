@@ -56,7 +56,7 @@ def parse_problem_number(file_name: str, parse_format: str) -> Optional[int]:
             case "dot":
                 return int(file_name.split(".")[0])
     except ValueError:
-        print(f"Skipping file due to invalid problem number: {file_name}")
+        # print(f"Skipping file due to invalid problem number: {file_name}")
         return None
 
 def parse_problem_name(file_name: str, file_config: FileConfig) -> str:

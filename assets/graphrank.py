@@ -33,8 +33,8 @@ plt.tight_layout()
 plt.savefig('assets/rankings_plot.png')
 
 # Use rich to display the plot in the terminal
-console = Console()
-console.print(Panel(Text("Rankings Over Time", justify="center"), box=box.DOUBLE))
-console.print(f"[bold]Timestamps:[/bold] {timestamps}")
-console.print(f"[bold]Rankings:[/bold] {rankings}")
-console.print(f"[bold]Plot saved as:[/bold] rankings_plot.png")
+# console = Console()
+# console.print(Panel(Text("Rankings Over Time", justify="center"), box=box.DOUBLE))
+# console.print(f"[bold]Timestamps:[/bold] {timestamps}")
+# console.print(f"[bold]Rankings:[/bold] {rankings}")
+# console.print(f"[bold]Plot saved as:[/bold] rankings_plot.png")
