@@ -45,9 +45,9 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 142
+    "Rust": 143
     "Ruby": 8
-    "Python": 42
+    "Python": 43
     "CPP": 8
     "Java": 14
     "C": 1
@@ -130,6 +130,7 @@ pie title Problems Solved by Language
 | 451 | Sort Characters By Frequency | [Rust](./rust/src/sort_characters_by_frequency_451.rs),  | February 07, 2024 | No |
 | 494 | Target Sum | [Python](./python/target_sum_494.py),  | December 26, 2024 | No |
 | 506 | Relative Ranks | [Rust](./rust/src/relative_ranks_506.rs),  | May 07, 2024 | No |
+| 509 | Fibonacci Number | [Python](./python/fibonacci_number_509.py),  | February 27, 2025 | No |
 | 513 | Find Bottom Left Tree Value | [Rust](./rust/src/find_bottom_left_tree_value_513.rs),  | February 28, 2024 | No |
 | 514 | Freedom Trail | [Python](./python/freedom_trail_514.py),  | May 05, 2024 | No |
 | 515 | Find Largest Value In Each Tree Row | [Rust](./rust/src/find_largest_value_in_each_tree_row_515.rs),  | December 25, 2024 | No |
@@ -148,6 +149,7 @@ pie title Problems Solved by Language
 | 827 | Making A Large Island | [Python](./python/making_a_large_island_827.py),  | January 31, 2025 | No |
 | 861 | Score After Flipping Matrix | [Rust](./rust/src/score_after_flipping_matrix_861.rs),  | May 12, 2024 | No |
 | 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | January 16, 2023 | No |
+| 873 | Length Of Longest Fibonacci Subsequence | [Rust](./rust/src/length_of_longest_fibonacci_subsequence_873.rs),  | February 27, 2025 | No |
 | 881 | Boats To Save People | [Rust](./rust/src/boats_to_save_people_881.rs),  | May 04, 2024 | No |
 | 889 | Construct_Binary_Tree_From_Preorder_And_Postorder_Traversal | [CPP](./C/889.construct_binary_tree_from_preorder_and_postorder_traversal.cpp),  | February 23, 2025 | No |
 | 914 | X Of A Kind In A Deck Of Cards | [Rust](./rust/src/x_of_a_kind_in_a_deck_of_cards_914.rs),  | January 11, 2024 | No |
