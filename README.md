@@ -47,7 +47,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 143
     "Ruby": 8
-    "Python": 46
+    "Python": 48
     "CPP": 8
     "Java": 14
     "C": 1
@@ -64,6 +64,7 @@ pie title Problems Solved by Language
 | 2 | Add Two Numbers | [Rust](./rust/src/add_two_numbers_2.rs),  | December 19, 2024 | No |
 | 3 | Longest Substring Without Repeating Characters | [Python](./python/longest_substring_without_repeating_characters_3.py),  | January 27, 2025 | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | January 16, 2023 | No |
+| 6 | Zigzag Conversion | [Python](./python/zigzag_conversion_6.py),  | March 01, 2025 | No |
 | 9 | Palindrome Number | [Rust](./rust/src/palindrome_number_9.rs),  | January 08, 2024 | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | No |
 | 13 | Roman To Integer | [Rust](./rust/src/roman_to_integer_13.rs),  | January 08, 2024 | No |
@@ -92,6 +93,7 @@ pie title Problems Solved by Language
 | 83 | Remove Duplicates From Sorted List | [Python](./python/remove_duplicates_from_sorted_list_83.py),  | February 02, 2025 | No |
 | 85 | Maximal Rectangle | [Rust](./rust/src/maximal_rectangle_85.rs),  | April 13, 2024 | No |
 | 88 | Merge Sorted Array | [Rust](./rust/src/merge_sorted_array_88.rs),  | December 27, 2024 | No |
+| 103 | Binary Tree Zigzag Level Order Traversal | [Python](./python/binary_tree_zigzag_level_order_traversal_103.py),  | March 01, 2025 | No |
 | 125 | Valid Palindrome | [Rust](./rust/src/valid_palindrome_125.rs),  | January 08, 2024 | No |
 | 128 | Longest Consecutive Sequence | [Python](./python/longest_consecutive_sequence_128.py),  | December 23, 2024 | No |
 | 129 | Sum Root To Leaf Numbers | [Rust](./rust/src/sum_root_to_leaf_numbers_129.rs),  | April 14, 2024 | No |
