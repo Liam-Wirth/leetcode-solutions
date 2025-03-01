@@ -47,7 +47,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 143
     "Ruby": 8
-    "Python": 43
+    "Python": 44
     "CPP": 8
     "Java": 14
     "C": 1
@@ -242,6 +242,7 @@ pie title Problems Solved by Language
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
 | 2429 | Minimize Xor | [Python](./python/minimize_xor_2429.py),  | January 14, 2025 | No |
 | 2441 | Largest Postive Integer That Exists With Its Negative | [Rust](./rust/src/largest_postive_integer_that_exists_with_its_negative_2441.rs),  | May 12, 2024 | No |
+| 2460 | Apply Operations To An Array | [Python](./python/apply_operations_to_an_array_2460.py),  | February 28, 2025 | No |
 | 2467 | Most_Profitable_Path_In_A_Tree | [CPP](./C/2467.most_profitable_path_in_a_tree.cpp),  | February 24, 2025 | No |
 | 2471 | Minimum Number Of Operations To Sort A Binary Tree By Level | [Python](./python/minimum_number_of_operations_to_sort_a_binary_tree_by_level_2471.py),  | December 22, 2024 | No |
 | 2485 | Find Pivot Integer | [Rust](./rust/src/find_pivot_integer_2485.rs),  | March 14, 2024 | No |
