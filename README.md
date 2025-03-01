@@ -47,7 +47,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 143
     "Ruby": 8
-    "Python": 44
+    "Python": 46
     "CPP": 8
     "Java": 14
     "C": 1
@@ -88,6 +88,7 @@ pie title Problems Solved by Language
 | 75 | Sort Code | [Rust](./rust/src/sort_code_75.rs),  | June 12, 2024 | No |
 | 78 | Subsets | [Rust](./rust/src/subsets_78.rs),  | May 22, 2024 | No |
 | 79 | Word Search | [Rust](./rust/src/word_search_79.rs),  | April 04, 2024 | No |
+| 80 | Remove Duplicates From Sorted Array Ii | [Python](./python/remove_duplicates_from_sorted_array_ii_80.py),  | March 01, 2025 | No |
 | 83 | Remove Duplicates From Sorted List | [Python](./python/remove_duplicates_from_sorted_list_83.py),  | February 02, 2025 | No |
 | 85 | Maximal Rectangle | [Rust](./rust/src/maximal_rectangle_85.rs),  | April 13, 2024 | No |
 | 88 | Merge Sorted Array | [Rust](./rust/src/merge_sorted_array_88.rs),  | December 27, 2024 | No |
@@ -180,6 +181,7 @@ pie title Problems Solved by Language
 | 1480 | Running Sum Of 1 D Array | [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | January 08, 2024 | No |
 | 1481 | Least Number Of Unique Integers After K Removals | [Rust](./rust/src/least_number_of_unique_integers_after_k_removals_1481.rs),  | February 15, 2024 | No |
 | 1486 | Xor Operation In An Array | [Rust](./rust/src/XOR_operation_in_an_array_1486.rs),  | January 08, 2025 | No |
+| 1492 | The Kth Factor Of N | [Python](./python/the_kth_factor_of_n_1492.py),  | March 01, 2025 | No |
 | 1504 | Count Submatrices With All Ones | [Python](./python/count_submatrices_with_all_ones_1504.py),  | February 02, 2025 | No |
 | 1509 | Minimum Difference Between Largest And Smallest Value In Three Moves | [Rust](./rust/src/minimum_difference_between_largest_and_smallest_value_in_three_moves_1509.rs),  | July 02, 2024 | No |
 | 1512 | Number Of Good Pairs | [Python](./python/number_of_good_pairs_1512.py),  | January 07, 2025 | No |
