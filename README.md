@@ -45,9 +45,9 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 143
+    "Rust": 145
     "Ruby": 8
-    "Python": 48
+    "Python": 47
     "CPP": 8
     "Java": 14
     "C": 1
@@ -64,7 +64,7 @@ pie title Problems Solved by Language
 | 2 | Add Two Numbers | [Rust](./rust/src/add_two_numbers_2.rs),  | December 19, 2024 | No |
 | 3 | Longest Substring Without Repeating Characters | [Python](./python/longest_substring_without_repeating_characters_3.py),  | January 27, 2025 | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | January 16, 2023 | No |
-| 6 | Zigzag Conversion | [Python](./python/zigzag_conversion_6.py),  | March 01, 2025 | No |
+| 6 | Zigzag Conversion | [Rust](./rust/src/zigzag_conversion_6.rs),  | March 02, 2025 | No |
 | 9 | Palindrome Number | [Rust](./rust/src/palindrome_number_9.rs),  | January 08, 2024 | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | No |
 | 13 | Roman To Integer | [Rust](./rust/src/roman_to_integer_13.rs),  | January 08, 2024 | No |
@@ -227,6 +227,7 @@ pie title Problems Solved by Language
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | January 16, 2023 | No |
 | 2116 | Check If A Parenthesis String Can Be Valid | [Rust](./rust/src/check_if_a_parenthesis_string_can_be_valid_2116.rs),  | January 11, 2025 | No |
 | 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | No |
+| 2161 | Partition Array According To Given Pivot | [Rust](./rust/src/partition_array_according_to_given_pivot_2161.rs),  | March 02, 2025 | No |
 | 2181 | Merge Nodes In Between Zeros | [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
 | 2185 | Counting Words With A Given Prefix | [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs),  | January 08, 2025 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | January 16, 2023 | No |

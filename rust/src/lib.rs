@@ -191,3 +191,7 @@ mod count_number_of_bad_pairs_2364;
 mod find_unique_binary_string_1980;
 
 mod length_of_longest_fibonacci_subsequence_873;
+
+mod zigzag_conversion_6;
+
+mod partition_array_according_to_given_pivot_2161;
