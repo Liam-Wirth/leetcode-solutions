@@ -47,7 +47,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 145
     "Ruby": 8
-    "Python": 47
+    "Python": 48
     "CPP": 8
     "Java": 14
     "C": 1
@@ -205,6 +205,7 @@ pie title Problems Solved by Language
 | 1752 | Check If Array Is Sorted And Rotated | [Python](./python/check_if_array_is_sorted_and_rotated_1752.py),  | February 01, 2025 | No |
 | 1757 | Recyclable And Low Fat Products | [SQL](./sql/recyclable_and_low_fat_products_1757.sql),  | January 08, 2025 | No |
 | 1768 | Merge Strings Alternately | [Rust](./rust/src/merge_strings_alternately_1768.rs),  | April 01, 2024 | No |
+| 1780 | Check If Number Is A Sum Of Powers Of Three | [Python](./python/check_if_number_is_a_sum_of_powers_of_three_1780.py),  | March 03, 2025 | No |
 | 1800 | Maximum Ascending Subarray Sum | [Rust](./rust/src/maximum_ascending_subarray_sum_1800.rs),  | February 04, 2025 | No |
 | 1822 | Sign Of The Product Of An Array | [Rust](./rust/src/sign_of_the_product_of_an_array_1822.rs),  | January 08, 2024 | No |
 | 1823 | Find The Winner Of The Circular Game | [Rust](./rust/src/find_the_winner_of_the_circular_game_1823.rs),  | July 08, 2024 | No |
