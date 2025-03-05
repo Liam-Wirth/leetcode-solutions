@@ -45,7 +45,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 146
+    "Rust": 148
     "Ruby": 8
     "Python": 48
     "CPP": 8
@@ -128,6 +128,7 @@ pie title Problems Solved by Language
 | 380 | Insert Delete Get Random | [Rust](./rust/src/insert_delete_get_random_380.rs),  | January 17, 2024 | No |
 | 387 | First Unique Character In A String | [Rust](./rust/src/first_unique_character_in_a_string_387.rs),  | February 04, 2024 | No |
 | 389 | Find The Difference | [Rust](./rust/src/find_the_difference_389.rs),  | April 04, 2024 | No |
+| 392 | Is Subsequence | [Rust](./rust/src/is_subsequence_392.rs),  | March 04, 2025 | No |
 | 404 | Sum Of Left Leaves | [Rust](./rust/src/sum_of_left_leaves_404.rs),  | April 13, 2024 | No |
 | 442 | Find All Duplicates In Array | [Rust](./rust/src/find_all_duplicates_in_array_442.rs),  | March 24, 2024 | No |
 | 451 | Sort Characters By Frequency | [Rust](./rust/src/sort_characters_by_frequency_451.rs),  | February 07, 2024 | No |
@@ -149,6 +150,7 @@ pie title Problems Solved by Language
 | 752 | Open The Lock | [Rust](./rust/src/open_the_lock_752.rs),  | April 22, 2024 | No |
 | 786 | Kth Smallest Prime Fraction | [Rust](./rust/src/kth_smallest_prime_fraction_786.rs),  | May 09, 2024 | No |
 | 791 | Custom Sort String | [Rust](./rust/src/custom_sort_string_791.rs),  | April 13, 2024 | No |
+| 792 | Number Of Matching Subsequences | [Rust](./rust/src/number_of_matching_subsequences_792.rs),  | March 04, 2025 | No |
 | 827 | Making A Large Island | [Python](./python/making_a_large_island_827.py),  | January 31, 2025 | No |
 | 861 | Score After Flipping Matrix | [Rust](./rust/src/score_after_flipping_matrix_861.rs),  | May 12, 2024 | No |
 | 868 | Binary Gap | [Java](./Java/868.binary-gap.java),  | January 16, 2023 | No |

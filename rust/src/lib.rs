@@ -197,3 +197,7 @@ mod zigzag_conversion_6;
 mod partition_array_according_to_given_pivot_2161;
 
 mod count_total_number_of_colored_cells_2579;
+
+mod number_of_matching_subsequences_792;
+
+mod is_subsequence_392;
