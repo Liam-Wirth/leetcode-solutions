@@ -195,3 +195,5 @@ mod length_of_longest_fibonacci_subsequence_873;
 mod zigzag_conversion_6;
 
 mod partition_array_according_to_given_pivot_2161;
+
+mod count_total_number_of_colored_cells_2579;

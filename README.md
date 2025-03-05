@@ -45,7 +45,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 145
+    "Rust": 146
     "Ruby": 8
     "Python": 48
     "CPP": 8
@@ -258,6 +258,7 @@ pie title Problems Solved by Language
 | 2535 | Difference Between Element Sum And Digit Sum Of An Array | [Rust](./rust/src/difference_between_element_sum_and_digit_sum_of_an_array_2535.rs),  | January 08, 2025 | No |
 | 2540 | Minimum Common Value | [Rust](./rust/src/minimum_common_value_2540.rs),  | March 08, 2024 | No |
 | 2559 | Count Vowel Strings In Ranges | [Python](./python/count_vowel_strings_in_ranges_2559.py),  | January 03, 2025 | No |
+| 2579 | Count Total Number Of Colored Cells | [Rust](./rust/src/count_total_number_of_colored_cells_2579.rs),  | March 04, 2025 | No |
 | 2582 | Pass The Pillow | [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
 | 2627 | Debounce | [JavaScript](./JS/debounce_2627.js),  | January 08, 2025 | No |
 | 2652 | Sum Multiples | [Rust](./rust/src/sum_multiples_2652.rs),  | January 08, 2025 | No |
