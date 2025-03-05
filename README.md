@@ -22,6 +22,7 @@ Honestly, this repo primarily exists for personal use, and logging my improvemen
 |**January 11th 2023| First independant Rust solution AND explanation! | [Leetcode 12 Integer to Roman](editor/en/rust/src/12_roman-to-integer.rs)|
 |**February 12 2024| First tried a medium problem, and it ran on first try, as well as had the answer accepted| [leetcode 2149 Rearrange Array elements by sign](/rust/src/rearrange_array_elements_by_sign_2149.rs)|
 |**January 8th 2024**| Fastest time to solve a problem, 46 seconds | [Leetcode 2255 Count prefixes of a given string](count_prefixes_of_a_given_string_2255.rs) |
+| **March 4th 2025** | Can't believe I'm saying this, but I have my first AMAZON interview!!!!! It's for an internship!!! | N/A (I probably won't get the job, but this is still crazy! )|
 
 # Chart:
 ```mermaid
@@ -45,7 +46,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 148
+    "Rust": 151
     "Ruby": 8
     "Python": 48
     "CPP": 8
@@ -64,6 +65,7 @@ pie title Problems Solved by Language
 | 2 | Add Two Numbers | [Rust](./rust/src/add_two_numbers_2.rs),  | December 19, 2024 | No |
 | 3 | Longest Substring Without Repeating Characters | [Python](./python/longest_substring_without_repeating_characters_3.py),  | January 27, 2025 | No |
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | January 16, 2023 | No |
+| 5 | Longest Palindromic Substring | [Rust](./rust/src/longest_palindromic_substring_5.rs),  | March 04, 2025 | No |
 | 6 | Zigzag Conversion | [Rust](./rust/src/zigzag_conversion_6.rs),  | March 02, 2025 | No |
 | 9 | Palindrome Number | [Rust](./rust/src/palindrome_number_9.rs),  | January 08, 2024 | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | No |
@@ -82,8 +84,10 @@ pie title Problems Solved by Language
 | 46 | Permutations | [Java](./Java/46.permutations.java),  | January 16, 2023 | No |
 | 48 | Rotate Image | [Ruby](./Ruby/48.rotate-image.rb),  | January 16, 2023 | No |
 | 49 | Group Anagrams | [Rust](./rust/src/group_anagrams_49.rs),  | February 06, 2024 | No |
+| 53 | Maximum Subarray | [Rust](./rust/src/maximum_subarray_53.rs),  | March 04, 2025 | No |
 | 57 | Insert Interval | [Rust](./rust/src/insert_interval_57.rs),  | January 08, 2024 | No |
 | 58 | Length Of Last Word | [Rust](./rust/src/length_of_last_word_58.rs),  | March 31, 2024 | No |
+| 59 | Spiral Matrix Ii | [Rust](./rust/src/spiral_matrix_ii_59.rs),  | March 04, 2025 | No |
 | 67 | Add Binary | [Rust](./rust/src/add_binary_67.rs),  | January 29, 2024 | No |
 | 69 | Sqrt X | [Ruby](./Ruby/69.sqrt-x.rb),  | January 16, 2023 | No |
 | 75 | Sort Code | [Rust](./rust/src/sort_code_75.rs),  | June 12, 2024 | No |

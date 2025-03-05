@@ -201,3 +201,9 @@ mod count_total_number_of_colored_cells_2579;
 mod number_of_matching_subsequences_792;
 
 mod is_subsequence_392;
+
+mod spiral_matrix_ii_59;
+
+mod maximum_subarray_53;
+
+mod longest_palindromic_substring_5;
