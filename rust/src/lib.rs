@@ -154,56 +154,34 @@ mod shifting_letters_ii_2381;
 mod counting_words_with_a_given_prefix_2185;
 mod count_prefixes_of_a_given_string_2255;
 mod check_if_string_is_a_prefix_of_array_1961;
-mod _;
 mod minimum_number_game_2947;
 mod check_if_sentene_is_pangram_1832;
 mod count_the_digits_that_divide_a_number_2520;
-mod number_of_employees_who_meet_the_target_2978;
 mod number_of_employees_who_meet_the_target_2798;
 mod difference_between_element_sum_and_digit_sum_of_an_array_2535;
 mod sum_multiples_2652;
-mod XOR_operation_in_an_array_1486;
 mod divisible_and_non_divisible_sums_difference_2894;
 mod to_lower_case_709;
 mod word_subsets_916;
 mod check_if_a_parenthesis_string_can_be_valid_2116;
 mod grid_game_2017;
-mod amazon1;
-
 mod course_schedule_ii_210;
-
 mod course_schedule_207;
-
 mod longest_strictly_increasing_or_strictly_decreasing_subarray_3105;
-
 mod remove_nth_node_from_end_of_list_19;
-
 mod merge_two_sorted_lists_21;
-
 mod palindrome_linked_list_234;
-
 mod maximum_ascending_subarray_sum_1800;
-
 mod design_a_number_container_system_2349;
-
 mod count_number_of_bad_pairs_2364;
-
 mod find_unique_binary_string_1980;
-
 mod length_of_longest_fibonacci_subsequence_873;
-
 mod zigzag_conversion_6;
-
 mod partition_array_according_to_given_pivot_2161;
-
 mod count_total_number_of_colored_cells_2579;
-
 mod number_of_matching_subsequences_792;
-
 mod is_subsequence_392;
-
 mod spiral_matrix_ii_59;
-
 mod maximum_subarray_53;
-
 mod longest_palindromic_substring_5;
+mod minimum_swaps_to_group_all_1s_together_1151;

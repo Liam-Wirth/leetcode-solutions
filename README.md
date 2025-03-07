@@ -46,9 +46,9 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 151
+    "Rust": 152
     "Ruby": 8
-    "Python": 48
+    "Python": 52
     "CPP": 8
     "Java": 14
     "C": 1
@@ -171,11 +171,14 @@ pie title Problems Solved by Language
 | 974 | Subarray Sums Divisible By K | [Rust](./rust/src/subarray_sums_divisible_by_k_974.rs),  | January 08, 2024 | No |
 | 981 | Time Based Key Value Store | [Java](./Java/981.time-based-key-value-store.java),  | January 16, 2023 | No |
 | 983 | Minimum Cost For Tickets | [Python](./python/minimum_cost_for_tickets_983.py),  | January 03, 2025 | No |
+| 1008 | Construct Binary Search Tree From Preorder Traversal | [Python](./python/construct_binary_search_tree_from_preorder_traversal_1008.py),  | March 06, 2025 | No |
 | 1026 | Maximum Difference Between Node And Ancestor | [Java](./Java/1026.maximum-difference-between-node-and-ancestor.java),  | January 16, 2023 | No |
 | 1051 | Height Checker | [Python](./python/height_checker_1051.py),  | February 02, 2025 | No |
 | 1108 | Defanging An Ip Address | [Python](./python/defanging_an_ip_address_1108.py),  | December 26, 2024 | No |
+| 1134 | Armstrong Number | [Python](./python/armstrong_number_1134.py),  | March 06, 2025 | No |
 | 1137 | Nth Tribonacci Number | [Rust](./rust/src/nth_tribonacci_number_1137.rs),  | January 08, 2024 | No |
 | 1143 | Longest Common Subsequence | [Rust](./rust/src/longest_common_subsequence_1143.rs),  | January 25, 2024 | No |
+| 1151 | Minimum Swaps To Group All 1S Together | [Rust](./rust/src/minimum_swaps_to_group_all_1s_together_1151.rs),  | March 06, 2025 | No |
 | 1190 | Reverse Substrings Between Each Pair Of Parenthesis | [Python](./python/reverse_substrings_between_each_pair_of_parenthesis_1190.py),  | July 11, 2024 | No |
 | 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
 | 1261 | Find_Elements_In_A_Contaminated_Binary_Tree | [CPP](./C/1261.find_elements_in_a_contaminated_binary_tree.cpp),  | February 20, 2025 | No |
@@ -261,6 +264,7 @@ pie title Problems Solved by Language
 | 2486 | Append Characters To String To Make Subsequence | [Python](./python/append_characters_to_string_to_make_subsequence_2486.py),  | June 03, 2024 | No |
 | 2487 | Remove Nodes From A Linked List | [Rust](./rust/src/remove_nodes_from_a_linked_list_2487.rs),  | May 06, 2024 | No |
 | 2520 | Count The Digits That Divide A Number | [Rust](./rust/src/count_the_digits_that_divide_a_number_2520.rs),  | January 08, 2025 | No |
+| 2523 | Closest Prime Numbers In Range | [Python](./python/closest_prime_numbers_in_range_2523.py),  | March 06, 2025 | No |
 | 2535 | Difference Between Element Sum And Digit Sum Of An Array | [Rust](./rust/src/difference_between_element_sum_and_digit_sum_of_an_array_2535.rs),  | January 08, 2025 | No |
 | 2540 | Minimum Common Value | [Rust](./rust/src/minimum_common_value_2540.rs),  | March 08, 2024 | No |
 | 2559 | Count Vowel Strings In Ranges | [Python](./python/count_vowel_strings_in_ranges_2559.py),  | January 03, 2025 | No |
@@ -283,6 +287,7 @@ pie title Problems Solved by Language
 | 2940 | Find Building Where Alice And Bob Can Meet | [Rust](./rust/src/find_building_where_alice_and_bob_can_meet_2940.rs),  | December 21, 2024 | No |
 | 2942 | Find Words Containing Character | [Rust](./rust/src/find_words_containing_character_2942.rs),  | August 06, 2024 | No |
 | 2947 | Minimum Number Game | [Rust](./rust/src/minimum_number_game_2947.rs),  | January 08, 2025 | No |
+| 2965 | Find Missing And Repeated Values | [Python](./python/find_missing_and_repeated_values_2965.py),  | March 06, 2025 | No |
 | 2966 | Divide Array Into Arrays With Max Difference | [Rust](./rust/src/divide_array_into_arrays_with_max_difference_2966.rs),  | January 31, 2024 | No |
 | 2971 | Find Polygon With The Largest Perimeter | [Rust](./rust/src/find_polygon_with_the_largest_perimeter_2971.rs),  | February 15, 2024 | No |
 | 3005 | Count Elements With Max Frequency | [Rust](./rust/src/count_elements_with_max_frequency_3005.rs),  | March 07, 2024 | No |
