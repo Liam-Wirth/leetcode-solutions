@@ -46,9 +46,9 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 152
+    "Rust": 153
     "Ruby": 8
-    "Python": 52
+    "Python": 54
     "CPP": 8
     "Java": 14
     "C": 1
@@ -67,6 +67,7 @@ pie title Problems Solved by Language
 | 4 | Median Of Two Sorted Arrays | [Java](./Java/4.median-of-two-sorted-arrays.java),  | January 16, 2023 | No |
 | 5 | Longest Palindromic Substring | [Rust](./rust/src/longest_palindromic_substring_5.rs),  | March 04, 2025 | No |
 | 6 | Zigzag Conversion | [Rust](./rust/src/zigzag_conversion_6.rs),  | March 02, 2025 | No |
+| 7 | Reverse Integer | [Rust](./rust/src/reverse_integer_7.rs),  | March 07, 2025 | No |
 | 9 | Palindrome Number | [Rust](./rust/src/palindrome_number_9.rs),  | January 08, 2024 | No |
 | 12 | Integer To Roman | [Rust](./rust/src/integer_to_roman_12.rs),  | January 08, 2024 | No |
 | 13 | Roman To Integer | [Rust](./rust/src/roman_to_integer_13.rs),  | January 08, 2024 | No |
@@ -107,6 +108,7 @@ pie title Problems Solved by Language
 | 165 | Compare Version Numbers | [Rust](./rust/src/compare_version_numbers_165.rs),  | May 03, 2024 | No |
 | 169 | Majority Element | [Rust](./rust/src/majority_element_169.rs),  | February 12, 2024 | No |
 | 198 | House Robber | [Rust](./rust/src/house_robber_198.rs),  | January 22, 2024 | No |
+| 200 | Number Of Islands | [Python](./python/number_of_islands_200.py),  | March 07, 2025 | No |
 | 205 | Isomorphic Strings | [Rust](./rust/src/isomorphic_strings_205.rs),  | April 01, 2024 | No |
 | 207 | Course Schedule | [Rust](./rust/src/course_schedule_207.rs),  | January 27, 2025 | No |
 | 210 | Course Schedule Ii | [Rust](./rust/src/course_schedule_ii_210.rs),  | January 27, 2025 | No |
@@ -241,6 +243,7 @@ pie title Problems Solved by Language
 | 2181 | Merge Nodes In Between Zeros | [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
 | 2185 | Counting Words With A Given Prefix | [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs),  | January 08, 2025 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | January 16, 2023 | No |
+| 2222 | Number Of Ways To Select Buildings | [Python](./python/number_of_ways_to_select_buildings_2222.py),  | March 07, 2025 | No |
 | 2235 | Add Two Integers | [Ruby](./Ruby/2235.add-two-integers.rb),  | January 16, 2023 | No |
 | 2236 | Root Equals Sum Of Children | [Rust](./rust/src/root_equals_sum_of_children_2236.rs),  | January 08, 2024 | No |
 | 2246 | Longest Path With Different Adjacent Characters | [Rust](./rust/src/longest_path_with_different_adjacent_characters_2246.rs),  | January 08, 2024 | No |

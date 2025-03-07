@@ -185,3 +185,5 @@ mod spiral_matrix_ii_59;
 mod maximum_subarray_53;
 mod longest_palindromic_substring_5;
 mod minimum_swaps_to_group_all_1s_together_1151;
+
+mod reverse_integer_7;
