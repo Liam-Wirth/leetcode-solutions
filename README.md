@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 153
     "Ruby": 8
-    "Python": 54
+    "Python": 60
     "CPP": 8
     "Java": 14
     "C": 1
@@ -79,6 +79,7 @@ pie title Problems Solved by Language
 | 26 | Remove Duplicates From Sorted Array | [Rust](./rust/src/remove-duplicates-from-sorted-array_26.rs),  | January 11, 2024 | No |
 | 27 | Remove Element | [Rust](./rust/src/remove_element_27.rs),  | December 25, 2024 | No |
 | 28 | Find Index Of First Occurence In String | [Rust](./rust/src/find_index_of_first_occurence_in_string_28.rs),  | April 04, 2024 | No |
+| 33 | Search In Rotated Sorted Array | [Python](./python/search_in_rotated_sorted_array_33.py),  | March 10, 2025 | No |
 | 35 | Search Insert Position | [Python](./python/search_insert_position_35.py),  | February 02, 2025 | No |
 | 36 | Valid Sudoku | [Rust](./rust/src/valid_sudoku_36.rs),  | December 23, 2024 | No |
 | 41 | First Missing Positive | [Rust](./rust/src/first_missing_positive_41.rs),  | March 25, 2024 | No |
@@ -110,6 +111,7 @@ pie title Problems Solved by Language
 | 198 | House Robber | [Rust](./rust/src/house_robber_198.rs),  | January 22, 2024 | No |
 | 200 | Number Of Islands | [Python](./python/number_of_islands_200.py),  | March 07, 2025 | No |
 | 205 | Isomorphic Strings | [Rust](./rust/src/isomorphic_strings_205.rs),  | April 01, 2024 | No |
+| 206 | Reverse Linked List | [Python](./python/reverse_linked_list_206.py),  | March 10, 2025 | No |
 | 207 | Course Schedule | [Rust](./rust/src/course_schedule_207.rs),  | January 27, 2025 | No |
 | 210 | Course Schedule Ii | [Rust](./rust/src/course_schedule_ii_210.rs),  | January 27, 2025 | No |
 | 217 | Contains Duplicate | [Rust](./rust/src/contains_duplicate_217.rs),  | February 10, 2024 | No |
@@ -154,6 +156,7 @@ pie title Problems Solved by Language
 | 722 | Remove Comments | [Java](./Java/722.remove-comments.java),  | January 16, 2023 | No |
 | 724 | Find Pivot Index | [Rust](./rust/src/find_pivot_index_724.rs),  | January 08, 2024 | No |
 | 752 | Open The Lock | [Rust](./rust/src/open_the_lock_752.rs),  | April 22, 2024 | No |
+| 767 | Reorganize String | [Python](./python/reorganize_string_767.py),  | March 10, 2025 | No |
 | 786 | Kth Smallest Prime Fraction | [Rust](./rust/src/kth_smallest_prime_fraction_786.rs),  | May 09, 2024 | No |
 | 791 | Custom Sort String | [Rust](./rust/src/custom_sort_string_791.rs),  | April 13, 2024 | No |
 | 792 | Number Of Matching Subsequences | [Rust](./rust/src/number_of_matching_subsequences_792.rs),  | March 04, 2025 | No |
@@ -185,10 +188,12 @@ pie title Problems Solved by Language
 | 1219 | Path With Maximum Gold | [Rust](./rust/src/path_with_maximum_gold_1219.rs),  | May 13, 2024 | No |
 | 1261 | Find_Elements_In_A_Contaminated_Binary_Tree | [CPP](./C/1261.find_elements_in_a_contaminated_binary_tree.cpp),  | February 20, 2025 | No |
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
+| 1299 | Replace Elements With Greatest Element On Right Side | [Python](./python/replace_elements_with_greatest_element_on_right_side_1299.py),  | March 10, 2025 | No |
 | 1346 | Check If N And Its Double Exist | [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | January 16, 2023 | No |
 | 1408 | String Matching In An Array | [Python](./python/string_matching_in_an_array_1408.py),  | January 06, 2025 | No |
 | 1422 | Maximum Score After Splitting A String | [Python](./python/maximum_score_after_splitting_a_string_1422.py),  | January 03, 2025 | No |
+| 1429 | First Unique Number | [Python](./python/first_unique_number_1429.py),  | March 10, 2025 | No |
 | 1455 | Check If A Word Occurs As A Prefix Of Any Word In A Sentence | [Rust](./rust/src/check_if_a_word_occurs_as_a_prefix_of_any_word_in_a_sentence_1455.rs),  | December 01, 2024 | No |
 | 1470 | Shuffle The Array | [Ruby](./Ruby/1470.shuffle-the-array.rb),  | January 16, 2023 | No |
 | 1480 | Running Sum Of 1 D Array | [Rust](./rust/src/running_sum_of_1_d_array_1480.rs),  | January 08, 2024 | No |
@@ -255,6 +260,7 @@ pie title Problems Solved by Language
 | 2364 | Count Number Of Bad Pairs | [Rust](./rust/src/count_number_of_bad_pairs_2364.rs),  | February 09, 2025 | No |
 | 2370 | Longest Ideal Subsequence | [Rust](./rust/src/longest_ideal_subsequence_2370.rs),  | April 25, 2024 | No |
 | 2373 | Largest Local Values In A Matrix | [Rust](./rust/src/largest_local_values_in_a_matrix_2373.rs),  | May 12, 2024 | No |
+| 2379 | Minimum Recolors To Get K Consecutive Black Blocks | [Python](./python/minimum_recolors_to_get_k_consecutive_black_blocks_2379.py),  | March 10, 2025 | No |
 | 2381 | Shifting Letters Ii | [Rust](./rust/src/shifting_letters_ii_2381.rs),  | January 04, 2025 | No |
 | 2415 | Reverse Odd Levels Of Binary Tree | [Java](./Java/2415.reverse-odd-levels-of-binary-tree.java),  | January 16, 2023 | No |
 | 2418 | Sort The People | [Rust](./rust/src/sort_the_people_2418.rs),  | July 22, 2024 | No |
