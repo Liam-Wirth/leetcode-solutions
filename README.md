@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 153
     "Ruby": 8
-    "Python": 62
+    "Python": 63
     "CPP": 8
     "Java": 14
     "C": 1
@@ -105,6 +105,7 @@ pie title Problems Solved by Language
 | 129 | Sum Root To Leaf Numbers | [Rust](./rust/src/sum_root_to_leaf_numbers_129.rs),  | April 14, 2024 | No |
 | 136 | Single Number | [Rust](./rust/src/single_number_136.rs),  | February 11, 2024 | No |
 | 141 | Linked List Cycle | [Python](./python/linked_list_cycle_141.py),  | March 06, 2024 | No |
+| 146 | Lru Cache | [Python](./python/lru_cache_146.py),  | March 11, 2025 | No |
 | 150 | Evaluate Reverse Polish Notation | [Rust](./rust/src/evaluate_reverse_polish_notation_150.rs),  | January 29, 2024 | No |
 | 165 | Compare Version Numbers | [Rust](./rust/src/compare_version_numbers_165.rs),  | May 03, 2024 | No |
 | 169 | Majority Element | [Rust](./rust/src/majority_element_169.rs),  | February 12, 2024 | No |
