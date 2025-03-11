@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 153
     "Ruby": 8
-    "Python": 60
+    "Python": 62
     "CPP": 8
     "Java": 14
     "C": 1
@@ -169,6 +169,7 @@ pie title Problems Solved by Language
 | 914 | X Of A Kind In A Deck Of Cards | [Rust](./rust/src/x_of_a_kind_in_a_deck_of_cards_914.rs),  | January 11, 2024 | No |
 | 916 | Word Subsets | [Rust](./rust/src/word_subsets_916.rs),  | January 09, 2025 | No |
 | 926 | Flip String To Monotone Increasing | [Rust](./rust/src/flip_string_to_monotone_increasing_926.rs),  | January 08, 2024 | No |
+| 937 | Reorder Data In Log Files | [Python](./python/reorder_data_in_log_files_937.py),  | March 10, 2025 | No |
 | 938 | Range Sum Of Bst | [Rust](./rust/src/range_sum_of_bst_938.rs),  | January 22, 2024 | No |
 | 945 | Minimum Increment To Make Array Unique | [Rust](./rust/src/minimum_increment_to_make_array_unique_945.rs),  | June 14, 2024 | No |
 | 961 | N Repeated Element In Size 2 N Array | [Java](./Java/961.n-repeated-element-in-size-2-n-array.java),  | January 16, 2023 | No |
@@ -189,6 +190,7 @@ pie title Problems Solved by Language
 | 1261 | Find_Elements_In_A_Contaminated_Binary_Tree | [CPP](./C/1261.find_elements_in_a_contaminated_binary_tree.cpp),  | February 20, 2025 | No |
 | 1291 | Sequential Digits | [Rust](./rust/src/sequential_digits_1291.rs),  | February 01, 2024 | No |
 | 1299 | Replace Elements With Greatest Element On Right Side | [Python](./python/replace_elements_with_greatest_element_on_right_side_1299.py),  | March 10, 2025 | No |
+| 1315 | Sum Of Nodes With Even Valued Grandparent | [Python](./python/sum_of_nodes_with_even-valued_grandparent_1315.py),  | March 10, 2025 | No |
 | 1346 | Check If N And Its Double Exist | [Rust](./rust/src/check_if_n_and_its_double_exist_1346.rs),  | December 01, 2024 | No |
 | 1363 | Largest Multiple Of Three | [Java](./Java/1363.largest-multiple-of-three.java),  | January 16, 2023 | No |
 | 1408 | String Matching In An Array | [Python](./python/string_matching_in_an_array_1408.py),  | January 06, 2025 | No |
