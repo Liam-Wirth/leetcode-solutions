@@ -187,3 +187,5 @@ mod longest_palindromic_substring_5;
 mod minimum_swaps_to_group_all_1s_together_1151;
 
 mod reverse_integer_7;
+
+mod minimum_time_to_repair_cars_2594;

@@ -46,7 +46,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 153
+    "Rust": 154
     "Ruby": 8
     "Python": 63
     "CPP": 8
@@ -282,6 +282,7 @@ pie title Problems Solved by Language
 | 2559 | Count Vowel Strings In Ranges | [Python](./python/count_vowel_strings_in_ranges_2559.py),  | January 03, 2025 | No |
 | 2579 | Count Total Number Of Colored Cells | [Rust](./rust/src/count_total_number_of_colored_cells_2579.rs),  | March 04, 2025 | No |
 | 2582 | Pass The Pillow | [Rust](./rust/src/pass_the_pillow_2582.rs),  | July 06, 2024 | No |
+| 2594 | Minimum Time To Repair Cars | [Rust](./rust/src/minimum_time_to_repair_cars_2594.rs),  | March 16, 2025 | No |
 | 2627 | Debounce | [JavaScript](./JS/debounce_2627.js),  | January 08, 2025 | No |
 | 2652 | Sum Multiples | [Rust](./rust/src/sum_multiples_2652.rs),  | January 08, 2025 | No |
 | 2658 | Maximum Number Of Fish In A Grid | [Python](./python/maximum_number_of_fish_in_a_grid_2658.py),  | January 27, 2025 | No |
