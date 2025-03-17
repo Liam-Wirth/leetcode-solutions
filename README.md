@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 154
     "Ruby": 8
-    "Python": 63
+    "Python": 64
     "CPP": 8
     "Java": 14
     "C": 1
@@ -251,6 +251,7 @@ pie title Problems Solved by Language
 | 2181 | Merge Nodes In Between Zeros | [Rust](./rust/src/merge_nodes_in_between_zeros_2181.rs),  | July 07, 2024 | No |
 | 2185 | Counting Words With A Given Prefix | [Rust](./rust/src/counting_words_with_a_given_prefix_2185.rs),  | January 08, 2025 | No |
 | 2202 | Maximize The Topmost Element After K Moves | [Ruby](./Ruby/2202.maximize-the-topmost-element-after-k-moves.rb),  | January 16, 2023 | No |
+| 2206 | Divide Array Into Equal Pairs | [Python](./python/divide_array_into_equal_pairs_2206.py),  | March 16, 2025 | No |
 | 2222 | Number Of Ways To Select Buildings | [Python](./python/number_of_ways_to_select_buildings_2222.py),  | March 07, 2025 | No |
 | 2235 | Add Two Integers | [Ruby](./Ruby/2235.add-two-integers.rb),  | January 16, 2023 | No |
 | 2236 | Root Equals Sum Of Children | [Rust](./rust/src/root_equals_sum_of_children_2236.rs),  | January 08, 2024 | No |
