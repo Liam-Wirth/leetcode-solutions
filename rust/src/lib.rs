@@ -189,3 +189,5 @@ mod minimum_swaps_to_group_all_1s_together_1151;
 mod reverse_integer_7;
 
 mod minimum_time_to_repair_cars_2594;
+
+mod minimum_operations_to_make_binary_array_elements_equal_to_one_i_3191;

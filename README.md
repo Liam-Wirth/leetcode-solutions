@@ -46,7 +46,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 154
+    "Rust": 155
     "Ruby": 8
     "Python": 64
     "CPP": 8
@@ -314,3 +314,4 @@ pie title Problems Solved by Language
 | 3151 | Special Array I | [Python](./python/special_array_i_3151.py),  | January 31, 2025 | No |
 | 3160 | Find The Number Of Distinct Colors Among The Balls | [Python](./python/find_the_number_of_distinct_colors_among_the_balls_3160.py),  | February 07, 2025 | No |
 | 3190 | Find Minimum Operations To Make All Elements Divisible By Three | [Python](./python/find_minimum_operations_to_make_all_elements_divisible_by_three_3190.py),  | January 07, 2025 | No |
+| 3191 | Minimum Operations To Make Binary Array Elements Equal To One I | [Rust](./rust/src/minimum_operations_to_make_binary_array_elements_equal_to_one_i_3191.rs),  | March 19, 2025 | No |
