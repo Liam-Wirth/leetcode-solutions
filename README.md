@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 155
     "Ruby": 8
-    "Python": 64
+    "Python": 65
     "CPP": 8
     "Java": 14
     "C": 1
@@ -245,6 +245,7 @@ pie title Problems Solved by Language
 | 2058 | Find Minimum And Maximum Number Of Nodes Between Critical Points | [Python](./python/find_minimum_and_maximum_number_of_nodes_between_critical_points_2058.py),  | July 05, 2024 | No |
 | 2108 | Find First Palindromic String In The Array | [Rust](./rust/src/find_first_palindromic_string_in_the_array_2108.rs),  | February 12, 2024 | No |
 | 2114 | Maximum Number Of Words Found In Sentences | [Ruby](./Ruby/2114.maximum-number-of-words-found-in-sentences.rb),  | January 16, 2023 | No |
+| 2115 | Find All Possible Recipes From Given Supplies | [Python](./python/find_all_possible_recipes_from_given_supplies_2115.py),  | March 21, 2025 | No |
 | 2116 | Check If A Parenthesis String Can Be Valid | [Rust](./rust/src/check_if_a_parenthesis_string_can_be_valid_2116.rs),  | January 11, 2025 | No |
 | 2149 | Rearrange Array Elements By Sign | [Rust](./rust/src/rearrange_array_elements_by_sign_2149.rs),  | February 13, 2024 | No |
 | 2161 | Partition Array According To Given Pivot | [Rust](./rust/src/partition_array_according_to_given_pivot_2161.rs),  | March 02, 2025 | No |
