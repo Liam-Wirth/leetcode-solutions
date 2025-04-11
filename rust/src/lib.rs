@@ -193,3 +193,5 @@ mod minimum_time_to_repair_cars_2594;
 mod minimum_operations_to_make_binary_array_elements_equal_to_one_i_3191;
 
 mod minimum_number_of_operations_to_make_elements_in_array_distinct_3396;
+
+mod _count_symmetric_integers_2843;

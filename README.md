@@ -46,7 +46,7 @@ pie title Problems Solved by Language
 # Chart:
 ```mermaid
 pie title Problems Solved by Language
-    "Rust": 156
+    "Rust": 157
     "Ruby": 8
     "Python": 65
     "CPP": 8
@@ -297,6 +297,7 @@ pie title Problems Solved by Language
 | 2807 | Insert Greatest Common Divisor In Linked List | [Python](./python/insert_greatest_common_divisor_in_linked_list_2807.py),  | January 07, 2025 | No |
 | 2812 | Find The Safest Path In Grid | [Rust](./rust/src/find_the_safest_path_in_grid_2812.rs),  | May 18, 2024 | No |
 | 2816 | Double A Number Represented As A Linked List | [Rust](./rust/src/double_a_number_represented_as_a_linked_list_2816.rs),  | May 06, 2024 | No |
+| 2843 |  Count Symmetric Integers | [Rust](./rust/src/_count_symmetric_integers_2843.rs),  | April 11, 2025 | No |
 | 2870 | Min Operations To Make Arr Empty | [Rust](./rust/src/min_operations_to_make_arr_empty_2870.rs),  | January 08, 2024 | No |
 | 2894 | Divisible And Non Divisible Sums Difference | [Rust](./rust/src/divisible_and_non_divisible_sums_difference_2894.rs),  | January 08, 2025 | No |
 | 2940 | Find Building Where Alice And Bob Can Meet | [Rust](./rust/src/find_building_where_alice_and_bob_can_meet_2940.rs),  | December 21, 2024 | No |
