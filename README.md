@@ -48,7 +48,7 @@ pie title Problems Solved by Language
 pie title Problems Solved by Language
     "Rust": 157
     "Ruby": 8
-    "Python": 65
+    "Python": 66
     "CPP": 8
     "Java": 14
     "C": 1
@@ -292,6 +292,7 @@ pie title Problems Solved by Language
 | 2696 | Minimum String Length After Removing Substrings | [Rust](./rust/src/minimum_string_length_after_removing_substrings_2696.rs),  | November 27, 2024 | No |
 | 2715 | Timeout Cancelation | [JavaScript](./JS/timeout_cancelation_2715.js),  | January 07, 2025 | No |
 | 2769 | Find The Maximum Acheivable Number | [Python](./python/find_the_maximum_acheivable_number_2769.py),  | January 07, 2025 | No |
+| 2787 | Ways To Express An Integer As Sum Of Powers | [Python](./python/ways_to_express_an_integer_as_sum_of_powers_2787.py),  | August 11, 2025 | No |
 | 2798 | Number Of Employees Who Meet The Target | [Rust](./rust/src/number_of_employees_who_meet_the_target_2798.rs),  | January 08, 2025 | No |
 | 2799 | Count Complete Subarrays In An Array | [Python](./python/count_complete_subarrays_in_an_array_2799.py),  | January 27, 2025 | No |
 | 2807 | Insert Greatest Common Divisor In Linked List | [Python](./python/insert_greatest_common_divisor_in_linked_list_2807.py),  | January 07, 2025 | No |
